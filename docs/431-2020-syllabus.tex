@@ -1,0 +1,2627 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={431 Syllabus for Fall 2020},
+  pdfauthor={Thomas E. Love, Ph.D.},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\title{431 Syllabus for Fall 2020}
+\author{Thomas E. Love, Ph.D.}
+\date{Version: 2020-08-22 10:20:38}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{critical-information}{%
+\chapter*{Critical Information}\label{critical-information}}
+\addcontentsline{toc}{chapter}{Critical Information}
+
+Welcome! This is the Fall 2020 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods in Biological \& Medical Sciences at Case Western Reserve University with Professor Thomas E. Love, Ph.D.
+
+\hypertarget{course-home-page}{%
+\section*{Course Home Page}\label{course-home-page}}
+\addcontentsline{toc}{section}{Course Home Page}
+
+The course home page, with everything you'll need, is at XXXXXXXXXXXXXXXXXXXXXX.
+
+At the first class, Dr.~Love will provide a link to the main course site for the semester. That site will include:
+
+\begin{itemize}
+\tightlist
+\item
+  This complete 431 Syllabus, including information on the teaching assistants, assignments, etc.
+\item
+  Dr.~Love's Course Notes (which serve as the main textbook for the course.)
+\item
+  Materials for each class, including presentation slides, session recordings and announcements.
+\item
+  Data (and Code) for the course's assignments, presentations, and notes.
+\item
+  Readings and Supplemental Materials that we'll review during the course.
+\end{itemize}
+
+We look forward to meeting you (virtually) in late August!
+
+\hypertarget{working-with-this-document}{%
+\section*{Working with This Document}\label{working-with-this-document}}
+\addcontentsline{toc}{section}{Working with This Document}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  This document is broken down into multiple sections. Use the table of contents at left to navigate.
+\item
+  At the top of the document, you'll see icons which you can click to
+
+  \begin{itemize}
+  \tightlist
+  \item
+    search the document,
+  \item
+    change the size, font or color scheme of the page, and
+  \item
+    download a PDF version of the entire document.
+  \end{itemize}
+\item
+  The document is updated occasionally through the semester. Check the Version information above to verify the last update time.
+\end{enumerate}
+
+\hypertarget{who-when-and-where}{%
+\section*{Who, When and Where?}\label{who-when-and-where}}
+\addcontentsline{toc}{section}{Who, When and Where?}
+
+\begin{itemize}
+\tightlist
+\item
+  The main instructor for the course is Professor Thomas E. Love. He uses he/him pronouns. \protect\hyperlink{professor-love}{More on him here}. Most of my students call him Professor Love or Dr.~Love.
+\item
+  In this effort, he is assisted by several teaching assistants. \protect\hyperlink{teaching-assistants}{Details on the Teaching Assistants here}.
+\item
+  The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern Time, via Zoom.
+\item
+  The first class is Tuesday 2020-08-25.
+\end{itemize}
+
+\hypertarget{getting-help}{%
+\section*{Getting Help}\label{getting-help}}
+\addcontentsline{toc}{section}{Getting Help}
+
+Prior to the start of the class, to get help for anything related to the course, email \textbf{Thomas dot Love at case dot edu}.
+
+\begin{itemize}
+\tightlist
+\item
+  For drop-in conversations, Professor Love will open Zoom 15 minutes before and keep it open for at least 15 minutes after class.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you have any special concerns about the course, need special accommodations or have any other issues for Professor Love, please email him.
+  \end{itemize}
+\item
+  TA office hours are also held via Zoom, beginning 2020-08-31. A schedule will be available soon.
+\end{itemize}
+
+Data science and statistical programming can be difficult. Computers are stupid and little errors in your code can cause hours of headache (even if you've been doing this stuff for years!). There are many, many online resources to help you with this, in addition to XXXXXXXXemailing us at \texttt{431-help\ at\ case\ dot\ edu}XXXXX. An especially useful one is the \href{https://community.rstudio.com/}{RStudio Community} (a forum specifically designed for people using RStudio and the tidyverse (i.e.~you)).
+
+\hypertarget{before-the-first-class}{%
+\section*{Before the First Class}\label{before-the-first-class}}
+\addcontentsline{toc}{section}{Before the First Class}
+
+The first class meeting is from 1:00 to 2:15 PM on Tuesday 2019-08-27, in Room E321-323 of the Robbins building at the School of Medicine.
+
+\hypertarget{what-should-i-do-before-class-starts}{%
+\section{What Should I Do Before Class Starts?}\label{what-should-i-do-before-class-starts}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Register and enroll in the course via the \href{https://sis.case.edu/}{CWRU Student Information System (SIS)}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Note that PQHS 431, CRSP 431 and MPHP 431 are all identical.
+  \end{itemize}
+\item
+  Fill out the \href{https://bit.ly/431-2020-welcome-survey}{Welcome to 431 Survey} at \url{https://bit.ly/431-2020-welcome-survey}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Note that you must \textbf{log into Google via your CWRU account} in order to access the survey.
+  \item
+    The survey should take 15-20 minutes to complete, and we encourage you to complete it well before class begins, if possible.
+  \end{itemize}
+\item
+  Visit \href{texts.html}{the Texts page} to learn about the books you'll need to purchase and download.
+\item
+  Visit \href{software.html}{the Software page} to obtain and install the software we'll use.
+\item
+  Review the other material on this pre-class site, including:
+\item
+  Review \href{https://case.edu/utech/help/knowledge-base/zoom/zoom-information}{the CWRU Knowledge Base for Zoom} to ensure you can join our first class on 2020-08-25 at 1 PM through your CWRU Zoom account.
+\item
+  Watch your CWRU email on August 24 for further bulletins (including the Zoom link for the first class session.)
+\end{enumerate}
+
+\hypertarget{welcome-to-431-survey}{%
+\subsection*{``Welcome to 431'' Survey}\label{welcome-to-431-survey}}
+\addcontentsline{toc}{subsection}{``Welcome to 431'' Survey}
+
+At your earliest convenience, please fill out the survey at \url{http://bit.ly/431-2019-welcome-survey} so we can get to know you a little bit better.
+
+\hypertarget{email}{%
+\section{Email}\label{email}}
+
+\begin{itemize}
+\tightlist
+\item
+  Email to get help with the course: \textbf{431-help at case dot edu} (seen by Professor Love and the TAs)
+\item
+  \textbf{Thomas dot Love at case dot edu} (for matters related to grades or individual concerns)
+\item
+  Professor Love is hard to reach by phone. Email is always the best way to reach him.
+\end{itemize}
+
+\hypertarget{offices}{%
+\section{Offices}\label{offices}}
+
+\begin{itemize}
+\tightlist
+\item
+  Home in Shaker Heights
+\item
+  Prior to the pandemic
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Wood WG-82J on the ground floor of the Wood building
+  \item
+    Rammelkamp R-229A at MetroHealth Medical Center
+  \end{itemize}
+\end{itemize}
+
+Professor Love is available for the 15 minutes before and the 30 minutes after each class, and otherwise by appointment most days (send email to schedule an appointment.)
+
+\hypertarget{what-do-i-need-to-buy}{%
+\subsection*{What Do I Need To Buy?}\label{what-do-i-need-to-buy}}
+\addcontentsline{toc}{subsection}{What Do I Need To Buy?}
+
+We'll read two books that you'll need to purchase (the combined price is about \$25.):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Nate Silver's \emph{The Signal and The Noise}. ISBN-13: 978-1594204111 \href{https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087}{Amazon Link}, and
+\item
+  Jeff Leek's \emph{The Elements of Data Analytic Style}, available at \url{https://leanpub.com/datastyle}.
+\end{enumerate}
+
+Everything else that you will need is free, and is described in the remainder of this syllabus or on the course website at \url{https://github.com/THOMASELOVE/2019-431}.
+
+\includegraphics[width=0.2\linewidth]{images/cwru-stacked-logo}
+
+\hypertarget{course-description}{%
+\chapter{Course Description}\label{course-description}}
+
+PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key role of thinking hard, and well, about design and analysis in research.
+
+The course is formally titled \emph{Statistical Methods in Biological \& Medical Sciences, Part 1.} A more accurate title is \textbf{Data Science for Biological, Medical or Health Research}.
+
+We'll learn about managing and visualizing data, building models and making predictions, and other data science activities. This highly applied course focuses on modern tools for learning from data. We'll learn a lot of R, and we'll use RStudio and R Markdown as tools to help make R work better, and help perform our research in replicable ways.
+
+\hypertarget{course-objectives}{%
+\section{Course Objectives}\label{course-objectives}}
+
+During the 431-432 sequence, students will:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.
+\item
+  Think hard and well about design and analysis in scientific research.
+\item
+  Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+\item
+  Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.
+\item
+  Complete a series of assignments designed to help you demonstrate what you've learned.
+\item
+  Program (``Code'') in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help. What separates ``doing data science'' from ``doing data analysis'' is programming.
+\end{enumerate}
+
+\hypertarget{key-topics-in-431-and-432}{%
+\subsection{Key Topics in 431 and 432}\label{key-topics-in-431-and-432}}
+
+This is \textbf{NOT} a course in mathematical statistics or statistical inference. It's far more applied than that.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Exploratory Data Analysis: ``All graphs are comparisons'' including data exploration, statistical graphics and more general visualization of information.
+\item
+  Placing biological, medical and health research questions into a statistical framework.
+\item
+  Study Development - making choices in designing and executing the collection and aggregation of data.
+\item
+  Data Handling - including important issues in importing, tidying and transforming data, as well as methods for dealing with missing data, including imputation.
+\item
+  Statistical Comparisons: ``All of statistics are comparisons'' - including methods for discrete and continuous variables: intervals, assumptions, some thoughts on statistical power, and the bootstrap, design of visualizations and models for rates, proportions and contingency tables.
+\item
+  The proper use of multi-predictor models for continuous and discrete data, including\ldots{}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fitting, evaluating, and interpreting linear and generalized linear models.
+  \item
+    Prediction and validation.
+  \item
+    Critical role of graphics, including diagnostics and residual analysis.
+  \item
+    Model choice, including variable selection, shrinkage and model uncertainty.
+  \item
+    Dealing with categorical predictors and interactions meaningfully.
+  \item
+    Causal inference using regression: controlling for covariates meaningfully.
+  \end{itemize}
+\item
+  Using R and RStudio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
+\end{enumerate}
+
+\hypertarget{the-431-course-is-split-in-two-parts.}{%
+\subsection{The 431 course is split in two parts.}\label{the-431-course-is-split-in-two-parts.}}
+
+\textbf{Part A} (Classes 2-14, roughly) is mostly about R, Visualizing Data and Making Comparisons.
+
+Project A is focused on the material from this part of the course.
+
+\begin{itemize}
+\tightlist
+\item
+  Exploratory Data Analysis
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Descriptive Numerical and Graphical Summaries
+  \item
+    Distributions, specifically the Normal
+  \item
+    Histograms and their cousins
+  \item
+    Scatterplots and related tools from correlation and linear regression
+  \end{itemize}
+\item
+  Exploring Data with the Tidyverse, Getting Up To Speed with R
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Visualizing Data with \texttt{ggplot2}
+  \item
+    Data Transformation and \texttt{dplyr}
+  \item
+    Using scripts and projects, Building Code
+  \item
+    Dealing with Missing Data
+  \end{itemize}
+\item
+  Estimation and Inference for Means and Proportions (especially)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Confidence Intervals
+  \item
+    Design Implications: Matched vs.~Independent Samples
+  \item
+    Hypothesis Testing Strategies and why significance isn't so helpful
+  \item
+    Cross-Tabulations
+  \item
+    Randomized Trials vs.~Non-Randomized Studies
+  \end{itemize}
+\end{itemize}
+
+\textbf{Part B} (which starts around Class 15) is about Building Regression Models.
+
+Project B also incorporates material from this part of the course.
+
+\begin{itemize}
+\tightlist
+\item
+  Estimation and Inference using Ordinary Least Squares
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Simple and Multivariate Linear Regression Models
+  \item
+    Building Prediction Models, and Validating Them
+  \item
+    Categorical Variables, Analysis of Variance
+  \item
+    Analysis of Covariance
+  \item
+    Residual and Influence Analyses
+  \item
+    Foundations of Model / Feature / Variable Selection
+  \item
+    What you've learned in the past and how it wasn't so helpful
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{what-we-expect-you-to-know-already}{%
+\section{What We Expect You To Know Already}\label{what-we-expect-you-to-know-already}}
+
+Not much.
+
+Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.
+
+\begin{itemize}
+\tightlist
+\item
+  Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.\\
+\item
+  Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life. We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
+\item
+  Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
+\end{itemize}
+
+People succeed in this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class. We expect the majority of students will have no prior experience using R, or any meaningful recollection of using statistical software.
+
+The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
+
+\hypertarget{learning-during-a-pandemic}{%
+\section{Learning During a Pandemic}\label{learning-during-a-pandemic}}
+
+Life is absolutely terrible right now. None of us is really okay. We're all just pretending.
+
+You most likely know people who have lost their jobs, have tested positive for COVID-19, have been hospitalized, or perhaps have even died. You all have increased (or possibly decreased) work responsibilities and increased care responsibilities - you might be caring for extra people (young and/or old!) right now, and you are likely facing uncertain job prospects.
+
+I'm fully committed to making sure that you learn everything you were hoping to learn from this class! I will make whatever accommodations I can to help you finish your labs, do well on your quizzes and projects, and learn and understand the class material. Under ordinary conditions, I am flexible and lenient with grading and course expectations when students face difficult challenges. Under pandemic conditions, that flexibility and leniency is intensified. If you tell me you're having trouble, I will not judge you or think less of you. I hope you'll extend me the same grace.
+
+You never owe me personal information about your health (mental or physical). You are always welcome to talk to me about things that you're going through, though. If I can't help you myself, I may know somebody who can.
+
+If you need extra help, or if you need more time with something, or if you feel like you're behind or not understanding everything, do not suffer in silence! Talk to us! We will work with you. I promise.
+
+I want you to learn lots of things from this class, but I primarily want you to stay healthy, balanced, and grounded during this crisis.
+
+Thanks to \href{https://econf20.classes.andrewheiss.com/syllabus/\#learning-during-a-pandemic}{Andrew Heiss} for a lot of the better words here.
+
+\hypertarget{r-and-rstudio}{%
+\section{R and RStudio}\label{r-and-rstudio}}
+
+You will do all of your analysis with the open source (and free!) \href{https://cloud.r-project.org}{programming language R}. You will use \href{https://www.rstudio.com/}{RStudio} as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+
+R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found on the \href{software.html}{Software page}
+
+Learning R can be difficult at first - it's like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham-the chief scientist at RStudio and the author of some amazing R packages you'll be using like \texttt{ggplot2} \href{https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/}{made this wise observation}:
+
+\begin{quote}
+It's easy when you start out programming to get really frustrated and think, ``Oh it's me, I'm really stupid,'' or, ``I'm not made out to program.'' But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It's just a natural part of programming. So, it happens to everyone and gets less and less over time. Don't blame yourself. Just take a break, do something fun, and then come back and try again later.
+\end{quote}
+
+If you're finding yourself taking way too long hitting your head against a wall and not understanding, take a break, talk to the teaching assistants, talk to classmates, ask questions, e-mail Dr.~Love, etc.
+
+I promise you can do this.
+
+Some of this material is also borrowed from Andrew Heiss, for instance, from \href{https://evalf19.classes.andrewheiss.com/syllabus/}{here} and \href{https://econf20.classes.andrewheiss.com/syllabus/}{here}.
+
+\hypertarget{special-needs}{%
+\section{Special Needs}\label{special-needs}}
+
+Students who wish to request accommodation for a disability may do so by registering with the \href{https://case.edu/studentlife/disability/}{Disability Resources Office at the Division of Student Affairs}.
+
+Students with special needs should then make an appointment with me during the first two weeks of class to discuss any accommodations that need to be made.
+
+\hypertarget{why-i-teach-431-like-this}{%
+\section{Why I Teach 431 Like This}\label{why-i-teach-431-like-this}}
+
+I have a lot of thoughts on this issue, but you may prefer to hear from other people on the subject. So here are a few references that have guided my recent thinking.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://arxiv.org/abs/1612.07140}{A Guide to Teaching Data Science} by Stephanie C. Hicks, Rafael A. Irizarry (pdf)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \ldots{} our (case-study) approach (in a graduate-level, introductory data science course) teaches students three key skills needed to succeed in data science, which we refer to as creating, connecting, and computing.
+  \end{itemize}
+\item
+  \href{https://arxiv.org/abs/1705.08544}{Data Visualization on Day One: Bringing Big Ideas into Intro Stats Early and Often} by Xiaofei Wang, Cynthia Rush, Nicholas Jon Horton (pdf)
+\item
+  \href{https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734}{50 Years of Data Science} by David Donoho in the \emph{Journal of Computational and Graphical Statistics}, 2017.
+\item
+  \href{https://www.sharpsightlabs.com/blog/master-r-obsolete/}{Why You Should Master R (Even if it might eventually become obsolete)} blog post from Sharp Sight, 2016-12-27
+\item
+  \href{https://simplystatistics.org/2018/07/12/use-r-keynote-2018/}{Teaching R to New Users - From tapply to the Tidyverse} by Roger D. Peng, which is also \href{https://www.youtube.com/watch?v=5033jBHFiHE\&feature=youtu.be}{available as a YouTube Video}
+\item
+  \href{https://www.rstudio.com/resources/videos/teach-the-tidyverse-to-beginners/}{Teach the Tidyverse to Beginners} from David Robinson at \texttt{rstudio::conf\ 2018} (video), and \href{http://varianceexplained.org/r/teach-tidyverse/}{here is the blog post} and a \href{http://varianceexplained.org/r/teach_ggplot2_to_beginners/}{related post on teaching \texttt{ggplot2}, specifically} from David.
+\item
+  Video from Hadley Wickham, \href{https://www.youtube.com/watch?v=PURtmHwk_-0}{You can't do data science in a GUI}, 2018 in Chicago.
+\end{itemize}
+
+\hypertarget{old-course-description}{%
+\chapter{Old Course Description}\label{old-course-description}}
+
+PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key role of thinking hard, and well, about design and analysis in research.
+
+The course is formally titled \emph{Statistical Methods in Biological \& Medical Sciences, Part 1.} A more accurate title is \textbf{Data Science for Biological, Medical or Health Research}.
+
+We'll learn about managing and visualizing data, building models and making predictions, and other data science activities. This highly applied course focuses on modern tools for learning from data. We'll learn a lot of R, and we'll use RStudio and R Markdown as tools to help make R work better, and help perform our research in replicable ways.
+
+\hypertarget{what-students-should-expect}{%
+\section{What Students Should Expect}\label{what-students-should-expect}}
+
+During the 431-432 sequence, students will:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.
+\item
+  Think hard and well about design and analysis in scientific research.
+\item
+  Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+\item
+  Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.
+\item
+  Complete a series of assignments, including homeworks and quizzes on data provided for you, and course projects using data you select/develop.
+\item
+  Program (``Code'') in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help. What separates ``doing data science'' from ``doing data analysis'' is programming.
+\end{enumerate}
+
+\hypertarget{class-outline}{%
+\section{431 Class Outline}\label{class-outline}}
+
+The 431 course \textbf{calendar} is linked at \url{https://github.com/THOMASELOVE/2019-431}. Go there for details on each class throughout the semester.
+
+The course is split in three parts.
+
+\textbf{Part A} (Classes 2-10) is mostly about R and Visualizing Data.
+
+\begin{itemize}
+\tightlist
+\item
+  Exploratory Data Analysis
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Descriptive Numerical and Graphical Summaries
+  \item
+    Distributions, specifically the Normal
+  \item
+    Histograms and their cousins
+  \item
+    Scatterplots and related tools from correlation and linear regression
+  \end{itemize}
+\item
+  Exploring Data with the Tidyverse, Getting Up To Speed with R
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Visualizing Data with \texttt{ggplot2}
+  \item
+    Data Transformation and \texttt{dplyr}
+  \item
+    Using scripts and projects, Building Code
+  \end{itemize}
+\end{itemize}
+
+\textbf{Part B} (which starts around Class 11) is about Making Comparisons.
+
+\begin{itemize}
+\tightlist
+\item
+  Estimation and Inference for Means and Proportions
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Confidence Intervals
+  \item
+    Design Implications: Matched vs.~Independent Samples
+  \item
+    Hypothesis Testing Strategies
+  \item
+    Cross-Tabulations
+  \item
+    Dealing with Missing Data
+  \item
+    Randomized Trials vs.~Non-Randomized Studies
+  \end{itemize}
+\end{itemize}
+
+\textbf{Part C} (which starts around Class 16) is about Building Regression Models.
+
+\begin{itemize}
+\tightlist
+\item
+  Estimation and Inference using Ordinary Least Squares
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Categorical Variables, Analysis of Variance
+  \item
+    Simple and Multivariate Linear Regression Models
+  \item
+    Building Prediction Models, and Validating Them
+  \item
+    Analysis of Covariance
+  \item
+    Residual and Influence Analyses
+  \item
+    Foundations of Model / Feature / Variable Selection
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{key-topics-in-431-and-432-1}{%
+\section{Key Topics in 431 and 432}\label{key-topics-in-431-and-432-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Exploratory Data Analysis: ``All graphs are comparisons'' including data exploration, statistical graphics and more general visualization of information.
+\item
+  Placing biological, medical and health research questions into a statistical framework.
+\item
+  Study Development - making choices in designing and executing the collection and aggregation of data.
+\item
+  Data Handling - including important issues in importing, tidying and transforming data, as well as methods for dealing with missing data, including imputation.
+\item
+  Statistical Comparisons: ``All of statistics are comparisons'' - including methods for discrete and continuous variables: intervals, assumptions, some thoughts on statistical power, and the bootstrap, design of visualizations and models for rates, proportions and contingency tables.
+\item
+  The proper use of multi-predictor models for continuous and discrete data, including\ldots{}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fitting, evaluating, and interpreting linear and generalized linear models.
+  \item
+    Prediction and validation.
+  \item
+    Critical role of graphics, including diagnostics and residual analysis.
+  \item
+    Model choice, including variable selection, shrinkage and model uncertainty.
+  \item
+    Dealing with categorical predictors and interactions meaningfully.
+  \item
+    Causal inference using regression: controlling for covariates meaningfully.
+  \end{itemize}
+\item
+  Using R and RStudio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
+\end{enumerate}
+
+\hypertarget{what-we-expect-you-to-know-already-1}{%
+\section{What We Expect You To Know Already}\label{what-we-expect-you-to-know-already-1}}
+
+Not much.
+
+Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.
+
+\begin{itemize}
+\tightlist
+\item
+  Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.\\
+\item
+  Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life. We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
+\item
+  Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
+\end{itemize}
+
+People succeed in this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class. We expect the majority of students will have no prior experience using R, or any meaningful recollection of using statistical software.
+
+The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
+
+\hypertarget{r-and-rstudio-1}{%
+\section{R and RStudio}\label{r-and-rstudio-1}}
+
+(borrowed from \href{https://evalf19.classes.andrewheiss.com/syllabus/}{Andrew Heiss})
+
+You will do all of your analysis with the open source (and free!) \href{https://cloud.r-project.org}{programming language R}. You will use \href{https://www.rstudio.com/}{RStudio} as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+
+R is free, but it can sometimes be a pain to install and configure. To make life easier, you can (and should!) use \href{http://rstudio.cloud/}{the free RStudio.cloud service}, which lets you run a full instance of RStudio in your web browser. This means you won't have to install anything on your computer to get started with R! We will have a shared class workspace in RStudio.cloud that will let you quickly copy templates for some of your work, too.
+
+RStudio.cloud is convenient, but it can be slow and it is not designed to be able to handle larger datasets or more complicated analysis. Over the course of the semester, you'll probably want to get around to installing R, RStudio, and other R packages on your computer and wean yourself off of RStudio.cloud. This isn't absolutely necessary early on, but you'll probably feel the need to have done it by the end of September. You'll find \href{https://thomaselove.github.io/2019-431-syllabus/on-software-and-r.html}{complete instructions for installing, R, RStudio, the R packages we'll use and the data and code we've built for 431} here.
+
+\hypertarget{pep-talk-thanks-andrew-heiss}{%
+\section{\texorpdfstring{Pep Talk! (Thanks, \href{https://evalf19.classes.andrewheiss.com/syllabus/\#pep-talk}{Andrew Heiss})}{Pep Talk! (Thanks, Andrew Heiss)}}\label{pep-talk-thanks-andrew-heiss}}
+
+Learning R can be difficult at first - it's like learning a new lanugage, just like Spanish, French, or Chinese. Hadley Wickham-the chief data scientist at RStudio and the author of some amazing R packages you'll be using like \texttt{ggplot2} \href{https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/}{made this wise observation}:
+
+\begin{quote}
+It's easy when you start out programming to get really frustrated and think, ``Oh it's me, I'm really stupid,'' or, ``I'm not made out to program.'' But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It's just a natural part of programming. So, it happens to everyone and gets less and less over time. Don't blame yourself. Just take a break, do something fun, and then come back and try again later.
+\end{quote}
+
+If you're finding yourself taking way too long hitting your head against a wall and not understanding, take a break, talk to classmates, ask questions at \texttt{431-help\ at\ case\ dot\ edu}, e-mail Dr.~Love, etc.
+
+I promise you can do this.
+
+\hypertarget{why-i-teach-431-like-this-1}{%
+\section{Why I Teach 431 Like This}\label{why-i-teach-431-like-this-1}}
+
+I have a lot of thoughts on this issue, but you may prefer to hear from other people on the subject. So here are a few references that have guided my recent thinking.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://arxiv.org/abs/1612.07140}{A Guide to Teaching Data Science} by Stephanie C. Hicks, Rafael A. Irizarry (pdf)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \ldots{} our (case-study) approach (in a graduate-level, introductory data science course) teaches students three key skills needed to succeed in data science, which we refer to as creating, connecting, and computing.
+  \end{itemize}
+\item
+  \href{https://arxiv.org/abs/1705.08544}{Data Visualization on Day One: Bringing Big Ideas into Intro Stats Early and Often} by Xiaofei Wang, Cynthia Rush, Nicholas Jon Horton (pdf)
+\item
+  \href{https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734}{50 Years of Data Science} by David Donoho in the \emph{Journal of Computational and Graphical Statistics}, 2017.
+\item
+  \href{https://www.sharpsightlabs.com/blog/master-r-obsolete/}{Why You Should Master R (Even if it might eventually become obsolete)} blog post from Sharp Sight, 2016-12-27
+\item
+  \href{https://simplystatistics.org/2018/07/12/use-r-keynote-2018/}{Teaching R to New Users - From tapply to the Tidyverse} by Roger D. Peng, which is also \href{https://www.youtube.com/watch?v=5033jBHFiHE\&feature=youtu.be}{available as a YouTube Video}
+\item
+  \href{https://www.rstudio.com/resources/videos/teach-the-tidyverse-to-beginners/}{Teach the Tidyverse to Beginners} from David Robinson at \texttt{rstudio::conf\ 2018} (video), and \href{http://varianceexplained.org/r/teach-tidyverse/}{here is the blog post} and a \href{http://varianceexplained.org/r/teach_ggplot2_to_beginners/}{related post on teaching \texttt{ggplot2}, specifically} from David.
+\item
+  Video from Hadley Wickham, \href{https://www.youtube.com/watch?v=PURtmHwk_-0}{You can't do data science in a GUI}, 2018 in Chicago.
+\end{itemize}
+
+\hypertarget{professor-love}{%
+\chapter{Professor Love}\label{professor-love}}
+
+\includegraphics[width=0.3\linewidth]{images/Thomas_Love}
+
+Thomas E. Love, Ph.D.
+
+\begin{itemize}
+\tightlist
+\item
+  Professor of Medicine, Population and Quantitative Health Sciences, \href{http://case.edu/}{CWRU}
+\item
+  Director of \href{http://chrp.org/biostatistics-evaluation/}{Biostatistics and Evaluation}, \href{http://chrp.org/}{Center for Health Care Research \& Policy}, \href{https://www.metrohealth.org/research}{MetroHealth Medical Center}
+\item
+  \href{http://www.betterhealthpartnership.org/data_center/}{Chief Data Scientist}, \href{http://betterhealthpartnership.org/}{Better Health Partnership}
+\item
+  Track Lead for Health Care Analytics, MS in Biostatistics, \href{http://epbiwww.case.edu/}{Department of Population and Quantitative Health Sciences}, CWRU
+\item
+  Fellow, \href{http://www.amstat.org/}{American Statistical Association}
+\end{itemize}
+
+\hypertarget{a-more-complete-biography}{%
+\section{A More Complete Biography}\label{a-more-complete-biography}}
+
+Hi. I am Thomas E. Love, Ph.D.~and I have at least three different jobs.
+
+\begin{itemize}
+\tightlist
+\item
+  I am a Professor in the Departments of Medicine and Population \& Quantitative Health Sciences at Case Western Reserve University. I teach three courses per year there (PQHS 431, 432 and 500) and also lead the Health Care Analytics track of the MS program in Biostatistics.
+\item
+  I direct \href{http://chrp.org/biostatistics-evaluation/}{Biostatistics and Evaluation} at the \href{http://chrp.org/}{Center for Health Care Research \& Policy}, which is a joint venture of CWRU and MetroHealth Medical Center.
+\item
+  For ten years, I was the (founding) Data Director for \href{http://betterhealthpartnership.org/}{Better Health Partnership}, an alliance of people who provide, pay for and receive care in Northeast Ohio. I now serve as Chief Data Scientist there.
+\item
+  I am a Fellow of the American Statistical Association, and have won numerous awards for my teaching and my research, including the 2018 \href{https://students.case.edu/traditions/awards/diekhoff/}{John S. Diekhoff Award for Graduate Teaching} from CWRU.
+\item
+  I have been teaching at CWRU since 1994, and have taught every manner of CWRU student over the years, especially students in biostatistics, medicine, and management.
+\end{itemize}
+
+In research, I use statistical methods to look at questions in health policy and in particular the provision of health services. I mostly work with observational data, rather than data that emerge from randomized clinical trials, and I have a special interest in working with data from electronic health records.
+
+\begin{itemize}
+\tightlist
+\item
+  You may be interested in a \href{http://content.healthaffairs.org/content/34/7/1121.abstract}{recent study in Health Affairs} showing the impact of a \href{http://thedaily.case.edu/new-study-shows-prepared-safety-net-improves-care-saves-money-in-medicaid-expansion-population/}{Medicaid-like expansion plan on care and outcomes of poor patients in Cleveland}.
+\item
+  Or you might be interested in our \href{http://www.nejm.org/doi/full/10.1056/NEJMsa1102519}{New England Journal of Medicine study} of the effect of electronic health records on the care and outcomes of people with diabetes.
+\item
+  In 2011, \href{http://tdi.dartmouth.edu/faculty/a-james-omalley-phd}{James O'Malley} and I chaired the \href{https://ww2.amstat.org/meetings/ichps/2011/index.cfm?fuseaction=main}{Ninth International Conference on Health Policy Statistics}, here in Cleveland. Here's a \href{https://link.springer.com/article/10.1007\%2Fs10742-012-0096-8}{recap}.
+\item
+  I've also worked on many projects involving the use of propensity scores to make causal inferences from observational studies, particularly in heart failure.
+\end{itemize}
+
+If you want to see a \href{https://www.ncbi.nlm.nih.gov/myncbi/thomas.love.1/bibliography/public/}{pretty complete list of my publications}, knock yourself out.
+
+I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation adviser was Paul Rosenbaum. I am married to a brilliant woman who is an attorney at GE Lighting, and we are raising two terrific sons, one in college (University of Pittsburgh), and one finishing high school this year. I live in Shaker Heights. I also sing and act occasionally in \href{https://github.com/THOMASELOVE/theater}{community theater}.
+
+\hypertarget{email-1}{%
+\section{Email}\label{email-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Email to get help with the course: \textbf{431-help at case dot edu} (seen by Professor Love and the TAs)
+\item
+  \texttt{Thomas\ dot\ Love\ at\ case\ dot\ edu} (for matters related to grades or individual concerns)
+\item
+  Professor Love is hard to reach by phone. Email is always the best way to reach him.
+\end{itemize}
+
+\hypertarget{offices-1}{%
+\section{Offices}\label{offices-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Wood WG-82J on the ground floor of the Wood building (Tuesdays and Thursdays)
+\item
+  Rammelkamp R-229A at MetroHealth Medical Center (Wednesdays and Fridays)
+\end{itemize}
+
+Professor Love is available for the 15 minutes before and the 30 minutes after each class, and otherwise by appointment on Tuesdays and Thursdays (send email to schedule).
+
+\hypertarget{name-and-pronouns}{%
+\section{Name and Pronouns}\label{name-and-pronouns}}
+
+\begin{itemize}
+\tightlist
+\item
+  Professor Love uses he/him/his pronouns.
+\item
+  Most students refer to him either as Professor Love or Dr.~Love.
+\item
+  He prefers his given name to be written ``Thomas'' as opposed to ``Tom''.
+\item
+  Most of his friends and colleagues call him ``Tom''. You are welcome to do so, as well, if that makes you more comfortable.
+\end{itemize}
+
+\hypertarget{web}{%
+\section{Web}\label{web}}
+
+\begin{itemize}
+\tightlist
+\item
+  Professor Love's \href{https://thomaselove.github.io/}{GitHub pages website}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    His GitHub name is \href{https://github.com/thomaselove}{THOMASELOVE}.
+  \end{itemize}
+\item
+  His Twitter handle is \href{https://twitter.com/ThomasELove}{ThomasELove}.
+\end{itemize}
+
+\hypertarget{teaching-assistants}{%
+\chapter{Teaching Assistants}\label{teaching-assistants}}
+
+Most of this year's stellar group of teaching assistants has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
+
+To contact Professor Love and the TAs, email \textbf{431-help at case dot edu}. This is a difficult class for many people. Don't suffer in silence - talk to us!
+
+\hypertarget{office-hours-for-tas}{%
+\section{Office Hours for TAs}\label{office-hours-for-tas}}
+
+Most of the office hours for this course are held by the teaching assistants. All office hours are held via Zoom. TA Office Hours will begin in late August, and a schedule is forthcoming.
+
+You are strongly encouraged to visit TAs during office hours that are convenient for you, whenever you need help with the course. This is the best way to get one-on-one help, or try out a new idea.
+
+\hypertarget{office-hours-for-tas-1}{%
+\section{Office Hours for TAs}\label{office-hours-for-tas-1}}
+
+Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help.
+
+TA Office Hours begin on 2019-09-03. The schedule is posted at the bottom of the \href{https://github.com/THOMASELOVE/2019-431/blob/master/calendar.md}{Course Calendar}.
+
+Most of this year's stellar group of teaching assistants has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
+
+To contact Professor Love and the TAs, email \textbf{431-help at case dot edu}. This is a difficult class for many people. Don't suffer in silence - talk to us!
+
+\hypertarget{office-hours-for-tas-2}{%
+\section{Office Hours for TAs}\label{office-hours-for-tas-2}}
+
+Most of the office hours for this course are held by the teaching assistants. All office hours are held via Zoom. TA Office Hours will begin in late August, and a schedule is forthcoming.
+
+You are strongly encouraged to visit TAs during office hours that are convenient for you, whenever you need help with the course. This is the best way to get one-on-one help, or try out a new idea.
+
+\hypertarget{this-years-teaching-assistants}{%
+\section{This year's Teaching Assistants}\label{this-years-teaching-assistants}}
+
+\hypertarget{complete-list}{%
+\subsection{Complete List}\label{complete-list}}
+
+Click on the tabs above to learn a little more about each of our Fall 2020 teaching assistants.
+
+\begin{itemize}
+\tightlist
+\item
+  Stephanie Merlino Barr, third year PhD student in Clinical Translational Science
+\item
+  Wyatt Bensken, third year PhD student in Epidemiology \& Biostatistics
+\item
+  Lauren Cruz, first year PhD student in Epidemiology \& Biostatistics
+\item
+  Dustin DeMeo, third year medical student at CWRU
+\item
+  Daoyu Duan, first year PhD student in Epidemiology \& Biostatistics
+\item
+  Guanqun (Leslie) Meng, first year PhD student in Epidemiology \& Biostatistics
+\item
+  Allen Schweickart, recent MS graduate at CWRU transitioning into data science
+\item
+  Khaled Shorbaji, second year MPH student
+\item
+  Siyu Wang, second year MS student in Biomedical Engineering
+\item
+  Anastasia Vassiliou, second year MS student in Clinical Research
+\end{itemize}
+
+\hypertarget{stephanie-merlino-barr}{%
+\subsection{Stephanie Merlino Barr}\label{stephanie-merlino-barr}}
+
+\includegraphics[width=0.2\linewidth]{images/Stephanie_Merlino_Barr}
+
+Stephanie Merlino Barr is a third year PhD student in the Clinical Translational Science program and a full-time dietitian in the Neonatal Intensive Care Unit (NICU) at MetroHealth Medical Center. Stephanie's research focuses on the relationship of early life nutrition interventions and long-term growth and developmental outcomes in very low birthweight infants. While Stephanie changed her undergraduate major to avoid a class with a programming requirement, she has immensely enjoyed learning R in 431 and 432. Stephanie has been using her R skills to create a database to assess nutrition-related outcomes for preterm infants in MetroHealth's NICU. In the pre-pandemic era, Stephanie enjoyed rowing, traveling, and attending concerts. Now, she spends her time hiking with her dog and making pasta.
+
+\hypertarget{wyatt-bensken}{%
+\subsection{Wyatt Bensken}\label{wyatt-bensken}}
+
+\includegraphics[width=0.2\linewidth]{images/Wyatt_Bensken}
+
+Wyatt Bensken is a PhD Candidate in epidemiology and biostatistics in PQHS. Wyatt received his bachelors of science in public health from American University in Washington, DC, after which he worked as a research fellow at the National Institutes of Health in Bethesda, Maryland before joining the PhD program here in 2018. Wyatt took 431 and 432 in 2018/2019, as well as 500 in 2020. His research includes health services and population health research to identify disparities in health and health outcomes. In addition to projects in surgery, cancer, and social determinants of health, Wyatt's dissertation focuses on health disparities and multimorbidity for people with epilepsy.
+
+\hypertarget{lauren-cruz}{%
+\subsection{Lauren Cruz}\label{lauren-cruz}}
+
+\includegraphics[width=0.2\linewidth]{images/Lauren_Cruz}
+
+Lauren Cruz is a first year student in the PhD epidemiology and biostatistics program. She earned her MPH with a focus in population health at CWRU in Spring 2020. Lauren has a background in biological anthropology and is interested in genetic epidemiology and evolutionary development. When she's not studying, you can likely find her cooking, gardening, or cycling. As part of her Master's culminating experience, Lauren worked with Dr.~Love through Better Health Partnership to evaluate a community healthcare outreach program involving a diverse patient population. She took 431/432 last cycle and is eager to work with this year's cohort to explore different ways to approach the key statistical concepts taught in this course series.
+
+\hypertarget{dustin-demeo}{%
+\subsection{Dustin DeMeo}\label{dustin-demeo}}
+
+\includegraphics[width=0.2\linewidth]{images/Dustin_DeMeo}
+
+Dustin DeMeo, a third year student in the CWRU School of Medicine, is currently doing a year-long research fellowship. He received his undergraduate degree from the University of Pennsylvania where he dual-majored in Computer Science and Business. Before changing careers to medicine, Dustin worked in the finance industry. He looks forward to getting to know you and working with you this semester.
+
+\hypertarget{daoyu-duan}{%
+\subsection{Daoyu Duan}\label{daoyu-duan}}
+
+\includegraphics[width=0.2\linewidth]{images/Daoyu_duan}
+
+Daoyu Duan is a 1st year PhD student in Epidemiology \& Biostatistics. I got my Bachelor degree in Math\&Stats from UIUC and MS degree in Biostatistics from Columbia University. Before coming to CWRU, I have been working in a Pharmaceutical company called Regeneron for 2 years. My current research interest is sequencing data analysis. I enjoy video games, cooking and swimming most of the time.
+
+\hypertarget{guanqun-leslie-meng}{%
+\subsection{Guanqun (Leslie) Meng}\label{guanqun-leslie-meng}}
+
+\includegraphics[width=0.2\linewidth]{images/Leslie_Meng}
+
+Leslie (Guanqun) Meng is a first year PhD student Epidemiology/Biostatistics program. He received his M.S degree in Biostatistics from Yale University in May 2020. He has been working extensively in RCTs and Observational Studies, with major focuses on building new survival models and deriving a novel propensity score weighting method. Leslie ran Marathon twice (4 hours), and now he is addicted to bodybuilding.
+
+\hypertarget{allen-schweickart}{%
+\subsection{Allen Schweickart}\label{allen-schweickart}}
+
+\includegraphics[width=0.2\linewidth]{images/Allen_Schweickart}
+
+Allen Schweickart has recently earned his Master's of Science degree here at CWRU and is looking to make the transition into data science. For his master's thesis, he analyzed cell migration in Drosophila. With the skills he learned in 431 and 432, he was able to model distinct characteristics of various genotypes and identify how they might influence migration. Allen's hobbies include bodybuilding, hiking, gaming, and trying not to burn the food he is cooking.
+
+\hypertarget{khaled-shorbaji}{%
+\subsection{Khaled Shorbaji}\label{khaled-shorbaji}}
+
+\includegraphics[width=0.2\linewidth]{images/Khaled_Shorbaji}
+
+Khaled Shorbaji is in his second year in the Master of Public Health program's Intensive Research Pathway. Khaled is an international medical graduate from Syria, and he is very interested in cardiac surgery outcomes research. Khaled took 431 and 432 last year and has appreciated how the skills he learned in those classes have helped him as a cardiac surgery research fellow at University Hospitals Cleveland Medical Center. Khaled enjoys playing ping-pong, volleyball, chess, and reading.
+
+\hypertarget{siyu-wang}{%
+\subsection{Siyu Wang}\label{siyu-wang}}
+
+\includegraphics[width=0.2\linewidth]{images/Siyu_Wang}
+
+Siyu Wang is in her second year in the M.S. program in Biomedical Engineering. She is an international student from China, and she completed her Bachelor's work in Biomedical Engineering in Shanghai Jiao Tong University. She has previously completed 431 and 432 coursework and learned many skills, which are very helpful for her project at Cleveland Clinic. Siyu likes cooking, reading, watching movies and photographing.
+
+\hypertarget{anastasia-vassiliou}{%
+\subsection{Anastasia Vassiliou}\label{anastasia-vassiliou}}
+
+\includegraphics[width=0.2\linewidth]{images/Anastasia_Vassiliou}
+
+Anastasia Vassiliou is in her second year in the M.S program in Clinical Research. She completed her bachelor's in Molecular Biology and Biotechnology. For her thesis she studied the role of Circulating Tumor Cells in cancer metastasis. Anastasia took 431 and 432 this past year and can't wait to apply the skills she learned in future research projects. Anastasia enjoys spending time with her family, cooking, reading, and hiking.
+
+\hypertarget{required-texts}{%
+\chapter{Required Texts}\label{required-texts}}
+
+\hypertarget{professor-loves-materials}{%
+\section{Professor Love's Materials}\label{professor-loves-materials}}
+
+The main text is a set of Notes for the course, maintained by Professor Love. The title is ``Data Science for Biological, Medical and Health Research: Notes for PQHS 431''.
+
+Professor Love is revising the Notes extensively this year, so they will appear as the semester progresses. The 2018 version of the Notes is available, too.
+
+Although the Notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give 431 students a set of common materials on which to draw during the course, providing a series of examples using R to work through issues that are likely to come up during the semester. Again, this is work in progress, and updates will occur irregularly as the semester progresses.
+
+\textbf{Slides} from each of Professor Love's lectures, plus other in-class materials from each session of the class will be posted before and after each class as part of daily README files discussed at the start of each session.
+
+Visit \url{https://github.com/THOMASELOVE/2019-431} for links to all materials.
+
+\hypertarget{two-books-to-purchase}{%
+\section{Two Books To Purchase}\label{two-books-to-purchase}}
+
+In addition, we'll read two books that you'll need to purchase (the combined price is about \$25.):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Nate Silver's \emph{The Signal and The Noise} ISBN-13: 978-1594204111 \href{https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087}{Amazon Link}, and
+\item
+  Jeff Leek's \emph{The Elements of Data Analytic Style}, available at \url{https://leanpub.com/datastyle}.
+\end{enumerate}
+
+With regard to \emph{The Signal and the Noise}, you can watch Nate discuss the book's ideas in many places, for instance, at \href{https://www.youtube.com/watch?v=z4zhI9uLs4U}{this YouTube link}, or \href{https://www.youtube.com/watch?v=eE4qCJBgfIk}{this one on the Art and Science of Prediction}, or \href{https://www.youtube.com/watch?v=mYIgSq-ZWE0}{this one at Google}. We'll also spend considerable time visiting the \href{http://fivethirtyeight.com/}{FiveThirtyEight} website, where Nate is editor-in-chief.
+
+\hypertarget{four-books-to-download}{%
+\section{Four Books to Download}\label{four-books-to-download}}
+
+There are four books that you will definitely need to obtain during the semester. All are freely available to you, at the links below.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://r4ds.had.co.nz/}{R for Data Science} by Garrett Grolemund and Hadley Wickham
+\item
+  \href{http://hbiostat.org/doc/bbr.pdf}{Biostatistics for Biomedical Research} (pdf) by Frank E. Harrell Jr and James C Slaughter
+\item
+  \href{https://leanpub.com/openintro-statistics}{OpenIntro Statistics} by David Diez and Mine Cetinkaya-Rundel (4th Edition) and \href{https://www.openintro.org/stat/textbook.php?stat_book=os}{supplementary material is here}
+\item
+  \href{https://moderndive.netlify.com/}{Modern Dive: Statistical Inference via Data Science (A Modern Dive into R and the Tidyverse)} by Chester Ismay and Albert Y. Kim.
+\end{enumerate}
+
+\hypertarget{articles-and-posts}{%
+\section{Articles and Posts}\label{articles-and-posts}}
+
+While I will recommend dozens, perhaps hundreds of articles, blog posts and the like to you over the course of the year, these are especially important in 431.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Several of the guides prepared by Jeff Leek and his group, including:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://fivethirtyeight.com/features/a-formula-for-decoding-health-news/}{Finally, a Formula for Decoding Health News}, from fivethirtyeight.com
+  \item
+    \href{https://github.com/jtleek/readingpapers}{Reading academic (scientific) papers},
+  \item
+    \href{https://github.com/jtleek/firstpaper}{Writing your first academic paper}
+  \item
+    \href{https://simplystatistics.org/2016/04/21/writing/}{Write papers like a modern scientist}
+  \item
+    \href{https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375987}{How to Share Data for Collaboration} by Shannon E. Ellis and Jeffrey T. Leek in \emph{The American Statistician}, 2018 Special Issue on Data Science, or you can \href{https://peerj.com/preprints/3139/}{read the PeerJ preprint version here}.
+  \end{itemize}
+\item
+  \href{https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989}{Data Organization in Spreadsheets} by Karl W. Broman and Kara H. Woo in The American Statistician, 2018 Special Issue on Data Science, or you can \href{https://peerj.com/preprints/3183/}{read the PeerJ preprint version}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The Ellis/Leek and Broman/Woo papers are part of the \href{https://peerj.com/collections/50-practicaldatascistats/}{Practical Data Science for Stats} collection, which may be of interest.
+  \end{itemize}
+\item
+  \href{https://www.tidyverse.org/articles/2017/12/workflow-vs-script/}{Project-oriented workflow} at tidyverse.org from Jenny Bryan.
+\item
+  From the Ten Simple Rules series at PLOS Computational Biology:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{http://journals.plos.org/ploscompbiol/article?id=10.1371\%2Fjournal.pcbi.1004961}{Ten Simple Rules for Effective Statistical Practice} by Kass RE et al.~2016
+  \item
+    \href{http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030229}{Ten Simple Rules for Graduate Students} by Gu J Bourne PE 2007
+  \item
+    \href{http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833}{Ten Simple Rules for Better Figures} by Rougier NP Droettboom M Bourne PE 2014
+  \item
+    \href{http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525}{Ten Simple Rules for Creating a Good Data Management Plan} by Michener WK 2015
+  \end{itemize}
+\item
+  \href{https://amstat.tandfonline.com/toc/utas20/73/sup1}{Statistical Inference in the 21st Century: A World Beyond \emph{p} \textless{} 0.05} from 2019 in \emph{The American Statistician}
+\item
+  The American Statistical Association's 2016 \href{http://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108}{Statement on p-Values}: Context, Process and Purpose.
+\end{enumerate}
+
+Links to all required and recommended materials appear on the \href{https://github.com/THOMASELOVE/2019-431/tree/master/READINGS}{Course Website's READINGS page}.
+
+\hypertarget{worthy-and-free-resources}{%
+\chapter{Worthy (and Free) Resources}\label{worthy-and-free-resources}}
+
+Many of these resources will come up again in class, but no one can keep up with all of this material. Pick things that interest you to follow up with. And I'm always eager to receive additional suggestions from students in the class. If you find a helpful resource, please send it along to \textbf{431-help at case dot edu}.
+
+\hypertarget{data-visualization-books}{%
+\section{Data Visualization Books}\label{data-visualization-books}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://r-graphics.org/}{R Graphics Cookbook, 2nd Edition} by Winston Chang.
+\item
+  \href{http://socviz.co/}{Data Visualization: A Practical Introduction} by Kieran Healy.
+\item
+  \href{https://serialmentor.com/dataviz/}{Fundamentals of Data Visualization} by Claus O. Wilke
+\item
+  \href{https://rkabacoff.github.io/datavis/}{Data Visualization with R} by Rob Kabacoff
+\item
+  \href{https://plotly-r.com/}{Interactive web-based data visualization with R, plotly, and shiny} by Carson Sievert
+\end{enumerate}
+
+\hypertarget{statisticsdata-analysisdata-science-books}{%
+\section{Statistics/Data Analysis/Data Science Books}\label{statisticsdata-analysisdata-science-books}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://leanpub.com/artofdatascience}{The Art of Data Science} by Roger D. Peng and Elizabeth Matsui (book is also available with lecture videos). An earlier edition is available at \href{https://bookdown.org/rdpeng/artofdatascience/}{bookdown}.
+\item
+  \href{https://leanpub.com/exdata}{Exploratory Data Analysis with R} by Roger D. Peng. An earlier edition is available at \href{https://bookdown.org/rdpeng/exdata/}{bookdown}
+\item
+  \href{https://leanpub.com/dataanalysisforthelifesciences}{Data Analysis for the Life Sciences} by Rafael A. Irizarry and Michael I. Love
+\item
+  \href{http://web.stanford.edu/class/bios221/book/}{Modern Statistics for Modern Biology} by Susan Holmes and Wolfgang Huber
+\item
+  \href{https://leanpub.com/regmods}{Regression Models for Data Science in R} by Brian Caffo
+\item
+  \href{https://rafalab.github.io/dsbook/}{Introduction to Data Science: Data Analysis and Prediction Algorithms with R} by Rafael A. Irizarry
+\item
+  \href{https://cran.r-project.org/doc/contrib/Faraway-PRA.pdf}{Practical Regression and ANOVA using R} by Julian J. Faraway (pdf)
+\item
+  \href{http://users.stat.umn.edu/~gary/book/fcdae.pdf}{A First Course in Design and Analysis of Experiments} by Gary W. Oehlert (pdf)
+\end{enumerate}
+
+\hypertarget{r-and-r-markdown-books}{%
+\section{R and R Markdown Books}\label{r-and-r-markdown-books}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{http://www.cookbook-r.com/}{Cookbook for R} by Winston Chang
+\item
+  \href{https://learningstatisticswithr.com/}{Learning Statistics with R} and its \href{https://learningstatisticswithr.com/book/index.html}{bookdown repository} by Danielle Navarro
+\item
+  \href{https://leanpub.com/rprogramming}{R Programming for Data Science} by Roger D. Peng. An earlier edition is available at \href{https://bookdown.org/rdpeng/rprogdatascience/}{bookdown}
+\item
+  \href{https://bookdown.org/yihui/rmarkdown/}{R Markdown: The Definitive Guide} by Yihui Xie, J. J. Allaire, and Garrett Grolemund
+\item
+  \href{https://rmd4sci.njtierney.com/}{R Markdown for Scientists} by Nicholas Tierney
+\item
+  \href{https://r-pkgs.org/}{R Packages} by Hadley Wickham and Jenny Bryan
+\item
+  \href{https://whattheyforgot.org/}{What They Forgot to Teach You About R} by Jenny Bryan and Jim Hester
+\item
+  \href{https://adv-r.hadley.nz/}{Advanced R} by Hadley Wickham (2nd edition)
+\item
+  \href{https://rstudio-education.github.io/hopr/}{Hands-On Programming with R} by Garrett Grolemund
+\end{enumerate}
+
+\hypertarget{blogs-and-internet-columns}{%
+\section{Blogs and Internet Columns}\label{blogs-and-internet-columns}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Andrew Gelman and friends at \href{https://statmodeling.stat.columbia.edu/}{Statistical Modeling, Causal Inference, and Social Science}
+\item
+  \href{https://simplystatistics.org/}{Simply Statistics} by Jeff Leek, Brian Caffo, Roger Peng, Rafael Irizarry and others
+\item
+  Frank Harrell's \href{https://www.fharrell.com/}{Statistical Thinking} blog
+\item
+  \href{https://flowingdata.com/}{FlowingData} by Nathan Yau
+\item
+  \href{https://junkcharts.typepad.com/}{JunkCharts} by Kaiser Fung
+\item
+  New York Times \href{https://www.nytimes.com/column/whats-going-on-in-this-graph}{What's Going On in this Graph?}
+\item
+  \href{https://www.edwardtufte.com/tufte/}{Edward Tufte on the Web}
+\item
+  \href{https://github.com/rfordatascience/tidytuesday}{Tidy Tuesdays}: A weekly data project in R from the R for Data Science online learning community
+\item
+  \href{https://fivethirtyeight.com/}{FiveThirtyEight} on Politics, Sports, Science \& Health, Economics and Culture. Nate Silver is Editor-in-Chief.
+\end{enumerate}
+
+\hypertarget{resources-for-learning-r}{%
+\section{Resources for Learning R}\label{resources-for-learning-r}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I recommend the \href{https://github.com/Chris-Engelhardt/data_sci_guide}{Community-Sourced Data Science Guide} of resources for learning data science.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I no longer support DataCamp in any way, and suggest that you don't, either. See \href{https://blog.rladies.org/post/statement-about-datacamp/}{R-Ladies Global on the matter}.
+  \end{itemize}
+\item
+  \href{https://www.rstudio.com/resources/cheatsheets/}{RStudio Cheat Sheets} are definitely worth your time. In 431, you'll especially like:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Data Transformation with \texttt{dplyr}
+\item
+  Data Visualization with \texttt{ggplot2}
+\item
+  Data Import
+\item
+  R Markdown
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  The \texttt{swirl} package in R can be a great help for people learning R programming and data science. Find out more about it at \url{http://swirlstats.com/students.html}
+\item
+  UCLA's Institute for Digital Research and Education has some great \href{https://stats.idre.ucla.edu/other/dae/}{Data Analysis Examples} using R (and other software.)
+\end{enumerate}
+
+\hypertarget{videos-about-r-and-data-science}{%
+\section{Videos about R and Data Science}\label{videos-about-r-and-data-science}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://resources.rstudio.com/}{Resources from RStudio} is a great source of all kinds of useful stuff. For example:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/}{Getting Started with R Markdown}
+\item
+  \href{https://www.rstudio.com/resources/webinars/getting-your-data-into-r/}{Getting Your Data into R}
+\item
+  \href{https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/}{Data Wrangling with R and RStudio}
+\item
+  Six part series on \href{https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/}{RStudio Essentials} (Parts 1 and 2 of each section are likely to be of greater interest in 431.)
+\item
+  \href{https://resources.rstudio.com/the-essentials-of-data-science}{Data Science Essentials}
+\item
+  \href{https://resources.rstudio.com/webinars}{RStudio Webinars} on a variety of subjects, most of which are gathered in \href{https://www.youtube.com/playlist?list=PL9HYL-VRX0oRDOP3T5ojgSnMtQdityqEk}{this YouTube playlist} as well.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \href{https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk}{Data Wrangling with R and the Tidyverse YouTube Playlist} from Garrett Grolemund
+\item
+  Hadley Wickham's \href{https://www.youtube.com/watch?v=go5Au01Jrvs}{Whole Game}
+\item
+  \href{https://www.youtube.com/channel/UCeiiqmVK07qhY-wvg3IZiZQ}{Tidy Tuesday Screencasts from David Robinson on YouTube}
+\item
+  \href{https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen}{Hans Rosling: The Best Stats You've Ever Seen} TED Talk from 2006.
+\item
+  \href{https://www.youtube.com/watch?v=WMDAR2bZEp0}{This is Statistics: Roger Peng} explains in less than two minutes why statistics is an amazing field.
+\item
+  Mona Chalabi's TED Talk on \href{https://www.ted.com/talks/mona_chalabi_3_ways_to_spot_a_bad_statistic}{3 ways to spot a bad statistic}, 2017.
+\item
+  \href{https://www.youtube.com/watch?v=5Zg-C8AAIGg}{The beauty of data visualization} from David McCandless at TEDGlobal 2010.
+\item
+  \href{https://www.youtube.com/watch?v=GRNyEzQ26Ww}{Six Types of Questions You Can Ask in a Data Analysis} from Roger Peng.
+\item
+  \href{https://blog.revolutionanalytics.com/2012/12/coursera-videos.html}{Videos from Coursera's 4 week course ``Computing for Data Analysis'' in R}
+\item
+  \href{https://www.youtube.com/user/TheLearnR}{Learn R by Intensive Practice} list of tutorials on YouTube.
+\end{enumerate}
+
+\hypertarget{podcasts}{%
+\section{Podcasts}\label{podcasts}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{http://nssdeviations.com/}{Not So Standard Deviations} by Hilary Parker and Roger Peng talking about the latest in data science and data analysis in academia and industry.
+\item
+  \href{http://theeffortreport.com/}{The Effort Report} by Elizabeth Matsui and Roger Peng talking about life in the academic trenches, telling it ``like it is''. Every graduate student in this course looking at a career in academia would benefit from listening.
+\item
+  \href{https://www.bbc.co.uk/programmes/p02nrss1}{More or Less: Behind the Stats} from Tim Harford and BBC Radio 4
+\item
+  \href{https://statsandstories.net/}{Stats + Stories} from the American Statistical Association and Miami University
+\item
+  \href{https://r-podcast.org/}{The R-Podcast}
+\end{enumerate}
+
+\hypertarget{books-on-related-topics}{%
+\section{Books on related topics}\label{books-on-related-topics}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://bookdown.org/roback/bookdown-bysh/}{Broadening Your Statistical Horizons: Generalized Linear Models and Multilevel Models} by Julie Legler and Paul Roback
+\item
+  \href{https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf}{Computer Age Statistical Inference: Algorithms, Evidence and Data Science} by Bradley Efron and Trevor Hastie (pdf)
+\item
+  \href{http://faculty.marshall.usc.edu/gareth-james/ISL/}{An Introduction to Statistical Learning with Applications in R} by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+\item
+  \href{https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/}{\emph{Statistical Rethinking} with \texttt{brms}, \texttt{ggplot2} and the tidyverse} by A. Solomon Kurz, building off of Richard McElreath's \href{http://xcelab.net/rm/statistical-rethinking/}{\emph{Statistical Rethinking} text} and \href{https://www.youtube.com/channel/UCNJK6_DZvcMqNSzQdEkzvzA/playlists}{freely-available lectures}.
+\item
+  \href{http://www.greenteapress.com/thinkbayes/thinkbayes.pdf}{Think Bayes: Bayesian Statistics Made Simple} by Allen B. Downey (pdf)
+\end{enumerate}
+
+Additional references and links will appear over the course of the semester in the README files associated with each class.
+
+\hypertarget{on-software-and-r}{%
+\chapter{On Software, and R}\label{on-software-and-r}}
+
+The course makes heavy use of the R statistical programming language, and several related tools, most especially the RStudio development environment. Every bit of this software is free to use, and open-source.
+
+\begin{itemize}
+\tightlist
+\item
+  There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
+\item
+  We'll also be using the R Markdown tool within RStudio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files, PDF files or Word documents, among other things.
+\item
+  For some people, working with R is the best part of the class, and the part that they're most excited about.
+\item
+  For others, it's a real source of anxiety. We understand and encourage patience. There will definitely be some pain, but our experience is that things are much smoother for most people by early October than they appear to be in August.
+\end{itemize}
+
+\hypertarget{system-requirements}{%
+\section{System Requirements}\label{system-requirements}}
+
+You will need access to a computer to do your work for this class, not just an iPad or other tablet, but an actual computer. Whether or not you want to bring that computer to class is up to you. All of the software we will use in this class is either free and open source, or available to you for free through your affiliation with CWRU, so there is nothing to buy in terms of software.
+
+\begin{itemize}
+\tightlist
+\item
+  We've made some effort in terms of course requirements to set the bar low. You do not need a state of the art machine, nor should you need any special hardware to run things for this course.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You will need a computer, either PC or Mac, but the style should be determined by your personal preferences and how you believe you will use the machine in your research life.
+  \item
+    In this class, you'll be using RStudio and R, which look and work the same on either a PC or a Mac.
+  \item
+    Any reasonably recent PC or Macintosh machine will work well.
+  \item
+    We \textbf{do not} recommend the use of a Chromebook for this class.
+  \item
+    R and RStudio also run on Linux systems. If you use one, you know more than Professor Love does about how to accomplish that.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{rstudio-cloud}{%
+\section{RStudio Cloud}\label{rstudio-cloud}}
+
+(borrowed in part from \href{https://evalf19.classes.andrewheiss.com/syllabus/}{Andrew Heiss})
+
+R is free, but it can sometimes be a pain to install and configure. To make life easier, you can (and should!) use \href{http://rstudio.cloud/}{the free RStudio.cloud service}, which lets you run a full instance of RStudio in your web browser. This means you won't have to install anything on your computer to get started with R! We will have a shared class workspace in RStudio.cloud that will let you quickly copy templates for some of your work, too. RStudio.cloud is convenient, but it can be slow and it is not designed to be able to handle larger datasets or more complicated analysis. Over the course of the semester, you'll probably want to get around to installing R, RStudio, and other R packages on your computer and wean yourself off of RStudio.cloud. This isn't absolutely necessary (especially early on), but you'll probably feel the need to have done it by the end of September.
+
+\hypertarget{how-do-i-install-the-software}{%
+\section{How Do I Install The Software?}\label{how-do-i-install-the-software}}
+
+We've built a \href{https://github.com/THOMASELOVE/2019-431/tree/master/SOFTWARE}{Software page on the course website} to help with installation and getting started with R.
+
+There, you will find specific instructions to install everything you need, specifically:
+
+\begin{itemize}
+\tightlist
+\item
+  {[}R{]} The latest version of the R statistical software.
+\item
+  {[}RStudio{]} The latest version of the RStudio development environment.
+\item
+  {[}Packages{]} Some R ``packages'' of functions, data and documentation.
+\item
+  {[}431 Data{]} Some data and functions specific to the 431 class.
+\end{itemize}
+
+\textbf{In brief, the steps you need to take for 431 are:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Download and install the latest version of R (version \texttt{3.6.1} at this writing) at \url{http://cran.case.edu/} or from \url{https://cloud.r-project.org}) which automatically chooses a fast, nearby mirror for you.
+\item
+  Download and install RStudio (version \texttt{1.2.1335} or later at this writing) at \url{https://www.rstudio.com/products/rstudio/download/\#download}. If you prefer, you can run the \href{https://www.rstudio.com/products/rstudio/download/preview/}{Preview Version of RStudio} to get the very latest features, but that requires you to update your setup more frequently, and, very occasionally, deal with some additional troubleshooting.
+\item
+  Install some R packages - an R ``package'' is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions in {[}the Packages description at our Software page (to be posted before class begins.)
+\item
+  Download the data and code (functions) we've developed specifically for this course from our Data and Code page (also to be posted before class begins.)
+\end{enumerate}
+
+You'll find complete instructions, with a step-by-step walk through for PC or Mac machines on the \href{https://github.com/THOMASELOVE/2019-431/tree/master/SOFTWARE}{Software page}.
+
+\hypertarget{need-more-help}{%
+\section{Need More Help?}\label{need-more-help}}
+
+If you need more help, you might look at \href{http://stat545.com/block000_r-rstudio-install.html}{this terrific resource for Installing R and RStudio} from Jenny Bryan and the STAT 545 project. These are the people responsible for the great \href{http://happygitwithr.com/}{Happy Git with R} project, which is worth your time, too, if you intend to use Git and GitHub.
+
+If you're having installation problems or problems getting started in R, please consider asking a question of us at \textbf{431-help at case dot edu}, although a visit to office hours is often more helpful, as it's difficult for us to diagnose your problem without seeing your computer.
+
+There are many, many online resources to help you with working in R, in addition to emailing us at \texttt{431-help\ at\ case\ dot\ edu}. An especially useful one is the \href{https://community.rstudio.com/}{RStudio Community} (a forum specifically designed for people using RStudio and the tidyverse (i.e.~you)).
+
+\hypertarget{why-do-we-teach-r-instead-of-spss-or-sas-or-whatever-in-431-432}{%
+\section{Why do we teach R, instead of SPSS or SAS or whatever, in 431-432?}\label{why-do-we-teach-r-instead-of-spss-or-sas-or-whatever-in-431-432}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Because it is by far the better choice for what we're trying to do, which is to help you become effective data scientists. And effective scientists, period.
+\item
+  Because being a data scientist means writing code and actually doing (not just talking about) replicable research, which R facilitates in an immense variety of ways.
+\item
+  Because R is free to you, me and everyone, and its community is a daily delight.
+\end{enumerate}
+
+To read comments from other people on the subject, there's always Google, but I suggest reading \href{https://rbasics.netlify.com/2-whyr}{Why R?} from Chester Ismay and Patrick Kennedy.
+
+Also, the question of ``Why R and not SPSS?'' was nicely addressed by Greg Snow in \href{https://stackoverflow.com/questions/3787231/r-and-spss-difference}{this 2010 post at StackOverflow}\ldots{}
+
+\begin{quote}
+When talking about user friendlyness of computer software I like the analogy of cars vs.~busses: Busses are very easy to use, you just need to know which bus to get on, where to get on, and where to get off (and you need to pay your fare). Cars on the other hand require much more work, you need to have some type of map or directions (even if the map is in your head), you need to put gas in every now and then, you need to know the rules of the road (have some type of drivers licence). The big advantage of the car is that it can take you a bunch of places that the bus does not go and it is quicker for some trips that would require transfering between busses. Using this analogy programs like SPSS are busses, easy to use for the standard things, but very frustrating if you want to do something that is not already preprogrammed. R is a 4-wheel drive SUV (though environmentally friendly) with a bike on the back, a kayak on top, good walking and running shoes in the pasenger seat, and mountain climbing and spelunking gear in the back. R can take you anywhere you want to go if you take time to leard how to use the equipment, but that is going to take longer than learning where the bus stops are in SPSS.
+\end{quote}
+
+\hypertarget{deliverables-expectations-and-assessment}{%
+\chapter{Deliverables, Expectations and Assessment}\label{deliverables-expectations-and-assessment}}
+
+All students are expected to attend all sessions, participate vigorously in class discussions and in group work, complete all individual work in a timely fashion, demonstrate improvement of skills over the term, and perform well on the Quizzes and in the final portfolio presentation. Such a performance is the minimum standard required to receive a grade of B.
+
+To receive an A, students are expected to complete all the requirements described above, demonstrate excellent work in both the final portfolio presentation, and outstanding work in at least one of the following: {[}a{]} in class participation, {[}b{]} assignments, {[}c{]} quizzes.
+
+\hypertarget{grading-breakdown}{%
+\section{Grading Breakdown}\label{grading-breakdown}}
+
+Grading standards apply in the same way for all students, regardless of whether they are enrolled in PQHS 431, CRSP 431 or MPHP 431. The courses are identical.
+
+The course grade is based on four key areas of demonstrated accomplishment. The planned breakdown is as follows, but Professor Love may make adjustments as the semester progresses, especially once we're sure about the numbers of Homeworks and Quizzes through the term.
+
+\begin{longtable}[]{@{}rl@{}}
+\toprule
+Weight & Task\tabularnewline
+\midrule
+\endhead
+15\% & In-Class and Outside-of-Class Participation\tabularnewline
+25-35\% & Completion and Quality of Homework\tabularnewline
+20-30\% & Performance on Quizzes\tabularnewline
+30\% & Performance on Project Work\tabularnewline
+\bottomrule
+\end{longtable}
+
+Any questions regarding how you are doing in the course should be directed to Professor Love alone. In particular, the TAs do not have full access to the final grades.
+
+Regarding the Homework, Dr.~Love will drop your lowest score before calculating your grade in the course. So you can miss one Homework over the course of the semester with no explanation. Note that this doesn't apply to the Quizzes or to any element of the Project.
+
+\hypertarget{participation}{%
+\section{Participation}\label{participation}}
+
+I cannot emphasize enough how much we want to hear from you about things that are relevant to this course.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If you're not shy, ask questions in class. The TAs help me assess participation, so they are paying attention, too. Come to the TA office hours if you need help. Make an appointment to talk to us if you have something to discuss that doesn't work well in email.
+\item
+  Email \texttt{431-help\ at\ case\ dot\ edu}. with your questions and comments. That'll lead to faster answers, typically, and help us recognize you as someone trying to improve their understanding.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Find \textbf{typos} in the materials (code, slides, the Notes, this syllabus)? Send them to us at \texttt{431-help\ at\ case\ dot\ edu}.
+  \item
+    See a cool visualization online? A nice use of statistical methods or design in a paper? Share them with us, at \texttt{431-help\ at\ case\ dot\ edu}.
+  \end{itemize}
+\item
+  If we ask you to do something after class (responding to a minute paper survey, for example, which will happen 8-10 times over the course of the term), getting that done in a timely fashion will help your grade in this area.
+\item
+  Visit the Teaching Assistants and ask them questions about the course, or things you're having trouble with.
+\item
+  Talk to Professor Love about your questions/comments/concerns. Make sure he knows who you are - which can be challenging with such a large group.
+\end{enumerate}
+
+\hypertarget{there-are-quizzes.}{%
+\section{There are Quizzes.}\label{there-are-quizzes.}}
+
+Each Quiz will be taken online, exclusively. Details on the Quizzes are found at \href{https://github.com/THOMASELOVE/2019-431/tree/master/QUIZZES}{the Course website's Quizzes page}.
+
+\textbf{If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible}, at least a week before a Quiz is released.
+
+\hypertarget{about-the-quizzes}{%
+\subsection{About the Quizzes}\label{about-the-quizzes}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Quizzes typically involve 25-40 questions.
+\item
+  The questions are not arranged in any particular order, and you should answer all questions.
+\item
+  All questions involve relatively short responses, sometimes after working through a detailed analysis.
+\item
+  You will have the opportunity to edit your responses after completing the Quiz, but this must be completed by the deadline.
+\item
+  You are welcome (even encouraged) to consult the materials provided on the course website, but you are \textbf{not} allowed to discuss the questions on the Quizzes with anyone other than Professor Love or the teaching assistants.
+\item
+  We do not guarantee to answer questions we receive via email less than 3 hours prior to the Quiz submission deadline.
+\item
+  Quizzes that are more than ten minutes late will \textbf{not} be accepted, except in truly remarkable circumstances.
+\item
+  An answer sketch for each Quiz will be made available within 48 hours of the deadline.
+\item
+  Grades for the Quizzes are usually available within 48 hours of the deadline.
+\item
+  If you feel Professor Love has made an error in grading your Quiz, please let him know directly, by email, as soon as possible.
+\end{enumerate}
+
+\hypertarget{homework-assignments}{%
+\section{Homework assignments}\label{homework-assignments}}
+
+There are several homeworks scheduled, and described in detail on the \href{https://github.com/THOMASELOVE/2019-431/tree/master/HOMEWORK}{Homework page} of our web site.
+
+Most require straightforward demonstrations of mastery for core principles and fundamental skills. Some require deeper dives into more technically sophisticated material. Some also require reflection, particularly based on materials we'll be reading throughout the semester, especially from Nate Silver's book.
+
+\hypertarget{how-do-the-homeworks-work}{%
+\subsection{How do the Homeworks work?}\label{how-do-the-homeworks-work}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Almost every Homework will require you to analyze some data, and prepare a report using R Markdown. You will submit both your Markdown file, and an HTML document built using RStudio from that Markdown file.
+\item
+  Several Homeworks will require you to write an essay. After Homework A, essays must be composed as part of your Markdown file, and thus included in your HTML document. Do not edit the result of your R Markdown conversion into Word.
+\item
+  When writing in English, use complete sentences, rather than bullet points.
+\item
+  Clearly mark each Question in each Homework. There is no need to repeat the question before answering it, although you are welcome to do so.
+\item
+  Read and heed the advice of Jeff Leek in \emph{The Elements of Data Analytic Style}. Chapters 5, 9, 10 and 13 of that book are especially relevant to our early assignments.
+\item
+  You are welcome to discuss each Homework with anyone, including Professor Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and email \textbf{431-help at case dot edu}.
+\item
+  In general, we do not guarantee to provide answers to questions that we receive in the last 18 hours before a Homework is due, especially once we've gotten into mid-September. So don't leave anything until the last day. Allow time for computer problems.
+\item
+  Failure to turn in a Homework within one hour of the deadline will result in a very poor grade on the Homework when it is (eventually) turned in, and a zero (from which it can be difficult to recover) if it is not turned in. \textbf{Submission of timely, partial work is usually better than no submission at all.}
+\item
+  \textbf{Things happen.} Dr.~Love drops your worst Homeworks grade of the semester before calculating your grade. So if some disaster occurs and you have to miss a deadline, just submit a note saying that this Homework is the one you'll skip. No need for any explanation. If you need to miss more than one, though, you will need to discuss that with Dr.~Love, in advance.
+\item
+  Grades on Homeworks are usually available one week after the submission deadline.
+\item
+  If you have a complaint about your grade on a Homework, please first review \protect\hyperlink{grade-appeal-policy---request-a-review-in-december}{the Grade Appeal Policy} at the end of this syllabus.
+\end{enumerate}
+
+\hypertarget{where-do-i-turn-in-the-homeworks}{%
+\subsection{Where do I turn in the Homeworks?}\label{where-do-i-turn-in-the-homeworks}}
+
+For the most part, you'll do this using the Canvas system at \url{https://canvas.case.edu}.
+The course's primary listing is PQHS 431, but students in CRSP 431 and MPHP 431 should find the same information. The link to post your responses for each Homework will appear in time for you to submit the work, usually just after the deadline for the preceding Homework has passed.
+
+\hypertarget{course-project}{%
+\section{Course Project}\label{course-project}}
+
+The course project is a major part of the course. Materials related to the project will be posted to the \href{https://github.com/THOMASELOVE/2019-431/tree/master/PROJECT}{Course Website's Project page} which will update frequently through the semester.
+
+The project includes tasks you'll complete throughout the semester, culminating in a final presentation to Professor Love of your work in mid-December. For deadlines, see the \href{https://github.com/THOMASELOVE/2019-431/blob/master/calendar.md}{Course Calendar}.
+
+\hypertarget{some-advice-for-graduate-students}{%
+\chapter{Some Advice for Graduate Students}\label{some-advice-for-graduate-students}}
+
+My most important piece of general advice to people is to be kind. That's not always the thing I do as well as I'd like.
+
+\includegraphics[width=0.8\linewidth]{images/2019-06-12_ta_fullprof}
+
+\hypertarget{on-graduate-school}{%
+\section{On Graduate School}\label{on-graduate-school}}
+
+For graduate students, I urge you to take as much advantage of this learning experience as you can. While I'll refer to some of the pieces below during the course, I've gathered a few favorites here.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  From \href{http://matt.might.net/articles/}{matt.might.net}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{http://matt.might.net/articles/grad-student-resolutions/}{12 Resolutions for Grad Students}
+  \item
+    \href{http://matt.might.net/articles/how-to-recommendation-letter/}{How to get a great letter of recommendation}
+  \item
+    \href{http://matt.might.net/articles/how-to-email/}{How to send and reply to email}. You might also want to look at \href{https://www.math.uh.edu/~tomforde/Email-Etiquette.html}{Email Etiquette: Guidelines for Writing to Your Professors}.
+  \end{itemize}
+\item
+  \href{https://www.youtube.com/watch?v=d9W2GO1LhP4}{Four Things You Should Do When You're Bored, on YouTube} (the four things are Exercise / Read / Meditate / Find and Engage a Hobby with Passion). Also, \href{https://www.nytimes.com/2017/01/25/well/move/get-up-and-move-it-may-make-you-happier.html}{Get Up and Move. It May Make You Happier} by Gretchen Reynolds, in the \emph{New York Times}, 2017-01-25.
+\item
+  \href{https://www.universityaffairs.ca/career-advice/career-advice-article/academics-need-focus-structuring-time/}{Why academics need to focus on structuring their time} from \emph{University Affairs}.
+\item
+  Most people are really bad at meetings, especially including me. \href{http://third-bit.com/2018/05/11/meetings.html}{Here are some extremely useful suggestions from Greg Wilson}. In a tweet, \href{https://twitter.com/gvwilson/status/994553693772099589}{Wilson argues that} ``the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's.''
+\item
+  Some people need help taking notes. You might be interested in \href{https://medium.goodnotes.com/study-with-ease-the-best-way-to-take-notes-2749a3e8297b}{Cornell Note Taking} or the \href{https://collegeinfogeek.com/how-to-take-notes-in-college/}{5 other methods described here}.
+\item
+  You may be interested in the American Statistical Association, and its \href{https://thisisstatistics.org/students/}{This is Statistics} program.
+\end{enumerate}
+
+\hypertarget{on-seeking-a-job}{%
+\section{On Seeking a Job}\label{on-seeking-a-job}}
+
+If I have a job or internship to offer, I'll be noisy about it in class. In the meantime, I'd consider joining the \href{https://www.amstat.org/ASA/Membership/home.aspx}{American Statistical Association as a student member} and perhaps joining the \href{https://www.meetup.com/Cleveland-UseR-Group/}{Greater Cleveland R Meetup Group}.
+
+Here are some gathered thoughts from other folks that you might enjoy:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://github.com/stephaniehicks/classroomNotes/blob/master/academicJobNotes.md}{General Advice on an Academic Career Path} (which is filled with useful advice, especially for those studying biostatistics.)
+\item
+  \href{https://hookedondata.org/advice-for-applying-to-data-science-jobs/}{Advice for Applying to Data Science Jobs} from \href{https://hookedondata.org/}{Emily Robinson}
+\item
+  \href{http://matt.might.net/articles/advice-for-academic-job-hunt/}{Academic job search advice} from \href{http://matt.might.net/articles/}{matt.might.net}
+\item
+  \href{https://creativemaths.net/blog/conference_10_ways/}{10 Hints for Conferences} from Creative Maths, 2016-12-07
+\end{enumerate}
+
+\hypertarget{on-writing-presenting-communicating}{%
+\chapter{On Writing, Presenting \& Communicating}\label{on-writing-presenting-communicating}}
+
+I write all the time. It's my job. It's yours, too. You'll do more of it here than you may be expecting in this class, and in life. So you'll need to take advantage of every opportunity you have to write more effectively tomorrow than you do today.
+
+Here's what I find to be a compelling argument from George Cobb \ldots{}
+
+\begin{quote}
+If you want your work with data to make a difference, devote time and effort to choosing the words and pictures you use to present your evidence and conclusions. If you teach or supervise, seek to reward those - they who learn from you, and they who report to you -- when they spend time crafting their message.
+\end{quote}
+
+\begin{quote}
+Think back to the last ``report'' you were expected to read. Is it easy to recall the main points? The answer, yes or no, depends not so much on the quality of the data, the effort, and the thinking that went into the report, nor on your own dutiful diligence in reading the report, but rather, and mainly, on whether the people who wrote the report had learned and practiced the skills of how to use words and pictures, first, to claim attention, and second, to claim retention: to deliver a message that sticks in the mind.
+\end{quote}
+
+\hypertarget{on-campus-resource}{%
+\section{On Campus Resource}\label{on-campus-resource}}
+
+The \href{https://writingcenter.case.edu/}{CWRU Writing Resource Center} is definitely a good place to get some help.
+
+\hypertarget{advice-from-other-people-i-respect}{%
+\section{Advice from Other People I Respect}\label{advice-from-other-people-i-respect}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://pdfs.semanticscholar.org/48a8/88d557e694e17444cb6686c472753ccc66df.pdf}{Preparing Manuscripts for Submission to Medical Journals: The Paper Trail} by H. Gilbert Welch, from \emph{Effective Clinical Practice} in 1999.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Start early, focus on high-visibility components, develop a systematic approach to the body of the paper, finish strong.3. {[}thinkchecksubmit.org{]} to choose the right journal for your research, or at least ones you can trust, and \href{https://twitter.com/laura_tastic/status/1026573387429228551}{see this tweet} for some related suggestions.
+  \end{itemize}
+\item
+  \href{https://serialmentor.com/blog/2013/8/29/writing-a-scientific-paper-in-four-easy-steps}{Writing a Scientific Paper in Four Easy Steps} from Claus Wilke at \href{https://serialmentor.com/}{The Serial Mentor blog}.
+\item
+  \href{https://lemire.me/blog/rules-to-write-a-good-research-paper/}{Rules to write a good research paper} from Daniel Lemire.
+\item
+  \href{https://statmodeling.stat.columbia.edu/2017/06/02/hey-tips-communicating-data-statistics/}{Hey-here are some tips on communicating data and statistics!} from Andrew Gelman 2017-06-02.
+\item
+  \href{https://www.cs.ubc.ca/~tmm/writing.html}{Writing Pet Peeves: Correctness, References, and Style} from Tamara Munzner.
+\item
+  Frank Harrell's \href{http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist}{Checklist for Authors of Statistical Problems to Document and to Avoid}
+\end{enumerate}
+
+\hypertarget{a-few-tips-from-professor-love}{%
+\section{A Few Tips from Professor Love}\label{a-few-tips-from-professor-love}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Statistics is a ``getting the details right'' business - we care deeply about details, and this applies to writing code or complete English sentences. RStudio has a spell-checker. To use it, click F7.
+\item
+  Nothing impresses us as much as a clear and concise argument, presented using well-written English sentences, effective and well-labeled figures and tables.
+\item
+  Don't parrot back material that Professor Love wrote or said. State ideas in your own words. Stating them in other words is, technically, plagiarism.
+\item
+  Edit your more adventurous output; don't present everything you know how to do in R, and don't forget that someone is trying to read both your code and your results.
+\item
+  Make your work easy to evaluate. In responding to an assignment, be sure to answer the question that was asked, restating it as necessary.
+\item
+  Clearly label everything: graphs, tables, your answer to a specific question. Everything. Again, make your work easy to evaluate.
+\item
+  Simplify. Emphasize ideas in plain language. Avoid jargon. Use English well.
+\item
+  Data are plural. Use ``the data \textbf{are} \ldots{}'' rather than ``the data \emph{is} \ldots{} ''
+\item
+  A paragraph must contain more than one sentence.\\
+\item
+  Don't switch tenses. If you want to write in the present tense, stick to it throughout.
+\item
+  Don't write or say random sample unless you used a random number generator. If you used haphazard sampling or convenience sampling, call it what it is, and indicate whether any problems could have cropped up as a result.
+\item
+  Similarly, don't defend a method of data collection because it is random. Most of the time we want to represent some population, and a random sample is just one way to ensure that certain types of biases have a low probability of creeping in.
+\item
+  If you want to write that you used \(\alpha = 0.05\) as your significance level, then state that your results were obtained using a 95\% confidence level, not a 95\% confidence interval, unless you are actually interpreting a confidence interval.\\
+\item
+  If you find yourself in the appalling situation of writing about a \emph{p}-value, then you should state something like:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}1{]} We're using a 95\% confidence level.\\
+  \item
+    {[}2{]} We're using a 5\% significance level. or
+  \item
+    {[}3{]} We're using \(\alpha = 0.05\).\\
+  \item
+    Don't use more than one of these expressions.
+  \end{itemize}
+\item
+  Again, don't use \emph{p}-values in most settings, but if you must, refer to all \emph{p}-values that are less than 0.001 or perhaps less than 0.0001 as \(p < 0.001\), rather than, for instance, \(p = 0.00000001\) or, worse yet, \(p = 0\). In a similar vein, write all \(p\)-values that exceed 0.99 as \(p > 0.99\) instead of, for instance, \(p = 1\).
+\item
+  To the extent possible, don't use \texttt{computer-ese} to label variables, plots or tables. R and Markdown allow you to change the labels on graphs and tables to meaningful things -- do so. Use meaningful abbreviations, as necessary, explaining what they mean on the first usage.
+\item
+  When in doubt, err on the side of clarity. Clear thinking, clear writing.
+\end{enumerate}
+
+\hypertarget{general-course-policies}{%
+\chapter{General Course Policies}\label{general-course-policies}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Any concerns or questions regarding these general policies, the teaching assistants or the course itself should be directed to Professor Love, if at all possible.
+\item
+  All student work is subject to the University's policies and procedures.
+\item
+  \textbf{Registration is required}. I do not permit anyone to audit the course who has not previously taken it, without exception. If you've taken the course before and want to sit in again, you will need to volunteer or be hired as a teaching assistant.
+\item
+  \textbf{Grading}. Students in this class are not in competition with each other for grades. I have no set percentage of students who will receive any particular grade.
+\item
+  \textbf{Attendance} is expected, but it is expected that sometimes life will intervene.
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  If you need to miss two or more classes in a row, inform Professor Love via email beforehand, or as soon as possible thereafter. I will assume you have a good reason - details are \textbf{not} necessary.
+\item
+  You are responsible for all missed work, regardless of the reason for your absence.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  You get to miss one Homework over the course of the semester, with no explanation, as Dr.~Love will drop your lowest score across all Homeworks at the end of the semester. With that exception, \textbf{late work is unacceptable} under anything but the most harrowing of circumstances. Professor Love (via email) is the person to discuss this with, prior to the deadline, if you feel your circumstances are sufficiently dire to warrant an exception. In this class, it is far better to turn in timely, but only partially complete work than nothing at all.
+\item
+  \textbf{Feedback on assignments - deadline.} On every assignment, Quiz, project-related task, whatever, we will be delighted to respond to email questions \textbf{up to 18 hours before} the assignment is due. After that time, you may wind up on your own. The reason for this is that Professor Love and the teaching assistants will regularly post responses to frequently asked questions about assignments, and we need sufficient time to accomplish this task.
+\item
+  \textbf{On Getting Help Quickly and Effectively}: In general, we don't have a way to diagnose your problem with R, RStudio or Markdown if you don't show us what you're typing that causes an error, or a lack of results. If you wrote a Markdown file, we need to see it, along with a specific question (or series of them) about specific error messages or strange results you are getting. We need to replicate the problem in order to know how to fix your problem, and it also helps if we know what error message you're seeing, or what strange result you are getting.
+\item
+  \textbf{Using a Laptop} Using a laptop to follow along, take notes, or try things out during class, can be very helpful. Feel encouraged to do so.
+\item
+  \textbf{Computer} You will need access to a computer (PC or Mac - a ChromeBook won't do) outside of class to do every assignment. You will need to be able to install software on this computer, and update it frequently, although the use of RStudio Cloud may help alleviate this problem a bit.
+\item
+  \textbf{Distractions}. Silence your phone during class. The temptation to look at your phone or Facebook or email during class is nearly irresistible. Resist anyway, if only to avoid distracting your instructor and your fellow students. \textbf{Professor Love has no shame about embarrassing people on this issue. If it's critical, just step out of the room}.
+\item
+  \textbf{Research Usage}. Any and all results of in-class and out-of-class assignments and activities are data sources for research and may be used in published research. All such use will always be anonymous.
+\item
+  \textbf{Audio-Recording.} It is our intention to provide audio recordings of each class after they are complete. Anything you say during a class session \emph{may} be audio-recorded.
+\item
+  \textbf{Typos.} Professor Love makes occasional typographic and grammatical errors, which irritate him enormously. Please email him if you find any in this syllabus or any other course materials. If you are the first to let us know, and we make the change, you will receive some credit in your class participation grade.
+\end{enumerate}
+
+Again, all Case Western Reserve University policies apply to this class. To the extent that those policies are unclear, I would regard an appropriate code of conduct as mirroring \href{https://github.com/RConsortium/RCDI-WG/blob/master/conduct/code-of-conduct.md}{this one from the R Consortium}.
+
+\hypertarget{grade-appeal-policy---request-a-review-in-december}{%
+\section{Grade Appeal Policy - Request a Review in December!}\label{grade-appeal-policy---request-a-review-in-december}}
+
+For each Homework, we publish a detailed answer sketch and grading rubric. You will also learn your scores on each individual item on each Homework.
+
+Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. To that end, students are \textbf{requested not to dispute} any grading on Homeworks during the semester, but instead to request a review on a Google Form that will be reviewed by Professor Love in December.
+
+\begin{itemize}
+\tightlist
+\item
+  On the course's Homework page, we include a section about Grading Errors and Regrade Requests. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all of the Homeworks. The form is found at \url{http://bit.ly/431-2019-regrade-requests}. Any student who wishes to dispute points can specify the number of points in question for each item, and the details of the issues that concern them.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you wish to dispute a grade, just \href{http://bit.ly/431-2019-regrade-requests}{fill out the form}, and Professor Love will review it in December.
+  \item
+    You can fill out the form at any time, and you can edit the form after submitting it once so that you can add additional requests up until the end of the semester.
+  \item
+    All forms must be submitted by 2019-12-12 at 12 Noon.
+  \item
+    Disputing a grade on a homework with a teaching assistant is pointless.
+  \item
+    Professor Love is responsible for all final grading decisions, and if you have a concern, you should \href{http://bit.ly/431-2019-regrade-requests}{submit your request through the form}.
+  \end{itemize}
+\end{itemize}
+
+Students are welcome to ask questions of Professor Love about grading during the term. The TAs and Professor Love are happy to discuss in a general sense any questions about an assignment, but no grades will be changed until the end of the term.
+- The one exception is if there is a mistake in adding up points, or some similar clerical error. If you find such an issue, please bring it to Professor Love's attention via email, and such problems will be corrected immediately, of course.
+
+In mid-December, \textbf{after} Professor Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then he won't even look at the disputed grade(s). If the answer is yes, then he will look very carefully to see if enough extra points are merited to change a grade. (It will not help your case to submit frivolous requests.)
+
+The main advantage of this system is that it saves all of us the hassle of haggling over points that are never going to mean anything anyway. It also provides ``equal access'' to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Professor Love will have access to all papers and can make a universal decision\footnote{I got this idea from Jessica Utts at \url{http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf}.}
+
+\hypertarget{course-grades}{%
+\chapter{Course Grades}\label{course-grades}}
+
+The Fall 2020 version of the 431 course will be graded differently than previous versions of this course. Across the past five years, no student has received a course grade other than A, B or Incomplete, and I anticipate that this will again be the case this year.
+
+Course grades are based primarily on performance on labs, projects and quizzes. Your grade on each of these three elements will be determined separately. Then I will combine these elements as follows:
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Element & Weight 1 & Weight 2 & Weight 3\tabularnewline
+\midrule
+\endhead
+Labs & 40\% & 35\% & 30\%\tabularnewline
+Projects & 50\% & 45\% & 40\%\tabularnewline
+Quizzes & 25\% & 20\% & 15\%\tabularnewline
+\bottomrule
+\end{longtable}
+
+Your element with the strongest score will receive Weight 1, your element with the second strongest score will receive Weight 2 and your element with the weakest score will receive weight 3.
+
+I will determine your final course grade using the following scale:
+
+\begin{itemize}
+\tightlist
+\item
+  course averages of 89\% to 100\% will receive a A
+\item
+  course averages of 85\% to 88\% will be reviewed more closely to determine whether the grade will be A or B
+\item
+  course averages of 70\% to 84\% will receive a B
+\end{itemize}
+
+For students in the 85-88\% range, in addition to the labs/projects/quizzes, I will consider the quality (\textbf{not} the quantity) of your participation in class activities, TA office hours and other ``extra opportunities'' through the semester to make a final determination about your course grade.
+
+Students whose course average is near or below 70\% will usually need to take an Incomplete to improve their work before I assign a final grade.
+
+\hypertarget{disasters}{%
+\section{Disasters}\label{disasters}}
+
+Sometimes, outside forces will prevent you from completing an assignment, or from doing well on an assignment. The most important assignments are the Projects, then the Quizzes, then the Labs. Dr.~Love has developed what he hopes is a reasonable policy for accommodation of problems in each case, as described below. Please ask in advance if you have any questions.
+
+\hypertarget{grading-the-labs}{%
+\section{Grading the Labs}\label{grading-the-labs}}
+
+Each lab will be graded by the course teaching assistants, in consultation with Dr.~Love. To do this, they will use a grading rubric and detailed answer sketch, and each of these will be provided to you after the deadline for completing each lab.
+
+You will also receive some feedback from the TAs on each lab, and I will spend some time in class discussing common problems with labs, and emphasizing key things in the answer sketches.
+
+If you identify an issue with grading in a lab, you will have an opportunity to bring that to my attention (and get a regrade) by filling out a Google Form which I will link to early in the term. Dr.~Love will review all of those requests at the end of the semester.
+
+In calculating your lab average for your course grade, I will include your six best lab grades. This allows you to miss two of the eight scheduled labs without penalty. Should you run the risk of needing to miss more than two labs during the semester, contact Dr.~Love via email.
+
+\hypertarget{grading-the-quizzes}{%
+\section{Grading the Quizzes}\label{grading-the-quizzes}}
+
+Each quiz will be graded by Dr.~Love. A detailed answer sketch and grading rubric will be provided to you when grades are available.
+
+In calculating your quiz average for your course grade, I will weight your stronger Quiz performance at 60\% and your weaker one at 40\%.
+
+Should you need to miss a Quiz, the other Quiz will count for all of the Quiz component of your course grade, and will automatically make the Quiz element your ``Weight 3'' element in determining your final course average.
+
+\hypertarget{grading-the-projects}{%
+\section{Grading the Projects}\label{grading-the-projects}}
+
+Some elements of each project will be graded by Dr.~Love, and others by the teaching assistants.
+
+In calculating your project average for your course grade, I will weight Project A at 40\% and Project B at 60\%.
+
+Students who cannot complete a project (either A or B) in a timely fashion will receive an incomplete grade until both Projects are completed. A penalty will be applied to late work on projects.
+
+Once the complete project instructions are available, please contact Dr.~Love directly if you are in any way concerned about your ability to complete a project on time.
+
+\hypertarget{labs}{%
+\chapter{Labs}\label{labs}}
+
+During the semester, you will have eight lab assignments to complete. Each lab will provide instructions as to how to make your submission. We strongly encourage you to complete each lab, but should you need to skip one (only your six highest lab scores will be used in determining your grade) we ask that you let us know by submitting a note telling us you're skipping the lab.
+
+For more information on the Labs, please visit the \href{https://github.com/THOMASELOVE/431-2020/tree/master/labs}{Labs web page} on our main course web site.
+
+\hypertarget{projects}{%
+\chapter{Projects}\label{projects}}
+
+During the semester, you will have two projects to complete.
+
+\begin{itemize}
+\tightlist
+\item
+  Project A anticipates you using materials from the first 12 classes
+\item
+  Project B anticipates you using materials from the whole course
+\end{itemize}
+
+For more information on the Projects, please visit the \href{https://github.com/THOMASELOVE/431-2020/tree/master/projects}{Projects web page} on our main course web site.
+
+\hypertarget{quizzes}{%
+\chapter{Quizzes}\label{quizzes}}
+
+During the semester, you will have two quizzes to complete. Each quiz is taken via a Google Form, and consists of a series of short-answer and multiple-choice items. The quizzes focus on whether you can apply the tools developed in class to address small problems.
+
+You will typically receive access to the quiz 4 days before it is due, and each quiz will be designed to take about 4 hours to complete, so the time pressure should be minimal. All quizzes are open book, open notes.
+
+For more information on the Quizzes, please visit the \href{https://github.com/THOMASELOVE/431-2020/tree/master/quizzes}{Quiz web page} on our main course web site.
+
+\hypertarget{two-books-you-should-purchase-as-soon-as-possible}{%
+\chapter{Two Books you should purchase as soon as possible}\label{two-books-you-should-purchase-as-soon-as-possible}}
+
+We'll read two books this semester that you'll need to purchase (combined price is between \$18 and \$33):
+
+\begin{itemize}
+\tightlist
+\item
+  David Spiegelhater \emph{The Art of Statistics: How to Learn from Data}, published in the US by Basic Books in 2019, available \href{https://www.amazon.com/Art-Statistics-How-Learn-Data/dp/1541618513}{at Amazon, for instance}, for around \$18 (Kindle) or \$23 (hardcover).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    From \href{http://www.statslab.cam.ac.uk/~david/}{Dr.~Spiegelhalter's website}: \emph{The Art of Statistics} is a Pelican book published by Penguin in March 2019 in the UK, and by Basic Books in the US in September 2019: the books are identical apart from the subtitle (the UK subtitle is \emph{Learning from Data}) and cover. The UK Pelican paperback was published in February 2020.
+  \item
+    The \href{https://dspiegel29.github.io/ArtofStatistics/}{book's website} contains R code, corrections and other materials.
+  \end{itemize}
+\item
+  Jeffrey Leek, \emph{The Elements of Data Analytic Style}, available at \url{https://leanpub.com/datastyle} (minimum price is free, suggested price is \$10).
+\end{itemize}
+
+Everything else that you will need is free, and will be described in detail on the permanent website once the class begins. Some highlights follow\ldots{}
+
+\hypertarget{three-books-you-should-download-at-your-next-opportunity}{%
+\subsection{Three Books you should download at your next opportunity}\label{three-books-you-should-download-at-your-next-opportunity}}
+
+There are three additional free books that you will definitely need to obtain during the semester and may be interested in looking at before class begins. All are freely available to you, at the links below.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://r4ds.had.co.nz/}{R for Data Science} by Garrett Grolemund and Hadley Wickham.
+\item
+  \href{http://hbiostat.org/doc/bbr.pdf}{Biostatistics for Biomedical Research} (pdf) by Frank E. Harrell Jr and James C Slaughter. This is regularly updated by the authors, so get the most recent version occasionally.
+\item
+  \href{https://moderndive.com}{Modern Dive: Statistical Inference via Data Science (A Modern Dive into R and the Tidyverse)} by Chester Ismay and Albert Y. Kim.
+\end{enumerate}
+
+\hypertarget{professor-loves-materials-will-be-available-later-this-month}{%
+\subsection{Professor Love's Materials will be available later this month}\label{professor-loves-materials-will-be-available-later-this-month}}
+
+The main text is a set of Notes for the course, maintained by Professor Love, titled \textbf{Data Science for Biological, Medical and Health Research: Notes for PQHS 431.} A link to these notes will be made available to you at the first class. Professor Love revises the Notes annually, and so they will appear in fits and starts as the semester progresses.
+
+Although these Notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give 431 students a set of common materials on which to draw during the course, providing a series of examples using R to work through issues that are likely to come up during the semester, and in later work. The notes are permanently a work in progress, and updates occur irregularly throughout the semester.
+
+In addition, \textbf{slides} and video recordings from each of Professor Love's lectures, plus other in-class materials from each session of the class will be posted in a timely fashion on the main course website.
+
+\hypertarget{software}{%
+\chapter{Software}\label{software}}
+
+The course makes heavy use of the R statistical programming language, and several related tools, most especially the RStudio development environment. All of the software we will use in this class is either free and open source, or available to you for free through your affiliation with CWRU, so there is nothing to buy in terms of software.
+
+You will need access to a computer to do your work for this class, not just an iPad or other tablet, but an actual computer. You do not need a state of the art machine, nor should you need any special hardware to run things for this course. Some more detailed system requirements appear later on this page.
+
+\hypertarget{in-brief-what-will-i-need-to-do-for-431}{%
+\subsection{In brief, what will I need to do for 431?}\label{in-brief-what-will-i-need-to-do-for-431}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Download and install \textbf{the latest version of R} (version \textbf{4.0.2 or later}) from \url{http://cran.case.edu/} or, if you prefer, from \url{https://cloud.r-project.org} which automatically chooses a fast, nearby mirror for you.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you have a pre-existing installation of R and/or RStudio, we highly recommend that you reinstall both to get current.
+  \end{itemize}
+\item
+  Download and install \textbf{RStudio Desktop} (Open Source Edition - the free version \textbf{1.3.1056 or later}) at \url{https://www.rstudio.com/products/rstudio/download/\#download}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you prefer, you can instead install \href{https://www.rstudio.com/products/rstudio/download/preview/}{RStudio's Preview Version} to get the very latest features, but that requires you to update your setup more frequently, and occasionally deal with some additional troubleshooting.
+  \item
+    Dr.~Love will stick with the regular open source version in his work for 431.
+  \end{itemize}
+\item
+  Install some \textbf{R packages} - an R ``package'' is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Details on installing key packages we will use in 431 are \href{packages.html}{on the Packages page}.
+  \item
+    A more complete list of packages will be posted to the course website in time for our first class.
+  \end{itemize}
+\item
+  \textbf{When available}, download data and code (functions) we've developed specifically for 431.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This information will be provided at our first class.
+  \end{itemize}
+\item
+  Obtain a free \textbf{Github User Account} by visiting \url{https://github.com/} and signing up.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We urge you to select a Github username that identifies you effectively, and that matches your other professional social media usernames. For instance, Dr.~Love uses THOMASELOVE on Github and \citet{ThomasELove} on Twitter.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{need-installation-help}{%
+\subsection{Need Installation Help?}\label{need-installation-help}}
+
+If you need more help, you might look at \href{https://stat545.com/install.html}{this terrific resource for Installing R and RStudio} from Jenny Bryan and the STAT 545 project. These are the people responsible for the great \href{http://happygitwithr.com/}{Happy Git with R} project, which will also be worth your time when we are using Git and GitHub.
+
+\begin{itemize}
+\item
+  If you're having trouble with installation before our first class, don't worry too much. The TAs and Dr.~Love will be available to help once the class starts.
+\item
+  If you cannot figure things out on your own, or with the help of the resources above, please contact us.
+\end{itemize}
+
+\hypertarget{getting-started-with-r-rstudio-and-tidy-statistics}{%
+\subsection{Getting Started With R, RStudio and Tidy Statistics}\label{getting-started-with-r-rstudio-and-tidy-statistics}}
+
+If you're interested in getting started with the tools you'll be using in 431 before the class begins, the great folks at \href{https://education.rstudio.com/learn/beginner/}{RStudio Education} provide \href{https://education.rstudio.com/learn/beginner/}{these 6 ways to begin learning R}. Pick the one that appeals to you, and give it a shot.
+
+\begin{itemize}
+\tightlist
+\item
+  Note that if you're having trouble installing things, you can still learn a lot about R, RStudio and Data Science basics with the interactive tutorials at \url{https://rstudio.cloud/learn/primers}.
+\item
+  If you're already a strong coder, and have some R experience, there are also \href{https://education.rstudio.com/learn/intermediate/}{learning pathways for intermediates at RStudio Education} which might be appealing to you.
+\end{itemize}
+
+Our goal is to get everyone well into the intermediate level by December. Some people will get there in September, for others it will take longer. But you can do this, and we'll be there to help you.
+
+\hypertarget{for-those-of-you-worried-about-coding-software-or-r}{%
+\subsection{For those of you worried about coding, software, or R}\label{for-those-of-you-worried-about-coding-software-or-r}}
+
+\begin{itemize}
+\tightlist
+\item
+  There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
+\item
+  We'll also be using the R Markdown tool within RStudio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files, PDF files or Word documents, among other things.
+\item
+  For some people, working with R is the best part of the class, and the part that they're most excited about.
+\item
+  For others, it's a real source of anxiety. We understand and encourage patience. There will definitely be some pain, but our experience is that things are much smoother for most people by early October than they appear to be in August.
+\end{itemize}
+
+There are many, many online resources to help you with working in R, and we'll point you to many of the best of them during the semester. For now, we suggest those listed above in the Getting Started with R section.
+
+\hypertarget{why-do-we-teach-r-instead-of-spss-or-sas-or-whatever-in-431-432-1}{%
+\subsection{Why do we teach R, instead of SPSS or SAS or whatever, in 431-432?}\label{why-do-we-teach-r-instead-of-spss-or-sas-or-whatever-in-431-432-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Because it is by far the better choice for what we're trying to do, which is to help you become effective data scientists. And effective scientists, period.
+\item
+  Because being a data scientist means writing code and actually doing (not just talking about) replicable research, which R facilitates in an immense variety of ways.
+\item
+  Because R is free to you, me and everyone, and its community is a daily delight.
+\end{enumerate}
+
+To read comments from other people on the subject, I suggest reading \href{https://rbasics.netlify.com/2-whyr}{Why R?} from Chester Ismay and Patrick Kennedy.
+
+Also, the question of ``Why R and not SPSS?'' was nicely addressed by Greg Snow in \href{https://stackoverflow.com/questions/3787231/r-and-spss-difference}{this 2010 post at StackOverflow}\ldots{}
+
+\begin{quote}
+When talking about user friendliness of computer software I like the analogy of cars vs.~busses: Busses are very easy to use, you just need to know which bus to get on, where to get on, and where to get off (and you need to pay your fare). Cars on the other hand require much more work, you need to have some type of map or directions (even if the map is in your head), you need to put gas in every now and then, you need to know the rules of the road (have some type of drivers licence). The big advantage of the car is that it can take you a bunch of places that the bus does not go and it is quicker for some trips that would require transfering between busses. Using this analogy programs like SPSS are busses, easy to use for the standard things, but very frustrating if you want to do something that is not already preprogrammed. R is a 4-wheel drive SUV (though environmentally friendly) with a bike on the back, a kayak on top, good walking and running shoes in the passenger seat, and mountain climbing and spelunking gear in the back. R can take you anywhere you want to go if you take time to learn how to use the equipment, but that is going to take longer than learning where the bus stops are in SPSS.
+\end{quote}
+
+\hypertarget{system-requirements-1}{%
+\subsection{System Requirements}\label{system-requirements-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  You will need a computer, either PC (running Windows 10 would be helpful) or Macintosh (running a reasonably recent OS), but your choice should be determined by your personal preferences and how you believe you will use the machine in your research life. RStudio and R will look and work the same on either a PC or a Macintosh.
+\item
+  We \textbf{do not} recommend the use of a Chromebook for 431 or 432.
+\item
+  R and RStudio Desktop also run on Linux systems but Dr.~Love knows essentially nothing about that. Consult the documentation \href{https://cran.r-project.org/}{at CRAN for R} and \href{https://rstudio.com/products/rstudio/download/\#download}{at the download page for RStudio}.
+\end{itemize}
+
+\hypertarget{installing-key-r-packages-prior-to-431}{%
+\chapter{Installing Key R Packages prior to 431}\label{installing-key-r-packages-prior-to-431}}
+
+These package instructions should be used after you've followed \href{software.html}{these instructions and installed R and RStudio}.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open RStudio. Copy and paste the following lines of code into the \textbf{Console} window of RStudio to install a few key packages.
+\end{enumerate}
+
+\begin{verbatim}
+pkgs <-  c( "arm", "boot", "devtools", "Epi", "fivethirtyeight",
+            "gapminder", "here", "Hmisc", "infer", "janitor",
+            "knitr", "magrittr", "markdown", "mosaic", "naniar",
+            "NHANES", "patchwork", "rmarkdown", "rms", "tableone", 
+            "tidymodels", "tidyverse" )
+            
+install.packages(pkgs)
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Execute those commands by hitting Enter.
+\item
+  Now, go to the \textbf{Packages} tab on the right side of your RStudio screen, and click on \textbf{Update}.
+\item
+  This will bring up a dialog box. I usually click \textbf{Select All}, then click \textbf{Install Updates}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A popup box may appear, asking ``Do you want to install from sources the packages which need compilation?'' to which I usually answer \textbf{No}. A \textbf{Yes} response leads to a slower installation, but can solve problems if you still have them after updating.
+  \item
+    This may take a few minutes. As long as you're seeing activity in the Console window, things are progressing.
+  \item
+    Eventually, you'll get a message that ``The downloaded source packages are in \ldots{}'' with a directory name. That's the sign that the updating is done.
+  \item
+    Updating packages is something you'll do occasionally throughout the semester, mostly when a problem happens.
+  \end{itemize}
+\item
+  Finally, choose \textbf{File \ldots{} Quit Session} from the top menu, and accept RStudio's request to save your workspace. This will eliminate the need to re-do these steps every time you work in R.
+\end{enumerate}
+
+\hypertarget{note-a-windows-issue}{%
+\subsection{Note: A Windows Issue}\label{note-a-windows-issue}}
+
+If you are using Windows, and get messages during installation that the latest version of RTools needs to be installed, you can usually just ignore them. If you don't want to ignore them, \href{https://cran.r-project.org/bin/windows/Rtools/}{go here to download and install RTools} for Windows.
+
+\hypertarget{installing-a-single-package}{%
+\subsection{Installing a Single Package}\label{installing-a-single-package}}
+
+If you want to install a single package, you can do so by finding the word \textbf{Packages} on the right side of your RStudio screen.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Click on the \textbf{Packages} tab to start installing the packages you'll need.
+\item
+  Click \textbf{Install}, which will bring up a dialog box, where you can type in the names of the packages that you need. These should be separated by a space or comma. Be sure to leave the Install dependencies box checked.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A popup box may appear, asking ``Do you want to install from sources the packages which need compilation?'' to which I usually answer \textbf{No}. A \textbf{Yes} response leads to a slower installation, but can solve problems if you still have them after updating.
+  \item
+    This may take a few minutes. As long as you're seeing activity in the Console window, things are progressing.
+  \item
+    Eventually, you'll get a message that ``The downloaded source packages are in \ldots{}'' with a directory name. That's the sign that the updating is done.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{questions-and-answers}{%
+\chapter{Questions and Answers}\label{questions-and-answers}}
+
+\hypertarget{how-do-i-get-help}{%
+\section{How do I get help?}\label{how-do-i-get-help}}
+
+Before the class begins, contact Dr.~Love at the email address on the bottom of this page with any questions.
+
+\begin{itemize}
+\tightlist
+\item
+  Note that he will be away and not responding to email August 6-16, but will return August 17.
+\item
+  Our first class is August 25. At that class, we'll describe all of the ways we have for you to get help during the semester.
+\item
+  Once the semester begins, there will be many ways for you to get help, and I am fortunate to have a lot of teaching assistant support. Many of the TAs are students who were in your shoes (taking this course) one or two years ago who are volunteering their time to help you understand this stuff better.
+\end{itemize}
+
+\hypertarget{will-the-class-have-teaching-assistants-and-office-hours}{%
+\subsection{Will the class have teaching assistants and office hours?}\label{will-the-class-have-teaching-assistants-and-office-hours}}
+
+Yes, it will. All office hours and all teaching assistant work will be done remotely.
+
+\hypertarget{do-i-have-to-be-in-cleveland-to-take-this-course}{%
+\subsection{Do I have to be in Cleveland to take this course?}\label{do-i-have-to-be-in-cleveland-to-take-this-course}}
+
+Not this Fall, no. The course will take place remotely this Fall, using the Zoom platform.
+
+\hypertarget{will-all-class-materials-be-available-to-me-online}{%
+\subsection{Will all class materials be available to me online?}\label{will-all-class-materials-be-available-to-me-online}}
+
+Yes. All sessions will be video-recorded and made available to you after class. All slides and many other materials will also be provided after each class.
+
+\hypertarget{how-do-i-get-connected-to-zoom-through-cwru}{%
+\subsection{How do I get connected to Zoom through CWRU?}\label{how-do-i-get-connected-to-zoom-through-cwru}}
+
+By now, you're probably familiar with Zoom. We ask that you review \href{https://case.edu/utech/help/knowledge-base/zoom/zoom-information}{the CWRU Knowledge Base for Zoom} prior to our first class and be sure that you're ready to join our first class through your CWRU Zoom account.
+
+Dr.~Love will provide the Zoom link for Class 1 to all enrolled students in advance of the first class.
+
+\hypertarget{what-if-i-lose-my-internet-connection-during-class}{%
+\subsection{What if I lose my internet connection during class?}\label{what-if-i-lose-my-internet-connection-during-class}}
+
+That's part of the reason why each session will be recorded. If Dr.~Love loses his, we'll pause until things get straightened out.
+
+\hypertarget{how-will-2020s-class-compare-to-previous-versions-of-431}{%
+\subsection{How will 2020's class compare to previous versions of 431?}\label{how-will-2020s-class-compare-to-previous-versions-of-431}}
+
+It'll be given remotely, of course, and it will also focus on some relatively recent technological and programming advances which make some things easier to discuss in a course of this type. This includes an increased discussion of Bayesian methods, at the expense of a discussion of many specific hypothesis testing and estimation scenarios. More details on specific topics should be available in time for our first class session. We expect that we will ``cover'' a somewhat different selection of material this Fall than we have in previous years, but that's true every year.
+
+\hypertarget{will-dr.-love-discuss-the-upcoming-u.s.-elections-in-class}{%
+\subsection{Will Dr.~Love discuss the upcoming U.S. Elections in class?}\label{will-dr.-love-discuss-the-upcoming-u.s.-elections-in-class}}
+
+Yes, extensively. The \href{https://fivethirtyeight.com/}{FiveThirtyEight website} will be a primary source for some of these discussions.
+
+\hypertarget{will-dr.-love-discuss-covid-19-examples-in-class}{%
+\subsection{Will Dr.~Love discuss COVID-19 examples in class?}\label{will-dr.-love-discuss-covid-19-examples-in-class}}
+
+We may provide some (completely optional) opportunities for Dr.~Love to react to the news on COVID-19 and the presentation of visualizations and models for the pandemic. He may also provide you with some (again, optional) links to outside resources, but we will use no COVID-19 data in the class for examples.
+
+\hypertarget{what-if-i-get-sick-or-have-to-care-for-someone-who-is-sick-once-the-semester-starts}{%
+\subsection{What if I get sick, or have to care for someone who is sick once the semester starts?}\label{what-if-i-get-sick-or-have-to-care-for-someone-who-is-sick-once-the-semester-starts}}
+
+In general, we ask students to contact Dr.~Love directly (method will be specified at the first class) when you encounter any problem which will keep you from participating in the course for more than two sessions in a row to figure out what sort of accommodations will be needed.
+
+\hypertarget{can-i-audit-431-or-432}{%
+\subsection{Can I audit 431 or 432?}\label{can-i-audit-431-or-432}}
+
+No.~Enrolled students and teaching assistants are the only people permitted to attend the course.
+
+\hypertarget{is-it-possible-to-take-the-course-passfail}{%
+\subsection{Is it possible to take the course pass/fail?}\label{is-it-possible-to-take-the-course-passfail}}
+
+No, it is not. However, no student in the past five years has received a final course grade other than A, B or Incomplete.
+
+\hypertarget{how-will-i-know-how-im-doing-in-the-class}{%
+\subsection{How will I know how I'm doing in the class?}\label{how-will-i-know-how-im-doing-in-the-class}}
+
+We aim for substantial and timely feedback from the teaching assistants and myself on all elements of the course.
+
+\hypertarget{if-i-take-431-do-i-have-to-also-take-432-in-the-spring}{%
+\subsection{If I take 431, do I have to also take 432 in the Spring?}\label{if-i-take-431-do-i-have-to-also-take-432-in-the-spring}}
+
+It is the natural thing to do. The 431 course is part 1 of a two-semester sequence. Frankly, 432 contains some of the most interesting material and is generally regarded by students who take both as the more entertaining course. Every year, some students take only 431, though. The decision is up to you. The 432 course assumes you have completed 431.
+
+\hypertarget{what-should-i-be-doing-before-class-to-get-ready}{%
+\subsection{What should I be doing before class to get ready?}\label{what-should-i-be-doing-before-class-to-get-ready}}
+
+Take a look at the list \href{index.html}{we've provided here}, and also try to get some rest. It will be a busy semester.
+
+\hypertarget{more-to-come}{%
+\subsection{More to come\ldots{}}\label{more-to-come}}
+
+More questions (and answers) will appear here in response to student emails sent to the address below, and in response to your comments on the \href{https://bit.ly/431-2020-welcome-survey}{Welcome to 431 Survey}.
+
+\hypertarget{available-resources-at-the-university}{%
+\chapter{Available Resources at the University}\label{available-resources-at-the-university}}
+
+Case Western Reserve University has a wide range of student support resources on campus. These resources can assist students both in the classroom and outside of it. CWRU offers these resources to enrich and enhance each student's academic experience and to create an environment that encourages personal growth and development. We provide a detailed list (also available at the website of the Department of Population and Quantitative Health Sciences) below. For each resource, we also list contact information including a website where you can learn more. Please take advantage of these resources.
+
+\hypertarget{school-of-graduate-studies}{%
+\section{School of Graduate Studies}\label{school-of-graduate-studies}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 203 Tomlinson Hall
+\item
+  Phone: 216-368-4390
+\item
+  Website: \url{https://case.edu/gradstudies/}
+\end{itemize}
+
+A main goal of the School of Graduate Studies is to assist students in their efforts to succeed from application to graduation. The School of Graduate Studies serves as a warehouse for internships, fellowships, and funding to support research efforts of graduate students. Funding support for research development, implementation, and travel is made available broadly for students enrolled in programs contained within the school (including the Master of Public Health program).
+
+\hypertarget{office-of-student-affairs}{%
+\section{Office of Student Affairs}\label{office-of-student-affairs}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 110 Adelbert Hall
+\item
+  Phone: 216-368-2020
+\item
+  Website: \url{https://case.edu/studentlife/}
+\end{itemize}
+
+The Office of Student Affairs provides programs, facilities, and services that extend and enhance the student experience at Case. Office members work to collaborate actively with students, faculty, and staff to develop programs and services that enhance the quality of life at the university and foster a just and humane campus. Staff members also encourage students to develop ethically, intellectually, socially, and physically. Students learn to act responsibly at the campus level, while embracing leadership and involvement on and off campus. Crisis intervention is an important function of the Vice President for Student Affairs as well as staff members. Students who have personal or family problems are urged to contact the Student Affairs staff and communicate their needs or concerns. Their goal is to listen, intervene if appropriate, or refer the student to other resources. Students' concerns remain confidential.
+
+\hypertarget{international-student-services}{%
+\section{International Student Services}\label{international-student-services}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 143 Tomlinson Hall
+\item
+  Phone: 216-368-2517
+\item
+  Website: \url{https://case.edu/international/international-student-services}
+\end{itemize}
+
+International Student Services provides a smooth transition for international students who attend Case Western Reserve University. The office serves as a liaison with the U.S. Immigration and Naturalization Service, the U.S. Department of State, foreign embassies, educational consular offices, the International Institute of Education, and Fulbright-Hays grant offices.
+
+\hypertarget{university-health-service}{%
+\section{University Health Service}\label{university-health-service}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 2145 Adelbert Road
+\item
+  Phone: 216-368-2450
+\item
+  Email: \href{mailto:uhcs@case.edu}{\nolinkurl{uhcs@case.edu}}
+\item
+  Website: \url{https://case.edu/studentlife/healthcounseling/}
+\end{itemize}
+
+University Health Service (part of University Health \& Counseling Services) provides health care for students on an emergency and non-emergency basis. The office provides support from physicians, nurses, psychiatrists and social workers. It also offers specialty clinics for skin, dermatology, allergies, and women's health, and coordinates the Student Medical Plan with Aetna Student Health. UHS is also the primary campus contact for the student insurance program, the Student Medical Plan.
+
+\hypertarget{university-counseling-services}{%
+\section{University Counseling Services}\label{university-counseling-services}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 220 Sears Building
+\item
+  Phone: 216-368-5872
+\item
+  Email: \href{mailto:uhcs@case.edu}{\nolinkurl{uhcs@case.edu}}
+\item
+  Website: \url{https://case.edu/studentlife/healthcounseling/}
+\end{itemize}
+
+University Counseling Services (part of University Health \& Counseling Services) offers wellness programs, psychiatric services, and prevention and recovery service programs. Psychologists, psychiatrists, social workers, counselors and doctoral-level counseling trainees are all part of a student's support network. Clinics on healthy sleep, meditation, anxiety and stress management also are available on a regular basis. There is no fee for services provided by University Counseling Services.
+
+\hypertarget{educational-services-for-students}{%
+\section{Educational Services for Students}\label{educational-services-for-students}}
+
+Location: 470 Sears Library
+Phone: 216-368-5230
+Website: \url{https://case.edu/studentsuccess/academic-resources}
+
+Educational Services for Students (ESS) offers resources to enhance the academic experience at Case. Services include the Peer Tutoring and Supplemental Instruction (SI) programs, Disability Resources, Graduate Teaching Assistant (TA) training, and individual consultation for academic success. Students with disabilities are encouraged to contact ESS, to ensure the resources necessary to fully participate in their chosen programs and activities. Full details about ESS can be found \href{https://case.edu/studentsuccess/academic-resources}{on their website} at \url{https://case.edu/studentsuccess/academic-resources}.
+
+\hypertarget{english-language-resources}{%
+\section{English Language Resources}\label{english-language-resources}}
+
+Website: \url{https://case.edu/studentsuccess/academic-resources/english-language-resources}
+
+Within the ESS group, English language resources are available for you to practice pronunciation, fluency, vocabulary and other spoken English skills.
+
+\begin{itemize}
+\tightlist
+\item
+  Individual Consultations include appointments you can schedule to work on the skills below.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Conversation skills
+  \item
+    Grammar in speaking and writing
+  \item
+    Idioms and slang
+  \item
+    Interviewing
+  \item
+    Listening and note taking
+  \item
+    Networking
+  \item
+    Participating in discussions
+  \item
+    Presentations
+  \item
+    Pronunciation
+  \item
+    Reading comprehension
+  \item
+    Writing process
+  \item
+    Individual needs (e.g., understanding a syllabus, confidence, making friends, general fluency, descriptions)
+  \end{itemize}
+\item
+  English Conversation Hour is an opportunity for members of the CWRU community interested in strengthening their proficiency in conversational English as well as those already proficient in conversational English to come together each week for connection and sharing.
+\item
+  Spoken English tutoring is available for improving pronunciation, conversational, and fluency skills. Appointments are on a first-come, first-serve basis for undergraduate and graduate students.
+\end{itemize}
+
+\hypertarget{writing-resource-center}{%
+\section{Writing Resource Center}\label{writing-resource-center}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 104 Bellflower Hall
+\item
+  Phone: 216-368-3798
+\item
+  Website: \url{https://case.mywconline.com/}
+\end{itemize}
+
+The Writing Resource Center (WRC) at Case Western Reserve University provides supplemental, discipline-specific writing instruction to students of all levels at the university. WRC writing consultants work one-on-one with students on a wide variety of projects. The WRC encourage visits from students at any stage of the writing process, from brainstorming and drafting, to revising and organizing, to sharpening expression. While the WRC also works with students on issues of mechanics and grammar, they are not a proofreading service. WRC consultants work collaboratively with students to assist them in becoming better writers.
+
+The WRC will reopen during the second week of the Fall semester. During the Fall semester, consultants will offer campus writers both real-time online appointments and asynchronous writing review, or eTutoring. To schedule an appointment, visit \url{https://case.mywconline.com/}.
+
+\hypertarget{university-libraries}{%
+\section{University Libraries}\label{university-libraries}}
+
+The CWRU libraries are an integrated system comprised of the Kelvin Smith Library, the Judge Ben C. Green Law Library, the Mandel School of Applied Social Science's Lillian F. \& Milford J. Harris Library, the Astronomy Library, and the Kulas Music Library. All libraries support the faculty, students and staff of the undergraduate, graduate and professional schools, and are open to the public for in-house use of most materials. Combined, the university collections number more than 2.75 million volumes.
+
+\hypertarget{access-services}{%
+\section{Access Services}\label{access-services}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 18 Crawford Hall
+\item
+  Phone: 216-368-CARD (2273)
+\item
+  Website: \url{https://case.edu/access-services/}
+\end{itemize}
+
+Access Services is the office responsible for issuing Case ID Cards and managing their various functions, including granting access to facilities such as buildings and parking lots. Access Services also distributes Greater Cleveland RTA bus and rapid train passes each semester, available to graduate students at a cost of \$75 per semester.
+
+\textbf{Note}: As an active Case graduate student, your ID card will provide access to the following areas with specific hours determined by the department or school in which the area is controlled: Carlton Basketball Court, Carlton Road Tennis Courts, Glennan 312, Glennan 317A, Juniper Basketball Court, Kelvin Smith Library, Mather Memorial G Restroom, Nord 415 Computer Lab, Medical School Library, Nord Hall Quad Side, North Residential Village Garage doors \& elevators, Olin Perimeter, Thwing, Veale Center, and White Perimeter. Your ID card will also provide 24-hour access to the School of Medicine. For new students, access to the School of Medicine will begin after the start of classes.
+
+\hypertarget{office-of-financial-aid}{%
+\section{Office of Financial Aid}\label{office-of-financial-aid}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 417A Yost Hall
+\item
+  Phone: 216-368-4530
+\item
+  Website: \url{https://case.edu/financialaid/}
+\end{itemize}
+
+Investing in a Case Western Reserve University education is investing in you. We realize that tuition, fees, and other expenses make it difficult for many students (and their families) to finance the cost of attending a college or university without some form of financial assistance. The Office of Financial Aid operates a sophisticated program of financial aid and scholarship opportunities to assist students and to ease the financial burden that a college education may represent.
+
+\hypertarget{lesbian-gay-bisexual-and-transgender-center}{%
+\section{Lesbian, Gay, Bisexual, and Transgender Center}\label{lesbian-gay-bisexual-and-transgender-center}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: Tinkham Veale University Center Suite 179
+\item
+  Phone: 216-368-LGBT (5428)
+\item
+  Website: \url{https://case.edu/lgbt/}
+\end{itemize}
+
+The Lesbian, Gay, Bisexual, and Transgender (LGBT) Center at Case Western Reserve University provides a long-awaited home for members of the LGBT community and their allies. It also serves as a source of information and insight for those who have lesbian, gay, bisexual or transgender children or loved ones. Finally, it is also a place that welcomes alumni and prospective students, faculty and staff. The LGBT Center provides a lounge, kitchenette, office, and study and meeting space. It has been designed to offer areas that encourage informal gatherings as well as more structured events. In addition, the Center provides places where people can seek both information and support.
+
+\hypertarget{flora-stone-mather-center-for-women}{%
+\section{Flora Stone Mather Center for Women}\label{flora-stone-mather-center-for-women}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: Tinkham Veale University Center Room 248
+\item
+  Phone: 216-368-0985
+\item
+  Website: \url{https://case.edu/centerforwomen/}
+\end{itemize}
+
+The mission of the Flora Stone Mather Center for Women at Case Western Reserve University is to support and empower women through education, advocacy and leadership. The Flora Stone Mather Center for Women serves as a resource to all women at the university by offering a variety of initiatives focused on leadership development and recognition, gender equity in Science, Technology, Engineering and Mathematics (STEM) fields, and women's health. Additionally, the Project on Men and Gender (PMG) features annual programs and workshops that explore masculinity, men's violence, gender stereotypes, and healthy relationships in the interest of reducing violence against women.
+
+\hypertarget{office-of-inclusion-diversity-and-equal-opportunity}{%
+\section{Office of Inclusion, Diversity and Equal Opportunity}\label{office-of-inclusion-diversity-and-equal-opportunity}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 315 Adelbert Hall
+\item
+  Phone: 216-368-8877
+\item
+  Website: \url{https://case.edu/diversity/}
+\end{itemize}
+
+Be it race, ethnicity, religion, political persuasion, sexual orientation or gender identity, all Case Western Reserve University students (current and future, undergraduate as well as graduate and professional) are celebrated and supported through the Office of Inclusion, Diversity and Equal Opportunity and its extensive network of campus programs, partnerships, groups and global influences. The mission of the office of inclusion, diversity and equal opportunity is to provide support and guidance and to promote equitable and fair treatment in employment, education and other aspects of campus life. the office serves as a resource to the university in the interpretation, understanding and application of federal and state equal opportunity and affirmative action laws and regulations.
+
+Ultimately, the office supports the university's mission by providing strategic leadership in the development of policies, procedures and programs that will help foster diversity, inclusiveness and a welcoming environment for faculty, staff, students and others.
+
+The Office of Inclusion, Diversity and Equal Opportunity at Case Western Reserve University also gives awards to members of the university community in recognition of significant contributions toward enhancing the university's commitment to diversity through inclusive thinking, mindful learning and transformative dialogue.
+
+These awards recognize and encourage such contributions that may include promoting respect, building community, establishing effective cross-cultural initiatives and advocating equity and inclusion within the university community.
+
+\hypertarget{office-of-multicultural-affairs}{%
+\section{Office of Multicultural Affairs}\label{office-of-multicultural-affairs}}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: 450 Sears Library
+\item
+  Phone: 216-368-2904
+\item
+  Website: \url{https://case.edu/studentlife/multicultural/}
+\end{itemize}
+
+The Office of Multicultural Affairs (OMA) encourages, supports and facilitates the success of all Case students by providing opportunities for diverse interaction and cultural education that occurs outside of the classroom environment.
+
+\begin{itemize}
+\tightlist
+\item
+  Building a ``Sense of Community''
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Case Western Reserve University is a truly diverse, multicultural campus, and the Office of Multicultural Affairs embraces all Case students, faculty and staff.
+  \end{itemize}
+\item
+  We Value Diversity
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Diversity is a reality created by unique individuals and groups from a broad spectrum of demographic and philosophical perspectives.
+  \end{itemize}
+\item
+  Multicultural Enrichment
+
+  \begin{itemize}
+  \tightlist
+  \item
+    OMA staff members serve as facilitators for presenting workshops in classrooms, residence halls and for student organizations.
+  \end{itemize}
+\item
+  Academic Support and Guidance
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The primary goal of the OMA is to assist students in being academically successful during their college career at Case.
+  \end{itemize}
+\item
+  Networking and Mentoring Opportunities
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The OMA provides students with professional networking/mentoring opportunities, skill-building workshops and job/internship opportunities.
+  \end{itemize}
+\item
+  Role Model and Mentoring
+
+  \begin{itemize}
+  \tightlist
+  \item
+    OMA provides students with positive role models/mentors to offer guidance and support as they navigate through the obstacles of their college life.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{covid-19-campus-communications}{%
+\section{COVID-19 Campus Communications}\label{covid-19-campus-communications}}
+
+Visit \url{https://case.edu/studentlife/healthcounseling/health-serviceshealth-updates-faq/covid-19-campus-communications} for recent messages to the CWRU community.
+
+\end{document}
