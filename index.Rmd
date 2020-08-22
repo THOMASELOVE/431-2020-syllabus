@@ -6,7 +6,9 @@ site: bookdown::bookdown_site
 documentclass: book
 output:
   bookdown::gitbook: default
- # bookdown::pdf_book: default
+  bookdown::pdf_book: default
+  bookdown::epub_book: default
+  
 ---
 
 
@@ -16,17 +18,13 @@ Welcome! This is the Fall 2020 syllabus for PQHS / CRSP / MPHP 431: Statistical 
 
 ## Course Home Page {-}
 
-The course home page, with everything you'll need, is at XXXXXXXXXXXXXXXXXXXXXX.
+When available, https://github.com/THOMASELOVE/431-2020 will include links to:
 
-At the first class, Dr. Love will provide a link to the main course site for the semester. That site will include:
-
-- This complete 431 Syllabus, including information on the teaching assistants, assignments, etc.
-- Dr. Love's Course Notes (which serve as the main textbook for the course.)
-- Materials for each class, including presentation slides, session recordings and announcements.
-- Data (and Code) for the course's assignments, presentations, and notes.
-- Readings and Supplemental Materials that we'll review during the course.
-
-We look forward to meeting you (virtually) in late August!
+- The 431 Syllabus (this document)
+- Dr. Love's Course Notes (which serve as the main textbook for the course)
+- Materials for each class, including presentation slides, session recordings and announcements
+- Data (and Code) for the course's assignments, presentations, and notes
+- Readings and Supplemental Materials that we'll review during the course
 
 
 ## Working with This Document {-}
@@ -35,29 +33,39 @@ We look forward to meeting you (virtually) in late August!
 2. At the top of the document, you'll see icons which you can click to 
     - search the document, 
     - change the size, font or color scheme of the page, and 
-    - download a PDF version of the entire document.
+    - download a PDF or Kindle version of the entire document.
 3. The document is updated occasionally through the semester. Check the Version information above to verify the last update time.
 
 ## Who, When and Where? {-}
 
-- The main instructor for the course is Professor Thomas E. Love. He uses he/him pronouns. [More on him here][Professor Love]. Most of my students call him Professor Love or Dr. Love.
-- In this effort, he is assisted by several teaching assistants. [Details on the Teaching Assistants here][Teaching Assistants].
-- The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern Time, via Zoom.
-- The first class is Tuesday 2020-08-25.
+- The course instructor is Professor Thomas E. Love. [More on him here][Professor Love]. 
+- We also have several [teaching assistants][Teaching Assistants] helping with the course.
+- The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern Time, via Zoom, starting on 2020-08-25.
 
 ## Getting Help {-}
 
 Prior to the start of the class, to get help for anything related to the course, email **Thomas dot Love at case dot edu**.
 
-- For drop-in conversations, Professor Love will open Zoom 15 minutes before and keep it open for at least 15 minutes after class. 
-    + If you have any special concerns about the course, need special accommodations or have any other issues for Professor Love, please email him.
-- TA office hours are also held via Zoom, beginning 2020-08-31. A schedule will be available soon.
+Once the course begins, you have several ways to get help from us:
 
-Data science and statistical programming can be difficult. Computers are stupid and little errors in your code can cause hours of headache (even if you've been doing this stuff for years!). There are many, many online resources to help you with this, in addition to XXXXXXXXemailing us at `431-help at case dot edu`XXXXX. An especially useful one is the [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)).
+### Piazza is our discussion board {-}
 
-## Before the First Class {-}
+- We will use **Piazza** this semester to facilitate questions and answers. We'll be conducting all class-related discussion there this term, rather than via email. 
+- You'll need to sign up for our class at 
+- Find our class page at: https://piazza.com/case/fall2020/pqhs431/home. If you're registered for the class, you should be able to sign up quickly.
+  - The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. 
+  - We encourage you to ask questions when you're struggling to understand anything related to the class, and you can even do so anonymously.
 
-The first class meeting is from 1:00 to 2:15 PM on Tuesday 2019-08-27, in Room E321-323 of the Robbins building at the School of Medicine.
+### "In-person" office hours {-}
+
+- TA office hours will be held via Zoom, beginning 2020-08-31. A schedule will be available soon.
+- In addition, Professor Love will open Zoom 15 minutes before and keep it open for at least 15 minutes after class to address any student concerns. 
+    + If you have any special concerns about the course, need special accommodations or have any other issues you need to discuss with Professor Love, please email him.
+
+Data science and statistical programming can be difficult. Computers are stupid and little errors in your code can cause hours of headache (even if you've been doing this stuff for years!). There are many, many online resources to help you with this, in addition to [our discussion board at Piazza](https://piazza.com/case/fall2020/pqhs431/home). 
+
+- An especially useful one is the [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)).
+
 
 ## What Should I Do Before Class Starts?
 
