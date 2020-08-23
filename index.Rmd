@@ -94,7 +94,7 @@ Most of you have already accessed [the pre-class website](https://431-2020-precl
 
 1. Register and enroll in the course via the [CWRU Student Information System (SIS)](https://sis.case.edu/).
     - Note that PQHS 431, CRSP 431 and MPHP 431 are all identical.
-2. Review [the pre-class website](https://431-2020-preclass-love.netlify.app/) and this syllabus. The most important needs initially are learning [about the books][Required Texts] you'll need to purchase, and [the software][Software] you'll need to install. 
+2. Review [the pre-class website](https://431-2020-preclass-love.netlify.app/) and this syllabus. The most important needs initially are learning [about the books][Required Texts] you'll need to purchase, and [the software][Getting the Software] you'll need to install. 
 3. Review [CWRU's Knowledge Base for Zoom](https://case.edu/utech/help/knowledge-base/zoom/zoom-information) to ensure you can join our first class through your CWRU Zoom account. Watch your CWRU email for further bulletins (including the Zoom links for the first few class sessions which will be posted on 2020-08-24.)
 
 ## What Do I Need To Buy?
@@ -694,192 +694,26 @@ If you need more help, you might look at [this terrific resource for Installing 
 - If you're having trouble with installation before our first class, don't worry too much. The TAs and Dr. Love will be available to help once the class gets going.
 - If you're having installation problems or problems getting started in R, please consider visiting TA office hours or perhaps asking a question on [Piazza](https://piazza.com/case/fall2020/pqhs431/home). We want to hear from you!
 
-# Deliverables, Expectations and Grading
-
-All students are expected to attend all sessions, participate vigorously in class discussions and in group work, complete all individual work in a timely fashion, demonstrate improvement of skills over the term, and perform well on the Quizzes and in the final portfolio presentation. Such a performance is the minimum standard required to receive a grade of B.
-
-To receive an A, students are expected to complete all the requirements described above, demonstrate excellent work in both the final portfolio presentation, and outstanding work in at least one of the following: [a] in class participation, [b] assignments, [c] quizzes.
-
-## Labs
-
-During the semester, you will have eight lab assignments to complete. Each lab will provide instructions as to how to make your submission. We strongly encourage you to complete each lab, but should you need to skip one (only your six highest lab scores will be used in determining your grade) we ask that you let us know by submitting a note telling us you're skipping the lab.
-
-For more information on the Labs, please visit the [Labs web page](https://github.com/THOMASELOVE/431-2020/tree/master/labs) on our main course web site.
-
-## Projects
-
-During the semester, you will have two projects to complete. 
-
-- Project A anticipates you using materials from the first 12 classes
-- Project B anticipates you using materials from the whole course
-
-For more information on the Projects, please visit the [Projects web page](https://github.com/THOMASELOVE/431-2020/tree/master/projects) on our main course web site.
-
-## Quizzes
-
-During the semester, you will have two quizzes to complete. Each quiz is taken via a Google Form, and consists of a series of short-answer and multiple-choice items. The quizzes focus on whether you can apply the tools developed in class to address small problems. 
-
-You will typically receive access to the quiz 4 days before it is due, and each quiz will be designed to take about 4 hours to complete, so the time pressure should be minimal. All quizzes are open book, open notes. 
-
-For more information on the Quizzes, please visit the [Quiz web page](https://github.com/THOMASELOVE/431-2020/tree/master/quizzes) on our main course web site.
-
-
-
-## Grading Breakdown
-
-Grading standards apply in the same way for all students, regardless of whether they are enrolled in PQHS 431, CRSP 431 or MPHP 431. The courses are identical.
-
-The course grade is based on four key areas of demonstrated accomplishment. The planned breakdown is as follows, but Professor Love may make adjustments as the semester progresses, especially once we're sure about the numbers of Labs and Quizzes through the term.
-
-Weight | Task
-------: | ----------------------------------------------------
-15% | In-Class and Outside-of-Class Participation 
-25-35% | Completion and Quality of Homework
-20-30% | Performance on Quizzes
-30% | Performance on Project Work
-
-Any questions regarding how you are doing in the course should be directed to Professor Love alone. In particular, the TAs do not have full access to the final grades.
-
-Regarding the Homework, Dr. Love will drop your lowest score before calculating your grade in the course. So you can miss one Homework over the course of the semester with no explanation. Note that this doesn't apply to the Quizzes or to any element of the Project.
-
-## Course Grades (new)
-
-The Fall 2020 version of the 431 course will be graded differently than previous versions of this course. Across the past five years, no student has received a course grade other than A, B or Incomplete, and I anticipate that this will again be the case this year.
-
-Course grades are based primarily on performance on labs, projects and quizzes. Your grade on each of these three elements will be determined separately. Then I will combine these elements as follows:
-
-Element | Weight 1 | Weight 2 | Weight 3
-------- | -------- | -------- | -------- 
-Labs | 40% | 35% | 30%
-Projects | 50% | 45% | 40%
-Quizzes | 25% | 20% | 15%
-
-Your element with the strongest score will receive Weight 1, your element with the second strongest score will receive Weight 2 and your element with the weakest score will receive weight 3. 
-
-I will determine your final course grade using the following scale:
-
-- course averages of 89% to 100% will receive a A
-- course averages of 85% to 88% will be reviewed more closely to determine whether the grade will be A or B
-- course averages of 70% to 84% will receive a B
-
-For students in the 85-88% range, in addition to the labs/projects/quizzes, I will consider the quality (**not** the quantity) of your participation in class activities, TA office hours and other "extra opportunities" through the semester to make a final determination about your course grade.
-
-Students whose course average is near or below 70% will usually need to take an Incomplete to improve their work before I assign a final grade.
-
-## Disasters
-
-Sometimes, outside forces will prevent you from completing an assignment, or from doing well on an assignment. The most important assignments are the Projects, then the Quizzes, then the Labs. Dr. Love has developed what he hopes is a reasonable policy for accommodation of problems in each case, as described below. Please ask in advance if you have any questions.
-
-## Grading the Labs
-
-Each lab will be graded by the course teaching assistants, in consultation with Dr. Love. To do this, they will use a grading rubric and detailed answer sketch, and each of these will be provided to you after the deadline for completing each lab. 
-
-You will also receive some feedback from the TAs on each lab, and I will spend some time in class discussing common problems with labs, and emphasizing key things in the answer sketches.
-
-If you identify an issue with grading in a lab, you will have an opportunity to bring that to my attention (and get a regrade) by filling out a Google Form which I will link to early in the term. Dr. Love will review all of those requests at the end of the semester.
-
-In calculating your lab average for your course grade, I will include your six best lab grades. This allows you to miss two of the eight scheduled labs without penalty. Should you run the risk of needing to miss more than two labs during the semester, contact Dr. Love via email.
-
-## Grading the Quizzes
-
-Each quiz will be graded by Dr. Love. A detailed answer sketch and grading rubric will be provided to you when grades are available. 
-
-In calculating your quiz average for your course grade, I will weight your stronger Quiz performance at 60% and your weaker one at 40%.
-
-Should you need to miss a Quiz, the other Quiz will count for all of the Quiz component of your course grade, and will automatically make the Quiz element your "Weight 3" element in determining your final course average.
-
-## Grading the Projects
-
-Some elements of each project will be graded by Dr. Love, and others by the teaching assistants.
-
-In calculating your project average for your course grade, I will weight Project A at 40% and Project B at 60%.
-
-Students who cannot complete a project (either A or B) in a timely fashion will receive an incomplete grade until both Projects are completed. A penalty will be applied to late work on projects. 
-
-Once the complete project instructions are available, please contact Dr. Love directly if you are in any way concerned about your ability to complete a project on time.
-
-## Participation
-
-I cannot emphasize enough how much we want to hear from you about things that are relevant to this course. 
-
-1. If you're not shy, ask questions in class. The TAs help me assess participation, so they are paying attention, too. Come to the TA office hours if you need help. Make an appointment to talk to us if you have something to discuss that doesn't work well in email. 
-2. Email `431-help at case dot edu`. with your questions and comments. That'll lead to faster answers, typically, and help us recognize you as someone trying to improve their understanding.
-    + Find **typos** in the materials (code, slides, the Notes, this syllabus)? Send them to us at `431-help at case dot edu`. 
-    + See a cool visualization online? A nice use of statistical methods or design in a paper? Share them with us, at `431-help at case dot edu`.
-3. If we ask you to do something after class (responding to a minute paper survey, for example, which will happen 8-10 times over the course of the term), getting that done in a timely fashion will help your grade in this area.
-4. Visit the Teaching Assistants and ask them questions about the course, or things you're having trouble with.
-5. Talk to Professor Love about your questions/comments/concerns. Make sure he knows who you are - which can be challenging with such a large group.
-
-## There are Quizzes.
-
-Each Quiz will be taken online, exclusively. Details on the Quizzes are found at [the Course website's Quizzes page](https://github.com/THOMASELOVE/2019-431/tree/master/QUIZZES).
-
-**If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, at least a week before a Quiz is released.
-
-### About the Quizzes
-
-1. Quizzes typically involve 25-40 questions. 
-2. The questions are not arranged in any particular order, and you should answer all questions.
-3. All questions involve relatively short responses, sometimes after working through a detailed analysis.
-4. You will have the opportunity to edit your responses after completing the Quiz, but this must be completed by the deadline.
-5. You are welcome (even encouraged) to consult the materials provided on the course website, but you are **not** allowed to discuss the questions on the Quizzes with anyone other than Professor Love or the teaching assistants.
-6. We do not guarantee to answer questions we receive via email less than 3 hours prior to the Quiz submission deadline.
-7. Quizzes that are more than ten minutes late will **not** be accepted, except in truly remarkable circumstances.
-8. An answer sketch for each Quiz will be made available within 48 hours of the deadline. 
-9. Grades for the Quizzes are usually available within 48 hours of the deadline. 
-10. If you feel Professor Love has made an error in grading your Quiz, please let him know directly, by email, as soon as possible.
-
-## Homework assignments
-
-There are several homeworks scheduled, and described in detail on the [Homework page](https://github.com/THOMASELOVE/2019-431/tree/master/HOMEWORK) of our web site. 
-
-Most require straightforward demonstrations of mastery for core principles and fundamental skills. Some require deeper dives into more technically sophisticated material. Some also require reflection, particularly based on materials we'll be reading throughout the semester, especially from Nate Silver's book. 
-
-### How do the Homeworks work?
-
-1. Almost every Homework will require you to analyze some data, and prepare a report using R Markdown. You will submit both your Markdown file, and an HTML document built using RStudio from that Markdown file. 
-2. Several Homeworks will require you to write an essay. After Homework A, essays must be composed as part of your Markdown file, and thus included in your HTML document. Do not edit the result of your R Markdown conversion into Word.
-3. When writing in English, use complete sentences, rather than bullet points.
-4. Clearly mark each Question in each Homework. There is no need to repeat the question before answering it, although you are welcome to do so.
-5. Read and heed the advice of Jeff Leek in *The Elements of Data Analytic Style*. Chapters 5, 9, 10 and 13 of that book are especially relevant to our early assignments.
-6. You are welcome to discuss each Homework with anyone, including Professor Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and email **431-help at case dot edu**.
-7. In general, we do not guarantee to provide answers to questions that we receive in the last 18 hours before a Homework is due, especially once we've gotten into mid-September. So don't leave anything until the last day. Allow time for computer problems.
-8. Failure to turn in a Homework within one hour of the deadline will result in a very poor grade on the Homework when it is (eventually) turned in, and a zero (from which it can be difficult to recover) if it is not turned in. **Submission of timely, partial work is usually better than no submission at all.**
-9. **Things happen.** Dr. Love drops your worst Homeworks grade of the semester before calculating your grade. So if some disaster occurs and you have to miss a deadline, just submit a note saying that this Homework is the one you'll skip. No need for any explanation. If you need to miss more than one, though, you will need to discuss that with Dr. Love, in advance.
-10. Grades on Homeworks are usually available one week after the submission deadline. 
-11. If you have a complaint about your grade on a Homework, please first review [the Grade Appeal Policy][Grade Appeal Policy - Request a Review in December!] at the end of this syllabus.
-
-### Where do I turn in the Homeworks?
-
-For the most part, you'll do this using the Canvas system at https://canvas.case.edu. 
-The course's primary listing is PQHS 431, but students in CRSP 431 and MPHP 431 should find the same information. The link to post your responses for each Homework will appear in time for you to submit the work, usually just after the deadline for the preceding Homework has passed.
-
-## Course Project
-
-The course project is a major part of the course. Materials related to the project will be posted to the [Course Website's Project page](https://github.com/THOMASELOVE/2019-431/tree/master/PROJECT) which will update frequently through the semester.
-
-The project includes tasks you'll complete throughout the semester, culminating in a final presentation to Professor Love of your work in mid-December. For deadlines, see the [Course Calendar](https://github.com/THOMASELOVE/2019-431/blob/master/calendar.md).
-
 # General Course Policies
 
 1. Any concerns or questions regarding these general policies, the teaching assistants or the course itself should be directed to Professor Love, if at all possible.
 2. All student work is subject to the University's policies and procedures. 
 3. **Registration is required**. I do not permit anyone to audit the course who has not previously taken it, without exception. If you've taken the course before and want to sit in again, you will need to volunteer or be hired as a teaching assistant.
 4. **Grading**. Students in this class are not in competition with each other for grades. I have no set percentage of students who will receive any particular grade.
-5. **Attendance** is expected, but it is expected that sometimes life will intervene.
-  - If you need to miss two or more classes in a row, inform Professor Love via email beforehand, or as soon as possible thereafter. I will assume you have a good reason - details are **not** necessary. 
-  - You are responsible for all missed work, regardless of the reason for your absence. 
-6. You get to miss one Homework over the course of the semester, with no explanation, as Dr. Love will drop your lowest score across all Homeworks at the end of the semester. With that exception, **late work is unacceptable** under anything but the most harrowing of circumstances. Professor Love (via email) is the person to discuss this with, prior to the deadline, if you feel your circumstances are sufficiently dire to warrant an exception. In this class, it is far better to turn in timely, but only partially complete work than nothing at all.
-7. **Feedback on assignments - deadline.** On every assignment, Quiz, project-related task, whatever, we will be delighted to respond to email questions **up to 18 hours before** the assignment is due. After that time, you may wind up on your own. The reason for this is that Professor Love and the teaching assistants will regularly post responses to frequently asked questions about assignments, and we need sufficient time to accomplish this task.
+5. **Attendance** is expected, but it is also expected that sometimes life will intervene. All students are expected to view all Zoom class sessions, preferably as they happen live, but if necessary, using the video recordings made available on Canvas to view each class before the next one is given.
+    - If you need to miss two or more classes in a row, inform Professor Love via email beforehand, or as soon as possible thereafter. I will assume you have a good reason - details are **not** necessary.
+    - You are responsible for all missed work, regardless of the reason for your absence. 
+6. **Submissions** In this class, it is far better to turn in timely, but only partially complete work than nothing at all.
+7. **Feedback on assignments - deadline.** On every assignment, Lab, Quiz, project-related task, whatever, we will be delighted to respond to questions **up to 12 hours before** the assignment is due. After that time, you may wind up on your own. The reason for this is that Professor Love and the teaching assistants will regularly post responses to frequently asked questions about assignments, and we need sufficient time to accomplish this task.
 8. **On Getting Help Quickly and Effectively**: In general, we don't have a way to diagnose your problem with R, RStudio or Markdown if you don't show us what you're typing that causes an error, or a lack of results. If you wrote a Markdown file, we need to see it, along with a specific question (or series of them) about specific error messages or strange results you are getting. We need to replicate the problem in order to know how to fix your problem, and it also helps if we know what error message you're seeing, or what strange result you are getting.
-9. **Using a Laptop** Using a laptop to follow along, take notes, or try things out during class, can be very helpful. Feel encouraged to do so.
-10. **Computer** You will need access to a computer (PC or Mac - a ChromeBook won't do) outside of class to do every assignment. You will need to be able to install software on this computer, and update it frequently, although the use of RStudio Cloud may help alleviate this problem a bit.
-11. **Distractions**. Silence your phone during class. The temptation to look at your phone or Facebook or email during class is nearly irresistible. Resist anyway, if only to avoid distracting your instructor and your fellow students. **Professor Love has no shame about embarrassing people on this issue. If it's critical, just step out of the room**.
-12. **Research Usage**. Any and all results of in-class and out-of-class assignments and activities are data sources for research and may be used in published research. All such use will always be anonymous.
-13. **Audio-Recording.** It is our intention to provide audio recordings of each class after they are complete. Anything you say during a class session *may* be audio-recorded.
-14. **Typos.** Professor Love makes occasional typographic and grammatical errors, which irritate him enormously. Please email him if you find any in this syllabus or any other course materials. If you are the first to let us know, and we make the change, you will receive some credit in your class participation grade.
+10. **Distractions**. Silence your phone during class. The temptation to look at your phone or Facebook or email during class is nearly irresistible. Resist anyway, if only to avoid distracting your instructor and your fellow students. 
+11. **Research Usage**. Any and all results of in-class and out-of-class assignments and activities are data sources for research and may be used in published research. All such use will always be anonymous.
+12. **Audio-Recording.** It is our intention to provide video recordings of each class after they are complete. You should assume that anything you say or place in the Chat session during a Zoom class session *will* be recorded.
+13. **Typos.** Professor Love makes occasional typographic and grammatical errors, which irritate him enormously. Please post in the relevant section of [Piazza](https://piazza.com/case/fall2020/pqhs431/home) if you find any in this syllabus or any other course materials. If you are the first to let us know, and we make the change, you will receive some credit in your class participation grade.
 
 Again, all Case Western Reserve University policies apply to this class. To the extent that those policies are unclear, I would regard an appropriate code of conduct as mirroring  [this one from the R Consortium](https://github.com/RConsortium/RCDI-WG/blob/master/conduct/code-of-conduct.md).
+
+## Some Questions and Answers
 
 ### Can I audit 431 or 432?
 
@@ -897,11 +731,11 @@ We aim for substantial and timely feedback from the teaching assistants and myse
 
 It is the natural thing to do. The 431 course is part 1 of a two-semester sequence. Frankly, 432 contains some of the most interesting material and is generally regarded by students who take both as the more entertaining course. Every year, some students take only 431, though. The decision is up to you. The 432 course assumes you have completed 431.
 
-## Do I have to be in Cleveland to take this course?
+### Do I have to be in Cleveland to take this course?
 
 Not this Fall, no. The course will take place remotely this Fall, using the Zoom platform. 
 
-## Will all class materials be available to me online?
+### Will all class materials be available to me online?
 
 Yes. All sessions will be video-recorded and made available to you after class. All slides and many other materials will also be provided after each class.
 
@@ -915,58 +749,184 @@ Dr. Love will provide the Zoom link for Class 1 to all enrolled students in adva
 
 That's part of the reason why each session will be recorded. If Dr. Love loses his, we'll pause until things get straightened out.
 
-## Grade Appeal Policy - Request a Review in December!
+# Deliverables / Assignments
 
-For each Homework, we publish a detailed answer sketch and grading rubric. You will also learn your scores on each individual item on each Homework.
+## Minute Papers (and Class Participation)
 
-Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. To that end, students are **requested not to dispute** any grading on Homeworks during the semester, but instead to request a review on a Google Form that will be reviewed by Professor Love in December. 
+During the semester, there are **ten** Minute Papers scheduled. In this class, a Minute Paper is a short survey (completed using a Google Form) where you will answer a few questions about how the course is going for you. To complete the Minute Paper, you'll need to log into Google with your CWRU account. The pre-class survey uses a similar format, but 
 
-- On the course's Homework page, we include a section about Grading Errors and Regrade Requests. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all of the Homeworks. The form is found at http://bit.ly/431-2019-regrade-requests. Any student who wishes to dispute points can specify the number of points in question for each item, and the details of the issues that concern them. 
-    - If you wish to dispute a grade, just [fill out the form](http://bit.ly/431-2019-regrade-requests), and Professor Love will review it in December.
-    - You can fill out the form at any time, and you can edit the form after submitting it once so that you can add additional requests up until the end of the semester.
-    - All forms must be submitted by 2019-12-12 at 12 Noon.
+Each Minute Paper would ideally take less than five minutes to complete, right at the end of Tuesday's class, but is actually due at noon Wednesday most weeks to give you some time to reflect, if you'd like, or if you're in a hurry at the end of class.
+
+Students who watch the class via video recording are still required and encouraged to complete the Minute Paper in a timely fashion. You should complete the Minute Paper even if you haven't yet viewed the most recent class.
+
+### Grading Class Participation
+
+Only Professor Love sees the results of the Minute Papers with identifying information. He then summarizes findings at the group level (and in terms of specific questions) and addresses those in the Thursday class whenever possible.
+
+Student Class Participation grades are based on:
+
+- 50 points, plus
+- up to 50 additional points for Minute Paper responses (5 points for each on-time submission)
+- plus a few bonus points for actions that help the class, as awarded during the semester
+
+These bonus points have a small impact, generally, but include things like:
+
+- finding typographical or coding errors in Professor Love's slides, notes and other materials.
+- asking especially helpful questions in the Minute Papers or on Piazza
+- providing helpful responses to questions on Piazza
+- identifying interesting visualizations or uses of ideas we're discussing in class in the popular or scientific media
+- plus a few other things that come under the general heading of "being helpful."
+
+### Participation
+
+We cannot emphasize enough how much we want to hear from you about things that are relevant to this course. 
+
+1. If you're not shy, ask questions in the Chat during class. The TAs help me assess participation, so they are paying attention, too. Come to the TA office hours if you need help. Make an appointment to talk to us if you have something to discuss that doesn't work well in email. 
+2. Contribute to [Piazza](https://piazza.com/case/fall2020/pqhs431/home) with questions, answers and helpful comments. That'll help us recognize you as someone trying to improve their understanding.
+  - If you find **typos** in the materials (code, slides, the Notes, this syllabus) send them to us on [Piazza](https://piazza.com/case/fall2020/pqhs431/home). 
+  - See a cool visualization online (of anything other than COVID-19 data)? A nice use of statistical methods or design in a paper? Share them with us on [Piazza](https://piazza.com/case/fall2020/pqhs431/home).
+3. Email or chat with Professor Love about your questions/comments/concerns. Try to help him get to know who you are - which can be a real challenge with such a large group.
+
+## Labs
+
+During the semester, there are **eight** lab assignments scheduled. Professor Love reserves the right to change the number of labs depending on how the class is going during the semester. 
+
+- Most require straightforward demonstrations of mastery for core principles and fundamental skills. Some require deeper dives into more technically sophisticated material. 
+- Most labs ask you to clean/visualize/analyze some data that we provide to you, and also to react to something we're reading at the same time in the Spiegelhalter or Leek books. 
+- You should anticipate that some coding in R **and** writing at least one essay will be required in most labs.
+
+Each lab includes instructions as to how to make your submission, usually through [Canvas](https://canvas.case.edu). The course's primary listing on Canvas is PQHS 431, but students in CRSP 431 and MPHP 431 should find the same information. The link to post your responses for each Lab will appear in time for you to submit the work, usually just after the deadline for the preceding Lab has passed. 
+
+Each lab is associated with a deadline. Late work is permitted, but penalized (see the Grading section below.)
+
+### A few tips for Early Lab Work
+
+1. When writing anything for this course in English, use complete sentences, not just bullet points.
+2. Clearly mark each Question in each Lab. There is no need to repeat the question before answering it, although you are welcome to do so.
+3. Read and heed the advice of Jeff Leek in *The Elements of Data Analytic Style*. Chapters 5, 9, 10 and 13 of that book are especially relevant to our early Labs.
+4. You are welcome to discuss each Lab with anyone, including Professor Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and [Piazza](https://piazza.com/case/fall2020/pqhs431/home).
+5. In general, we do not guarantee to provide answers to questions that we receive in the last 12 hours before a Lab is due, especially once we've gotten into mid-September. So don't leave anything until the last day. Allow time for computer problems.
+
+More information (and the actual Lab assignments) will be found on the Labs page of our main course web site.
+
+### Grading Labs
+
+Labs are graded by the Teaching Assistants, according to the rubric and answer sketch. Everything counts, including the quality of the presentation, as well as the coding and statistical work.
+
+For each Lab, we publish a detailed answer sketch (within 24 hours of the deadline). Later, when the grades become available (roughly one week after the deadline) you will also receive the grading rubric used by the teaching assistants. You should expect to receive your grade on each Lab you submit on time roughly one week after the deadline. Along with the grade, on-time labs will receive modest feedback about the work.
+
+- Labs received on time can receive up to 100% of the available points for the lab.
+- Labs received after the deadline but before the answer sketch is published can receive up to 90% of available points.
+- Lab submissions received after the answer sketch is published but still within one week can receive up to 80% of available points.
+- Lab submissions received more than one week after the deadline will not be graded.
+
+Your lowest **two** lab scores over the course of the semester will be dropped before we calculate your grade on labs. 
+
+- As a result, you can skip up to two labs during the semester without penalty.
+- If you decide to skip a lab, please submit a note to Canvas by the deadline saying that you are skipping the lab.
+- Should you run the risk of needing to miss more than two labs during the semester, contact Dr. Love via email.
+
+### Appeal Policy - Request a Review in December!
+
+Clarification of concerns related to potential typographical or other errors in our Lab answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. To that end, students are **requested not to dispute** any grading on Labs during the semester, but instead to request a review using a Google Form to be opened by Professor Love in December. 
+
+Should you receive a lower grade on a Lab than you feel you deserve based on the feedback the TA provides, the answer sketch and the grading rubric, you can submit a request for a regrade by Professor Love by submitting a request through a Google Form he will provide to you.
+
+- On the course's Labs page, we include a section about Grading Errors and Regrade Requests. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all of the Labs. Any student who wishes to dispute points can specify the number of points in question for each item, and the details of the issues that concern them. 
+    - If you wish to dispute a grade, just fill out the form at any time before the deadline in December. You can edit the form after submitting it so that you can add additional requests up until the end of the semester.
+    - All forms must be submitted by the deadline in December specified on the Course Calendar.
     - Disputing a grade on a homework with a teaching assistant is pointless. 
-    - Professor Love is responsible for all final grading decisions, and if you have a concern, you should [submit your request through the form](http://bit.ly/431-2019-regrade-requests).
+    - Professor Love is responsible for all final grading decisions, and if you have a concern, you should submit your request through the form.
     
 Students are welcome to ask questions of Professor Love about grading during the term. The TAs and Professor Love are happy to discuss in a general sense any questions about an assignment, but no grades will be changed until the end of the term. 
-    - The one exception is if there is a mistake in adding up points, or some similar clerical error. If you find such an issue, please bring it to Professor Love's attention via email, and such problems will be corrected immediately, of course.
+    - The one exception is if there is a mistake in adding up points, or some similar clerical error. If you find such an issue, please bring it to Professor Love's attention via email, and such problems will be corrected immediately.
 
-In mid-December, **after** Professor Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then he won't even look at the disputed grade(s). If the answer is yes, then he will look very carefully to see if enough extra points are merited to change a grade. (It will not help your case to submit frivolous requests.)
+In mid-December, **after** Professor Love has worked out what letter grade to give each student, he will go through the requests on the form and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then he won't even look at the disputed grade(s). If the answer is yes, then he will look very carefully to see if enough extra points are merited to change a grade. (It will not help your case to submit frivolous requests.)
 
-The main advantage of this system is that it saves all of us the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Professor Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
+The main advantage of this system is that it saves all of us the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to express their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Professor Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
 
-# Some Advice for Graduate Students
+## Quizzes
 
-My most important piece of general advice to people is to be kind. That's not always the thing I do as well as I'd like.
+During the semester, you will have two quizzes to complete. Each quiz is taken online via a Google Form, and consists of a series of short-answer and multiple-choice items. The quizzes focus on whether you can apply the tools developed in class to address small problems. Each quiz is "open book, open notes"
 
-```{r fullprof-fig, echo = FALSE, out.width = '80%'}
-knitr::include_graphics("images/2019-06-12_ta_fullprof.png")
-```
+You will typically receive access to the quiz 4 days before it is due, and each quiz will be designed to take 4-6 hours to complete, so the time pressure should be minimal. 
 
-## On Graduate School
+**If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, at least a week before a Quiz is released.
 
-For graduate students, I urge you to take as much advantage of this learning experience as you can. While I'll refer to some of the pieces below during the course, I've gathered a few favorites here. 
+### About the Quizzes
 
-1. From [matt.might.net](http://matt.might.net/articles/)
-    - [12 Resolutions for Grad Students](http://matt.might.net/articles/grad-student-resolutions/)
-    - [How to get a great letter of recommendation](http://matt.might.net/articles/how-to-recommendation-letter/)
-    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://www.math.uh.edu/~tomforde/Email-Etiquette.html).
-2. [Four Things You Should Do When You're Bored, on YouTube](https://www.youtube.com/watch?v=d9W2GO1LhP4) (the four things are Exercise / Read / Meditate / Find and Engage a Hobby with Passion). Also, [Get Up and Move. It May Make You Happier](https://www.nytimes.com/2017/01/25/well/move/get-up-and-move-it-may-make-you-happier.html) by Gretchen Reynolds, in the *New York Times*, 2017-01-25.
-3. [Why academics need to focus on structuring their time](https://www.universityaffairs.ca/career-advice/career-advice-article/academics-need-focus-structuring-time/) from *University Affairs*.
-4. Most people are really bad at meetings, especially including me. [Here are some extremely useful suggestions from Greg Wilson](http://third-bit.com/2018/05/11/meetings.html). In a tweet, [Wilson argues that](https://twitter.com/gvwilson/status/994553693772099589) "the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's."
-5. Some people need help taking notes. You might be interested in [Cornell Note Taking](https://medium.goodnotes.com/study-with-ease-the-best-way-to-take-notes-2749a3e8297b) or the [5 other methods described here](https://collegeinfogeek.com/how-to-take-notes-in-college/).
-6. You may be interested in the American Statistical Association, and its [This is Statistics](https://thisisstatistics.org/students/) program.
+1. Quizzes typically involve 20-40 questions. 
+2. The questions are not arranged in any particular order, and you should answer all questions.
+3. All questions involve relatively short responses, sometimes after working through a detailed analysis.
+4. You will have the opportunity to edit your responses after completing the Quiz, but this must be completed by the deadline.
+5. You are welcome (even encouraged) to consult the materials provided on the course website, but you are **not** allowed to discuss the questions on the Quizzes with anyone other than Professor Love or the teaching assistants.
+6. We do not guarantee to answer questions we receive via email less than 3 hours prior to the Quiz submission deadline.
+7. Quizzes that are more than an hour late will **not** be accepted, except in truly remarkable circumstances.
+8. An answer sketch for each Quiz will be made available within 48 hours of the deadline. 
+9. Grades for the Quizzes are usually available within 48 hours of the deadline. 
+10. If you feel Professor Love has made an error in grading your Quiz, please let him know directly, by email, as soon as possible.
 
-## On Seeking a Job
+For more information on the Quizzes, please visit the Quizzes web page on our main course web site.
 
-If I have a job or internship to offer, I'll be noisy about it in class. In the meantime, I'd consider joining the [American Statistical Association as a student member](https://www.amstat.org/ASA/Membership/home.aspx) and perhaps joining the [Greater Cleveland R Meetup Group](https://www.meetup.com/Cleveland-UseR-Group/).
+### Grading the Quizzes
 
-Here are some gathered thoughts from other folks that you might enjoy:
+Each quiz will be graded by Dr. Love. A detailed answer sketch and grading rubric will be provided to you when grades are available, usually within 48 hours of the quiz deadline. 
 
-1. [General Advice on an Academic Career Path](https://github.com/stephaniehicks/classroomNotes/blob/master/academicJobNotes.md) (which is filled with useful advice, especially for those studying biostatistics.)
-2. [Advice for Applying to Data Science Jobs](https://hookedondata.org/advice-for-applying-to-data-science-jobs/) from [Emily Robinson](https://hookedondata.org/)
-3. [Academic job search advice](http://matt.might.net/articles/advice-for-academic-job-hunt/) from [matt.might.net](http://matt.might.net/articles/)
-4. [10 Hints for Conferences](https://creativemaths.net/blog/conference_10_ways/) from Creative Maths, 2016-12-07
+In calculating your quiz average for your course grade, I will weight your stronger Quiz performance at 60% and your weaker one at 40%.
+
+Should you need to miss a Quiz, the other Quiz will count for all of the Quiz component of your course grade, and will automatically make the Quiz element your "Weight 3" element in determining your final course average. (See the [Grading Breakdown][Grading Breakdown] section below for details.)
+
+## Projects
+
+During the semester, you will have two projects to complete. 
+
+- Project A anticipates you using materials from the first 12 classes
+- Project B anticipates you using materials from the first 24 classes
+
+For more information on the Projects, please visit the Projects web page on our main course web site.
+
+### Grading the Projects
+
+Some elements of each project will be graded by Dr. Love, and others by the teaching assistants.
+
+In calculating your project average for your course grade, I will weight Project A at 40% and Project B at 60%.
+
+Students who cannot complete a project (either A or B) in a timely fashion will receive an incomplete grade until both Projects are completed. A penalty will be applied to late work on projects. 
+
+Once the complete project instructions are available, please contact Dr. Love directly if you are in any way concerned about your ability to complete a project on time.
+
+# Determining Course Grades
+
+Over the past five years, all students taking the course have eventually earned either an "A", a "B" or an "Incomplete" in 431. I don't see a reason why this won't also be the case this year.
+
+## Grading Breakdown
+
+Grading standards apply in the same way for all students, regardless of whether they are enrolled in PQHS 431, CRSP 431 or MPHP 431. The courses are identical.
+
+The course grade is based on four key areas of demonstrated accomplishment. 
+
+The Fall 2020 version of the 431 course will be graded differently than previous versions of this course. Across the past five years, no student has received a course grade other than A, B or Incomplete, and I anticipate that this will again be the case this year.
+
+Course grades are based primarily on performance on labs, projects and quizzes. Your grade on each of these three elements will be determined separately. Then I will combine these elements as follows:
+
+Element | Weight 1 | Weight 2 | Weight 3 | Weight 4
+------- | -------- | -------- | -------- | --------
+Labs | 35% | 30% | 25% | -
+Projects | 45% | 40% | 35% | -
+Quizzes | 25% | 20% | 15% | -
+Participation | - | - | - | 10%
+
+Among Labs, Projects and Quizzes, your element with the strongest score will receive Weight 1, your element with the second strongest score will receive Weight 2 and your element with the weakest score will receive weight 3. The Class Participation score is worth 10% for all students.
+
+I will determine your final course grade using the following scale:
+
+- course averages of 89% to 100% will receive a A
+- course averages of 85% to 88% will be reviewed more closely to determine whether the grade will be A or B
+- course averages of 70% to 84% will receive a B
+
+For students in the 85-88% range, in addition to the labs/projects/quizzes, I will consider improvement from the first half of the course to the second in addition to your overall grade to make a final determination.
+
+Students whose course average is near or below 70% will usually need to take an Incomplete to improve their work before I assign a final grade.
 
 # On Writing, Presenting & Communicating
 
@@ -978,9 +938,9 @@ Here's what I find to be a compelling argument from George Cobb ...
 
 > Think back to the last "report" you were expected to read.  Is it easy to recall the main points?  The answer, yes or no, depends not so much on the quality of the data, the effort, and the thinking that went into the report, nor on your own dutiful diligence in reading the report, but rather, and mainly, on whether the people who wrote the report had learned and practiced the skills of how to use words and pictures, first, to claim attention, and second, to claim retention:  to deliver a message that sticks in the mind.
 
-## On Campus Resources
+## Campus Resources
 
-The [University Resources for Student Support][University Resources for Student Support] section at the end of this Syllabus lists several important resources for improving your English and your communication skills, most of which will be available remotely after the first week of the semester. We strongly encourage you to take advantage of these resources.
+The [University Resources for Student Support][University Resources for Student Support] section in this Syllabus lists several important resources for improving your English and your communication skills, most of which will be available remotely after the first week of the semester. We strongly encourage you to take advantage of these resources.
 
 ## Advice from Other People
 
@@ -1188,7 +1148,39 @@ Visit https://case.edu/studentlife/healthcounseling/health-serviceshealth-update
 
 Students who wish to request accommodation for a disability may do so by registering with the [Disability Resources Office at the Division of Student Affairs](https://case.edu/studentlife/disability/). Students with special needs should then make an appointment with Dr. Love at their earliest opportunity to discuss any accommodations that need to be made.
 
+# Advice for Graduate Students
+
+My most important piece of general advice to people is to be kind. That's not always the thing I do as well as I'd like.
+
+```{r fullprof-fig, echo = FALSE, out.width = '80%'}
+knitr::include_graphics("images/2019-06-12_ta_fullprof.png")
+```
+
+## On Graduate School
+
+For graduate students, I urge you to take as much advantage of this learning experience as you can. While I'll refer to some of the pieces below during the course, I've gathered a few favorites here. 
+
+1. From [matt.might.net](http://matt.might.net/articles/)
+    - [12 Resolutions for Grad Students](http://matt.might.net/articles/grad-student-resolutions/)
+    - [How to get a great letter of recommendation](http://matt.might.net/articles/how-to-recommendation-letter/)
+    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://www.math.uh.edu/~tomforde/Email-Etiquette.html).
+2. [Four Things You Should Do When You're Bored, on YouTube](https://www.youtube.com/watch?v=d9W2GO1LhP4) (the four things are Exercise / Read / Meditate / Find and Engage a Hobby with Passion). Also, [Get Up and Move. It May Make You Happier](https://www.nytimes.com/2017/01/25/well/move/get-up-and-move-it-may-make-you-happier.html) by Gretchen Reynolds, in the *New York Times*, 2017-01-25.
+3. [Why academics need to focus on structuring their time](https://www.universityaffairs.ca/career-advice/career-advice-article/academics-need-focus-structuring-time/) from *University Affairs*.
+4. Most people are really bad at meetings, especially including me. [Here are some extremely useful suggestions from Greg Wilson](http://third-bit.com/2018/05/11/meetings.html). In a tweet, [Wilson argues that](https://twitter.com/gvwilson/status/994553693772099589) "the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's."
+5. Some people need help taking notes. You might be interested in [Cornell Note Taking](https://medium.goodnotes.com/study-with-ease-the-best-way-to-take-notes-2749a3e8297b) or the [5 other methods described here](https://collegeinfogeek.com/how-to-take-notes-in-college/).
+6. You may be interested in the American Statistical Association, and its [This is Statistics](https://thisisstatistics.org/students/) program.
+
+## On Seeking a Job
+
+If I have a job or internship to offer, I'll be noisy about it in class. In the meantime, I'd consider joining the [American Statistical Association as a student member](https://www.amstat.org/ASA/Membership/home.aspx) and perhaps joining the [Greater Cleveland R Meetup Group](https://www.meetup.com/Cleveland-UseR-Group/).
+
+Here are some gathered thoughts from other folks that you might enjoy:
+
+1. [General Advice on an Academic Career Path](https://github.com/stephaniehicks/classroomNotes/blob/master/academicJobNotes.md) (which is filled with useful advice, especially for those studying biostatistics.)
+2. [Advice for Applying to Data Science Jobs](https://hookedondata.org/advice-for-applying-to-data-science-jobs/) from [Emily Robinson](https://hookedondata.org/)
+3. [Academic job search advice](http://matt.might.net/articles/advice-for-academic-job-hunt/) from [matt.might.net](http://matt.might.net/articles/)
+
 # Movies
 
-Once you have read through this Syllabus, please e-mail Professor Love the poster for one of your favorite movies. If received by the end of week two of the course, this will add some bonus credit to your class participation grade.
+Once you have read through this Syllabus, please e-mail Professor Love the poster for one of your favorite movies. If received by noon Eastern time on 2020-09-04, he will then add some bonus credit to your class participation grade.
 
