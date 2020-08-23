@@ -26,7 +26,7 @@ knitr::include_graphics("images/cwru_logo.jpg")
     - toggle the table of contents sidebar,
     - search the document, 
     - change the size, font or color scheme of the page, and 
-    - download a PDF or Kindle version of the entire document.
+    - download a PDF or Kindle (EPUB) version of the entire document.
 3. The document will be updated occasionally. The version indicates the most recent update time.
 
 ## Who, When and Where? {-}
