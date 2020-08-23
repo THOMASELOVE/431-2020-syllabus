@@ -126,7 +126,10 @@ Once the course begins, you have several ways to get help from us:
   - The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. 
   - We encourage you to ask questions when you're struggling to understand anything related to the class, and you can even do so anonymously.
   - You'll also be able to help your colleagues by answering their questions, as well.
-- There are many, many online resources to help you learn R beyond those we provide. 
+  - We will use Piazza for all questions **except** questions about [Quizzes][Quizzes]. Details on the plan for Quizzes follow in the [Quizzes section][Quizzes] below.
+
+In addition, there are many, many online resources to help you learn R beyond those we provide. 
+
   - Googling effectively is an important skill that requires practice. Don't be afraid to use search engines to figure out how to code things in R, for example.
   - The [RStudio Community](https://community.rstudio.com/) is a forum specifically designed for people using RStudio and the tidyverse (and that will be you.)
 
@@ -252,7 +255,7 @@ Dr. Love has a lot of thoughts on this issue, but you may prefer to hear from ot
 - [50 Years of Data Science](https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734) by David Donoho in the *Journal of Computational and Graphical Statistics*, 2017.
 - [Why You Should Master R (Even if it might eventually become obsolete)](https://www.sharpsightlabs.com/blog/master-r-obsolete/) blog post from Sharp Sight, 2016-12-27
 - [Teaching R to New Users - From tapply to the Tidyverse](https://simplystatistics.org/2018/07/12/use-r-keynote-2018/) by Roger D. Peng, which is also [available as a YouTube Video](https://www.youtube.com/watch?v=5033jBHFiHE&feature=youtu.be)
-- [Teach the Tidyverse to Beginners](https://www.rstudio.com/resources/videos/teach-the-tidyverse-to-beginners/) from David Robinson at `rstudio::conf 2018` (video), and [here is the blog post](http://varianceexplained.org/r/teach-tidyverse/) and a [related post on teaching `ggplot2`, specifically](http://varianceexplained.org/r/teach_ggplot2_to_beginners/) from David.
+- [Teach the Tidyverse to Beginners](http://varianceexplained.org/r/teach-tidyverse/) and a [related post on teaching `ggplot2`, specifically](http://varianceexplained.org/r/teach_ggplot2_to_beginners/) from David Robinson. There is also [a related video from rstudio::conf 2018](https://rstudio.com/resources/rstudioconf-2018/teach-the-tidyverse-to-beginners/).
 - Video from Hadley Wickham, [You can't do data science in a GUI](https://www.youtube.com/watch?v=PURtmHwk_-0), 2018 in Chicago.
 
 
@@ -468,7 +471,7 @@ Many of these resources will come up again in class, but no one can keep up with
 
 1. [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/) by Winston Chang.
 2. [Data Visualization: A Practical Introduction](http://socviz.co/) by Kieran Healy.
-3. [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) by Claus O. Wilke
+3. [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) by Claus O. Wilke
 4. [Data Visualization with R](https://rkabacoff.github.io/datavis/) by Rob Kabacoff
 5. [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/) by Carson Sievert
 
@@ -523,9 +526,9 @@ Many of these resources will come up again in class, but no one can keep up with
 
 1. [Resources from RStudio](https://resources.rstudio.com/) is a great source of all kinds of useful stuff. For example:
   - [Getting Started with R Markdown](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/)
-  - [Getting Your Data into R](https://www.rstudio.com/resources/webinars/getting-your-data-into-r/)
+  - [Getting Data into R](https://rstudio.com/resources/webinars/getting-data-into-r/)
   - [Data Wrangling with R and RStudio](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/)
-  - Six part series on [RStudio Essentials](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/) (Parts 1 and 2 of each section are likely to be of greater interest in 431.)
+  - [RStudio Essentials](https://rstudio.com/collections/rstudio-essentials/) (Parts 1 and 2 of the Learning, Managing and Programming tracks are likely to be of greater interest in 431.)
   - [Data Science Essentials](https://resources.rstudio.com/the-essentials-of-data-science)
   - [RStudio Webinars](https://resources.rstudio.com/webinars) on a variety of subjects, most of which are gathered in [this YouTube playlist](https://www.youtube.com/playlist?list=PL9HYL-VRX0oRDOP3T5ojgSnMtQdityqEk) as well.
 2. [Data Wrangling with R and the Tidyverse YouTube Playlist](https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk) from Garrett Grolemund
@@ -538,11 +541,18 @@ Many of these resources will come up again in class, but no one can keep up with
 9. [Six Types of Questions You Can Ask in a Data Analysis](https://www.youtube.com/watch?v=GRNyEzQ26Ww) from Roger Peng.
 10. [Videos from Coursera's 4 week course "Computing for Data Analysis" in R](https://blog.revolutionanalytics.com/2012/12/coursera-videos.html)
 11. [Learn R by Intensive Practice](https://www.youtube.com/user/TheLearnR) list of tutorials on YouTube.
+12. [Learning R with humorous side projects](https://rstudio.com/resources/rstudioconf-2020/learning-r-with-humorous-side-projects/) from rstudio::conf 2020 and Ryan Timpe.
+13. [R for Graphical Clinical Trial Reporting](https://rstudio.com/resources/rstudioconf-2020/r-for-graphical-clinical-trial-reporting/) from rstudio::conf 2020 and Frank Harrell.
+14. [Effective Visualizations](https://rstudio.com/resources/rstudioconf-2020/effective-visualizations/) from rstudio::conf 2020 and Miriah Meyer.
+15. [State of the Tidyverse](https://rstudio.com/resources/rstudioconf-2020/state-of-the-tidyverse/) from rstudio::conf 2020 and Hadley Wickham.
+16. [How R Markdown changed my life](https://rstudio.com/resources/rstudioconf-2020/how-rmarkdown-changed-my-life/) from rstudio::conf 2020 and Rob Hyndman.
+17. [One R Markdown document: 14 demos](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/) from rstudio::conf 2020 and Yihui Xie.
 
 ## Podcasts
 
 1. [Risky Talk](https://riskytalk.libsyn.com/) with David Spiegelhalter (author of *The Art of Statistics*) features conversations with the world's top experts in risk and evidence communication addressing urgent, practical challenges: How can doctors communicate the risks and benefits of medical treatment? How should scientists communicate evidence about climate change? How can journalists make numbers meaningful to readers? How should government institutions convey important statistics?
 2. [Not So Standard Deviations](http://nssdeviations.com/) by Hilary Parker and Roger Peng talking about the latest in data science and data analysis in academia and industry.
+    - Episode 100 took place at [rstudio conf::2020 and is available here](https://rstudio.com/resources/rstudioconf-2020/not-so-standard-deviations-episode-100/)
 3. [The Effort Report](http://theeffortreport.com/) by Elizabeth Matsui and Roger Peng talking about life in the academic trenches, telling it "like it is". Every graduate student in this course looking at a career in academia would benefit from listening.
 4. [Casual Inference](https://casualinfer.libsyn.com/) where hosts Lucy D'Agostino McGowan and Ellie Murray talk all things epidemiology, statistics, data science, causal inference, and public health. Sponsored by the American Journal of Epidemiology.
 5. [FiveThirtyEight Model Talk](https://fivethirtyeight.com/tag/model-talk/) where Nate Silver and the rest of the FiveThirtyEight folks get into the weeds of their models for election and sports forecasting and those of other people for things like COVID-19.
@@ -861,6 +871,12 @@ During the semester, you will have two quizzes to complete. Each quiz is taken o
 
 You will typically receive access to the quiz 4 days before it is due, and each quiz will be designed to take 4-6 hours to complete, so the time pressure should be minimal. **If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, at least a week before a Quiz is released.
 
+### Piazza and the Quizzes
+
+As we've discussed, for most of the course, [Piazza](https://piazza.com/case/fall2020/pqhs431/home) will be our tool for asking and answering questions. 
+
+**However, for questions about the Quizzes**, we will provide an alternate method for you to ask questions of Dr. Love and the Teaching Assistants, and we will share that approach at the top of each Quiz as they become available.
+
 ### About the Quizzes
 
 1. Quizzes typically involve 20-40 questions. 
@@ -868,7 +884,7 @@ You will typically receive access to the quiz 4 days before it is due, and each 
 3. All questions involve relatively short responses, sometimes after working through a detailed analysis.
 4. You will have the opportunity to edit your responses after completing the Quiz, but this must be completed by the deadline.
 5. You are welcome (even encouraged) to consult the materials provided on the course website, but you are **not** allowed to discuss the questions on the Quizzes with anyone other than Professor Love or the teaching assistants.
-6. We do not guarantee to answer questions we receive about the Quiz less than 3 hours prior to the Quiz submission deadline.
+6. We do not guarantee to answer questions we receive about the Quiz less than 3 hours prior to the Quiz submission deadline. As noted above, we will **not** use Piazza for Quiz questions, but instead an alternate approach we will provide to you with each quiz.
 7. Quizzes that are more than an hour late will **not** be accepted, except in truly remarkable circumstances.
 8. An answer sketch for each Quiz will be made available within 48 hours of the deadline. 
 9. Grades for the Quizzes are usually available within 48 hours of the deadline. 
@@ -1187,6 +1203,7 @@ Here are some gathered thoughts from other folks that you might enjoy:
 1. [General Advice on an Academic Career Path](https://github.com/stephaniehicks/classroomNotes/blob/master/academicJobNotes.md) (which is filled with useful advice, especially for those studying biostatistics.)
 2. [Advice for Applying to Data Science Jobs](https://hookedondata.org/advice-for-applying-to-data-science-jobs/) from [Emily Robinson](https://hookedondata.org/)
 3. [Academic job search advice](http://matt.might.net/articles/advice-for-academic-job-hunt/) from [matt.might.net](http://matt.might.net/articles/)
+4. [Career Advice for Data Scientists](https://rstudio.com/resources/rstudioconf-2020/panel-career-advice-for-data-scientists/) was a panel at rstudio::conf 2020 focused on building a career around R.
 
 # Movies
 
