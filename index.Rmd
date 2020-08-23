@@ -867,7 +867,7 @@ The main advantage of this system is that it saves all of us the hassle of haggl
 
 ## Quizzes
 
-During the semester, you will have two quizzes to complete. Each quiz is taken online via a Google Form (like the Minute Papers or the [Welcome to 431 survey](https://bit.ly/431-2020-welcome-survey),) and consists of a series of short-answer and multiple-choice items. The quizzes focus on whether you can apply the tools developed in class to address small problems.
+During the semester, you will have two quizzes to complete. Each quiz is taken online via a Google Form (like the Minute Papers or the [Welcome to 431 survey](https://bit.ly/431-2020-welcome-survey).) Each quiz includes both short-answer and multiple-choice items. The quizzes focus on whether you can apply the tools developed in class to address small problems.
 
 You will typically receive access to the quiz 4 days before it is due, and each quiz will be designed to take 4-6 hours to complete, so the time pressure should be minimal. **If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, at least a week before a Quiz is released.
 
@@ -969,7 +969,8 @@ The [University Resources for Student Support][University Resources for Student 
 ## Advice from Other People
 
 1. [Preparing Manuscripts for Submission to Medical Journals: The Paper Trail](https://pdfs.semanticscholar.org/48a8/88d557e694e17444cb6686c472753ccc66df.pdf) by H. Gilbert Welch, from *Effective Clinical Practice* in 1999.
-    - Start early, focus on high-visibility components, develop a systematic approach to the body of the paper, finish strong.3. [thinkchecksubmit.org] to choose the right journal for your research, or at least ones you can trust, and [see this tweet](https://twitter.com/laura_tastic/status/1026573387429228551) for some related suggestions.
+    - Start early, focus on high-visibility components, develop a systematic approach to the body of the paper, finish strong. 
+    - Use [thinkchecksubmit](https://thinkchecksubmit.org/) and [see this tweet](https://twitter.com/laura_tastic/status/1026573387429228551) for some related suggestions when selecting a journal or publisher for your work.
 2. [Writing a Scientific Paper in Four Easy Steps](https://serialmentor.com/blog/2013/8/29/writing-a-scientific-paper-in-four-easy-steps) from Claus Wilke at [The Serial Mentor blog](https://serialmentor.com/).
 3. [Rules to write a good research paper](https://lemire.me/blog/rules-to-write-a-good-research-paper/) from Daniel Lemire.
 4. [Hey-here are some tips on communicating data and statistics!](https://statmodeling.stat.columbia.edu/2017/06/02/hey-tips-communicating-data-statistics/) from Andrew Gelman 2017-06-02.
@@ -980,7 +981,7 @@ The [University Resources for Student Support][University Resources for Student 
 
 1. Statistics is a "getting the details right" business - we care deeply about details, and this applies to writing code or complete English sentences. RStudio has a spell-checker. To use it, click F7.
 2. Nothing impresses us as much as a clear and concise argument, presented using well-written English sentences, effective and well-labeled figures and tables.
-3. Don't parrot back material that Professor Love wrote or said. State ideas in your own words. Stating them in other words is, technically, plagiarism.
+3. Don't parrot back material that Professor Love wrote or said. State ideas in your own words. Stating them in my words is, technically, plagiarism.
 4. Edit your more adventurous output;  don't present everything you know how to do in R, and don't forget that someone is trying to read both your code and your results.
 5. Make your work easy to evaluate. In responding to an assignment, be sure to answer the question that was asked, restating it as necessary. 
 6. Clearly label everything: graphs, tables, your answer to a specific question. Everything. Again, make your work easy to evaluate. 
@@ -1032,7 +1033,7 @@ The Office of Student Affairs provides programs, facilities, and services that e
 
 International Student Services provides a smooth transition for international students who attend Case Western Reserve University. The office serves as a liaison with the U.S. Immigration and Naturalization Service, the U.S. Department of State, foreign embassies, educational consular offices, the International Institute of Education, and Fulbright-Hays grant offices. 
 
-## University Health Service
+## University Health Services
 
 - Location: 2145 Adelbert Road
 - Phone: 216-368-2450
@@ -1053,15 +1054,15 @@ University Counseling Services (part of University Health & Counseling Services)
 
 ## Educational Services for Students
 
-Location: 470 Sears Library
-Phone: 216-368-5230
-Website: https://case.edu/studentsuccess/academic-resources
+- Location: 470 Sears Library
+- Phone: 216-368-5230
+- Website: https://case.edu/studentsuccess/academic-resources
 
 Educational Services for Students (ESS) offers resources to enhance the academic experience at Case. Services include the Peer Tutoring and Supplemental Instruction (SI) programs, Disability Resources, Graduate Teaching Assistant (TA) training, and individual consultation for academic success. Students with disabilities are encouraged to contact ESS, to ensure the resources necessary to fully participate in their chosen programs and activities. Full details about ESS can be found [on their website](https://case.edu/studentsuccess/academic-resources) at https://case.edu/studentsuccess/academic-resources.
 
 ## English Language Resources
 
-Website: https://case.edu/studentsuccess/academic-resources/english-language-resources
+- Website: https://case.edu/studentsuccess/academic-resources/english-language-resources
 
 Within the ESS group, English language resources are available for you to practice pronunciation, fluency, vocabulary and other spoken English skills. 
 
@@ -1187,10 +1188,10 @@ For graduate students, I urge you to take as much advantage of this learning exp
 1. From [matt.might.net](http://matt.might.net/articles/)
     - [12 Resolutions for Grad Students](http://matt.might.net/articles/grad-student-resolutions/)
     - [How to get a great letter of recommendation](http://matt.might.net/articles/how-to-recommendation-letter/)
-    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://www.math.uh.edu/~tomforde/Email-Etiquette.html).
+    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://marktomforde.com/academic/undergraduates/Email-Etiquette.html).
 2. [Four Things You Should Do When You're Bored, on YouTube](https://www.youtube.com/watch?v=d9W2GO1LhP4) (the four things are Exercise / Read / Meditate / Find and Engage a Hobby with Passion). Also, [Get Up and Move. It May Make You Happier](https://www.nytimes.com/2017/01/25/well/move/get-up-and-move-it-may-make-you-happier.html) by Gretchen Reynolds, in the *New York Times*, 2017-01-25.
 3. [Why academics need to focus on structuring their time](https://www.universityaffairs.ca/career-advice/career-advice-article/academics-need-focus-structuring-time/) from *University Affairs*.
-4. Most people are really bad at meetings, especially including me. [Here are some extremely useful suggestions from Greg Wilson](http://third-bit.com/2018/05/11/meetings.html). In a tweet, [Wilson argues that](https://twitter.com/gvwilson/status/994553693772099589) "the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's."
+4. Most people are really bad at meetings, including Dr. Love. [Here are some extremely useful suggestions from Greg Wilson](http://third-bit.com/2018/05/11/meetings.html). In a tweet, [Wilson argues that](https://twitter.com/gvwilson/status/994553693772099589) "the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's."
 5. Some people need help taking notes. You might be interested in [Cornell Note Taking](https://medium.goodnotes.com/study-with-ease-the-best-way-to-take-notes-2749a3e8297b) or the [5 other methods described here](https://collegeinfogeek.com/how-to-take-notes-in-college/).
 6. You may be interested in the American Statistical Association, and its [This is Statistics](https://thisisstatistics.org/students/) program.
 
