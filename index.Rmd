@@ -19,9 +19,9 @@ This is the Fall 2020 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods i
 knitr::include_graphics("images/cwru_logo.jpg")
 ```
 
-## Working with This Document {-}
+## Working With This Document {-}
 
-1. This document includes multiple sections. Use the table of contents at left to navigate. 
+1. This document includes multiple sections. Use the table of contents on the left side of the screen to navigate. 
 2. At the top of the document, click the icons to:
     - toggle the table of contents sidebar,
     - search the document, 
@@ -53,7 +53,9 @@ At the first class, we'll share the course website. This will include links to:
 
 # Learning During a Pandemic
 
-Life is absolutely terrible right now. None of us is really okay. We're all just pretending.
+The CWRU Return to Campus website is found at https://case.edu/return-to-campus/.
+
+Life is absolutely terrible right now. None of us are really okay. We're all just pretending.
 
 You most likely know people who have lost their jobs, have tested positive for COVID-19, have been hospitalized, or perhaps have even died. You all have increased (or possibly decreased) work responsibilities and increased  care responsibilities - you might be caring for extra people (young and/or old!) right now, and you might be facing uncertain job prospects.
 
@@ -469,15 +471,15 @@ Many of these resources will come up again in class, but no one can keep up with
 
 ## Data Visualization Books
 
-1. [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/) by Winston Chang.
-2. [Data Visualization: A Practical Introduction](http://socviz.co/) by Kieran Healy.
+1. [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/) by Winston Chang
+2. [Data Visualization: A Practical Introduction](http://socviz.co/) by Kieran Healy
 3. [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) by Claus O. Wilke
 4. [Data Visualization with R](https://rkabacoff.github.io/datavis/) by Rob Kabacoff
 5. [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/) by Carson Sievert
 
 ## Statistics/Data Analysis/Data Science Books
 
-1. [The Art of Data Science](https://leanpub.com/artofdatascience) by Roger D. Peng and Elizabeth Matsui (book is also available with lecture videos). An earlier edition is available at [bookdown](https://bookdown.org/rdpeng/artofdatascience/).
+1. [The Art of Data Science](https://leanpub.com/artofdatascience) by Roger D. Peng and Elizabeth Matsui (book is also available with lecture videos). An earlier edition is available at [bookdown](https://bookdown.org/rdpeng/artofdatascience/)
 2. [Exploratory Data Analysis with R](https://leanpub.com/exdata) by Roger D. Peng. An earlier edition is available at [bookdown](https://bookdown.org/rdpeng/exdata/)
 3. [Data Analysis for the Life Sciences](https://leanpub.com/dataanalysisforthelifesciences) by Rafael A. Irizarry and Michael I. Love
 4. [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/) by Susan Holmes and Wolfgang Huber
@@ -508,12 +510,12 @@ Many of these resources will come up again in class, but no one can keep up with
 6. New York Times [What's Going On in this Graph?](https://www.nytimes.com/column/whats-going-on-in-this-graph)
 7. [Edward Tufte on the Web](https://www.edwardtufte.com/tufte/)
 8. [Tidy Tuesdays](https://github.com/rfordatascience/tidytuesday): A weekly data project in R from the R for Data Science online learning community
-9. [FiveThirtyEight](https://fivethirtyeight.com/) on Politics, Sports, Science & Health, Economics and Culture. Nate Silver is Editor-in-Chief.
+9. [FiveThirtyEight](https://fivethirtyeight.com/) on Politics, Sports, Science & Health, Economics and Culture (Nate Silver is editor-in-chief)
 
 ## Resources for Learning R
 
 1. I recommend the [Community-Sourced Data Science Guide](https://github.com/Chris-Engelhardt/data_sci_guide) of resources for learning data science.
-    - I no longer support DataCamp in any way, and suggest that you don't, either. See [R-Ladies Global on the matter](https://blog.rladies.org/post/statement-about-datacamp/).
+    - I no longer support DataCamp, and suggest that you don't, either. See [R-Ladies Global on the matter](https://blog.rladies.org/post/statement-about-datacamp/).
 2. [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) are definitely worth your time. In 431, you'll especially like:
   - Data Transformation with `dplyr`
   - Data Visualization with `ggplot2`
@@ -584,7 +586,7 @@ You will need access to a computer to do your work for this class, not just an i
 
 You will do all of your analysis with the open source (and free!) [programming language R](https://cloud.r-project.org). You will use [RStudio](https://www.rstudio.com/) as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
 
-R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found on the [Software page](software.html)
+R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found below in the [Getting the Software][Getting the Software] section of this Syllabus.
 
 Learning R can be difficult at first - it's like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham-the chief scientist at RStudio and the author of some amazing R packages you'll be using like `ggplot2` [made this wise observation](https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/):
 
@@ -768,6 +770,10 @@ Course deliverables (assignments) include (in increasing order of importance):
 
 Our main course website will provide details on all of these deliverables to you. This syllabus material describes each in general terms, and provides some guidance on what happens after the deadline for each.
 
+## Deadlines for Deliverables
+
+All deadlines for deliverables are posted as part of the Course Calendar, found on the main web site. The Course Calendar is the final word for all deadlines.
+
 ## Minute Papers (and Class Participation)
 
 During the semester, there are **ten** Minute Papers scheduled. In this class, a Minute Paper is a short survey (completed using a Google Form) where you will answer a few questions about how the course is going for you. To complete the Minute Paper, you'll need to log into Google with your CWRU account. The pre-class survey uses a similar format, but is more extensive than a typical Minute Paper. 
@@ -904,8 +910,8 @@ Should you need to miss a Quiz, the other Quiz will count for all of the Quiz co
 
 During the semester, you will have two projects to complete. 
 
-- Project A anticipates you using materials from the first 12 classes
-- Project B anticipates you using materials from the first 24 classes
+- Project A anticipates you using materials from the first 12 classes.
+- Project B anticipates you using materials from the first 24 classes.
 
 For more information on the Projects, please visit the Projects web page on our main course web site.
 
@@ -993,8 +999,8 @@ The [University Resources for Student Support][University Resources for Student 
 12. Similarly, don't defend a method of data collection because it is random. Most of the time we want to represent some population, and a random sample is just one way to ensure that certain types of biases have a low probability of creeping in.
 13. If you want to write that you used $\alpha = 0.05$ as your significance level, then state that your results were obtained using a 95% confidence level, not a 95% confidence interval, unless you are actually interpreting a confidence interval.  
 14. If you find yourself in the appalling situation of writing about a *p*-value, then you should state something like: 
-    + [1] We're using a 95% confidence level.  
-    + [2] We're using a 5% significance level. or 
+    + [1] We're using a 95% confidence level.
+    + [2] We're using a 5% significance level.  
     + [3] We're using $\alpha = 0.05$.  
     + Don't use more than one of these expressions.
 15. Again, don't use *p*-values in most settings, but if you must, refer to all *p*-values that are less than 0.001 or perhaps less than 0.0001 as $p < 0.001$, rather than, for instance, $p = 0.00000001$ or, worse yet, $p = 0$. In a similar vein, write all $p$-values that exceed 0.99 as $p > 0.99$ instead of, for instance, $p  = 1$. 
@@ -1185,10 +1191,10 @@ knitr::include_graphics("images/2019-06-12_ta_fullprof.png")
 
 For graduate students, I urge you to take as much advantage of this learning experience as you can. While I'll refer to some of the pieces below during the course, I've gathered a few favorites here. 
 
-1. From [matt.might.net](http://matt.might.net/articles/)
+1. From [matt.might.net](http://matt.might.net/articles/)...
     - [12 Resolutions for Grad Students](http://matt.might.net/articles/grad-student-resolutions/)
     - [How to get a great letter of recommendation](http://matt.might.net/articles/how-to-recommendation-letter/)
-    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://marktomforde.com/academic/undergraduates/Email-Etiquette.html).
+    - [How to send and reply to email](http://matt.might.net/articles/how-to-email/). You might also want to look at [Email Etiquette: Guidelines for Writing to Your Professors](https://marktomforde.com/academic/undergraduates/Email-Etiquette.html)
 2. [Four Things You Should Do When You're Bored, on YouTube](https://www.youtube.com/watch?v=d9W2GO1LhP4) (the four things are Exercise / Read / Meditate / Find and Engage a Hobby with Passion). Also, [Get Up and Move. It May Make You Happier](https://www.nytimes.com/2017/01/25/well/move/get-up-and-move-it-may-make-you-happier.html) by Gretchen Reynolds, in the *New York Times*, 2017-01-25.
 3. [Why academics need to focus on structuring their time](https://www.universityaffairs.ca/career-advice/career-advice-article/academics-need-focus-structuring-time/) from *University Affairs*.
 4. Most people are really bad at meetings, including Dr. Love. [Here are some extremely useful suggestions from Greg Wilson](http://third-bit.com/2018/05/11/meetings.html). In a tweet, [Wilson argues that](https://twitter.com/gvwilson/status/994553693772099589) "the single most useful training you can give an adult is how to run a meeting and how to participate in someone else's."
