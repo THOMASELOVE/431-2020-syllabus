@@ -40,12 +40,14 @@ knitr::include_graphics("images/cwru_logo.jpg")
 
 ## Main Course Web Site {-}
 
-At the first class, we'll share the course website. This will include links to:
+The main course web site is found at https://thomaselove.github.io/431/. 
+
+This includes everything you need for the course, including links to:
 
 - The 431 Syllabus (this document)
-- Dr. Love's Course Notes (which serve as the main textbook for the course)
+- Dr. Love's [Course Notes](https://thomaselove.github.io/431-notes/) (which serve as the main textbook for the course)
 - The Course Calendar, which is the final word for all deadlines and assignments
-- Materials for each class, including presentation slides, session recordings and announcements
+    - The Calendar also links to materials for each class, including presentation slides, session recordings and announcements
 - Data (and Code) for the course's assignments, presentations, and notes
 - Readings and Supplemental Materials that we'll review during the course
 - Our [Piazza discussion forum](https://piazza.com/case/fall2020/pqhs431/home) for questions and answers
@@ -92,7 +94,7 @@ When you are able, please contact Dr. Love (via email) if you encounter any prob
 
 ## Before our First Class
 
-Most of you have already accessed [the pre-class website](https://431-2020-preclass-love.netlify.app/). Once class begins, that will no longer be relevant, and will be replaced by our main course website and (among other things) this Syllabus. If you're seeing this before class starts on 2020-08-25, then make sure that you:
+Most of you have already accessed [the pre-class website](https://431-2020-preclass-love.netlify.app/). Once class begins, that will no longer be relevant, and will be replaced by [our main course website](https://thomaselove.github.io/431/) and (among other things) this Syllabus. If you're seeing this before class starts on 2020-08-25, then make sure that you:
 
 1. Register and enroll in the course via the [CWRU Student Information System (SIS)](https://sis.case.edu/).
     - Note that PQHS 431, CRSP 431 and MPHP 431 are all identical.
@@ -425,6 +427,8 @@ Although these Notes share some of the features of a textbook, they are neither 
 
 In addition, **slides** and video recordings from each of Professor Love's lectures, plus other in-class materials from each session of the class will be posted for your use in a timely fashion throughout the semester.
 
+Once class begins, access all materials [at the main course website](https://thomaselove.github.io/431/).
+
 ## Two Books To Purchase
 
 As mentioned, we'll read two books you'll need to purchase (combined price is \$18 to \$33):
@@ -463,7 +467,7 @@ While I will recommend dozens, perhaps hundreds of articles, blog posts and the 
 5. [Statistical Inference in the 21st Century: A World Beyond *p* < 0.05](https://amstat.tandfonline.com/toc/utas20/73/sup1) from 2019 in *The American Statistician*
 6. The American Statistical Association's 2016 [Statement on p-Values](http://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108): Context, Process and Purpose.
 
-See the main course website for other recommendations as the semester goes on.
+See [the main course website](https://thomaselove.github.io/431/) for other recommendations as the semester goes on.
 
 # Other Worthy (and Free) Resources
 
@@ -586,7 +590,7 @@ You will need access to a computer to do your work for this class, not just an i
 
 You will do all of your analysis with the open source (and free!) [programming language R](https://cloud.r-project.org). You will use [RStudio](https://www.rstudio.com/) as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
 
-R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found below in the [Getting the Software][Getting the Software] section of this Syllabus.
+R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found below in the [Getting the Software][Getting the Software] section of this Syllabus, and this material is also available on the [main course web site](https://thomaselove.github.io/431/).
 
 Learning R can be difficult at first - it's like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham-the chief scientist at RStudio and the author of some amazing R packages you'll be using like `ggplot2` [made this wise observation](https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/):
 
@@ -643,15 +647,17 @@ Everything is free, but it does require some patience to get control over your c
 
 ## In brief, what will I need to do for 431?
 
+These instructions are also available on [the main course website](https://thomaselove.github.io/431/).
+
 1. Download and install **the latest version of R** (version **4.0.2 or later**) from http://cran.case.edu/ or, if you prefer, from https://cloud.r-project.org which automatically chooses a fast, nearby mirror for you.
     - If you have a pre-existing installation of R and/or RStudio, we highly recommend that you reinstall both to get current.
 2. Download and install **RStudio Desktop** (Open Source Edition - the free version **1.3.1056 or later**) at https://www.rstudio.com/products/rstudio/download/#download. 
     - If you prefer, you can instead install [RStudio's Preview Version](https://www.rstudio.com/products/rstudio/download/preview/) to get the very latest features, but that requires you to update your setup more frequently, and occasionally deal with some additional troubleshooting. 
     - Dr. Love will stick with the regular open source version in his work for 431.
 3. Install some **R packages** - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. 
-    - A list of [initial R Packages to install][Initial R Packages to Install] is provided below, along with instructions. A more complete list of packages will be maintained on the main course website.
+    - A list of [initial R Packages to install][Initial R Packages to Install] is provided below, along with instructions. A more complete list of packages will be maintained on [the main course website](https://thomaselove.github.io/431/).
 4. **When available**, you will download some data and code (functions) we've developed specifically for 431.
-    - This information will be provided on the main course website.
+    - This information will be provided on [the main course website](https://thomaselove.github.io/431/).
 5. Obtain a free **Github User Account** by visiting https://github.com/ and signing up. 
     - We urge you to select a Github username that identifies you effectively, and that matches your other professional social media usernames. For instance, Dr. Love uses THOMASELOVE on Github and @ThomasELove on Twitter.
 
@@ -768,11 +774,11 @@ Course deliverables (assignments) include (in increasing order of importance):
 - quizzes, and
 - projects
 
-Our main course website will provide details on all of these deliverables to you. This syllabus material describes each in general terms, and provides some guidance on what happens after the deadline for each.
+Our [main course website](https://thomaselove.github.io/431/) will provide details on all of these deliverables to you. This syllabus material describes each in general terms, and provides some guidance on what happens after the deadline for each.
 
 ## Deadlines for Deliverables
 
-All deadlines for deliverables are posted as part of the Course Calendar, found on the main web site. The Course Calendar is the final word for all deadlines.
+All deadlines for deliverables are posted as part of the Course Calendar, found on [the main web site](https://thomaselove.github.io/431/). The Course Calendar is the final word for all deadlines.
 
 ## Minute Papers (and Class Participation)
 
@@ -833,7 +839,7 @@ Each lab is associated with a deadline. Late work is permitted, but penalized (s
 4. You are welcome to discuss each Lab with anyone, including Professor Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and [Piazza](https://piazza.com/case/fall2020/pqhs431/home).
 5. In general, we do not guarantee to provide answers to questions that we receive in the last 12 hours before a Lab is due, especially once we've gotten into mid-September. So don't leave anything until the last day. Allow time for computer problems.
 
-More information (and the actual Lab assignments) will be found on the Labs page of our main course web site.
+More information (and the actual Lab assignments) will be found on [our main course web site](https://thomaselove.github.io/431/).
 
 ### Grading Labs
 
@@ -896,7 +902,7 @@ As we've discussed, for most of the course, [Piazza](https://piazza.com/case/fal
 9. Grades for the Quizzes are usually available within 48 hours of the deadline. 
 10. If you feel Professor Love has made an error in grading your Quiz, please let him know directly, by email, as soon as possible.
 
-For more information on the Quizzes, please visit the Quizzes web page on our main course web site.
+For more information on the Quizzes, please visit [our main course web site](https://thomaselove.github.io/431/).
 
 ### Grading the Quizzes
 
@@ -913,7 +919,7 @@ During the semester, you will have two projects to complete.
 - Project A anticipates you using materials from the first 12 classes.
 - Project B anticipates you using materials from the first 24 classes.
 
-For more information on the Projects, please visit the Projects web page on our main course web site.
+For more information on the Projects, please visit [our main course web site](https://thomaselove.github.io/431/).
 
 ### Grading the Projects
 
