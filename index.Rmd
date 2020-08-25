@@ -15,8 +15,8 @@ output:
 
 This is the Fall 2020 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences at Case Western Reserve University with Professor Thomas E. Love.
 
-```{r cwrulogo1-fig, echo = FALSE, fig.align = "center", out.width = '30%'}
-knitr::include_graphics("images/cwru_logo.jpg")
+```{r cwrulogo1-fig, echo = FALSE, fig.align = "center", out.width = '80%'}
+knitr::include_graphics("images/431_foot2.PNG")
 ```
 
 ## Working With This Document {-}
@@ -312,7 +312,7 @@ Professor Love is available for the 15 minutes before and after each class on Zo
     - Most of his friends and colleagues call him "Tom". You are welcome to do so, outside of class time, if it makes you comfortable.
 - At Github, he is [THOMASELOVE](https://github.com/thomaselove).
     - The Github repository [for this syllabus is here](https://github.com/THOMASELOVE/431-2020-syllabus).
-- Professor Love's professional Twitter handle is [ThomasELove](https://twitter.com/ThomasELove).
+- Professor Love's professional Twitter handle is [thomaseLove](https://twitter.com/ThomasELove).
 
 # Teaching Assistants
 
@@ -659,7 +659,7 @@ These instructions are also available on [the main course website](https://thoma
 4. **When available**, you will download some data and code (functions) we've developed specifically for 431.
     - This information will be provided on [the main course website](https://thomaselove.github.io/431/).
 5. Obtain a free **Github User Account** by visiting https://github.com/ and signing up. 
-    - We urge you to select a Github username that identifies you effectively, and that matches your other professional social media usernames. For instance, Dr. Love uses THOMASELOVE on Github and @ThomasELove on Twitter.
+    - We urge you to select a Github username that identifies you effectively, and that matches your other professional social media usernames. For instance, Dr. Love uses THOMASELOVE on Github and @thomaselove on Twitter.
 
 ## Initial R Packages to Install
 
