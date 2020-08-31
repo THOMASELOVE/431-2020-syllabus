@@ -329,6 +329,7 @@ The Fall 2020 Teaching Assistants for 431 are:
 - [Lauren Cruz][Lauren Cruz], first year PhD student in Epidemiology \& Biostatistics
 - [Dustin DeMeo][Dustin DeMeo], third year medical student at CWRU
 - [Daoyu Duan][Daoyu Duan], first year PhD student in Epidemiology \& Biostatistics
+- [Amr Mahran][Amr Mahran], Senior Research Associate, Dept of Urology, CWRU
 - [Guanqun (Leslie) Meng][Guanqun (Leslie) Meng], first year PhD student in Epidemiology \& Biostatistics 
 - [Robert Schweickart][Robert Schweickart], recent MS graduate in Biology at CWRU transitioning into data science
 - [Khaled Shorbaji][Khaled Shorbaji], second year MPH student
@@ -376,6 +377,14 @@ knitr::include_graphics("images/Daoyu_duan.jpg")
 ```
 
 Daoyu Duan is a 1st year PhD student in Epidemiology & Biostatistics. I got my Bachelor degree in Math&Stats from UIUC and MS degree in Biostatistics from Columbia University. Before coming to CWRU, I have been working in a Pharmaceutical company called Regeneron for 2 years. My current research interest is sequencing data analysis. I enjoy video games, cooking and swimming most of the time.
+
+#### Amr Mahran {-}
+
+```{r Amr_fig, echo = FALSE, out.width = '20%'}
+knitr::include_graphics("images/Amr_Mahran.png")
+```
+
+Amr Mahran is a urologist who is working as a senior research associate in the department of Urology, CWRU School of Medicine. He received his MD degree from Assiut University School of Medicine in Upper Egypt. He also finished a residency in Urology along with earning a Master of Science degree. Before joining CWRU, Amr was a practicing urologist and was appointed as a faculty at the Department of Urology, Assiut University Hospitals. Amr took 432 in the spring of 2019 and learned many skills that helped him in his clinical research, then TAd for 431 and 432 last year. Amr's research focus on prostate cancer, pelvic pain, and voiding dysfunction. He does outcome research on large databases as NSQIP, National Trauma Database (NTDB), and NIS databases. Amr enjoys playing soccer, table tennis, and reading.
 
 #### Guanqun (Leslie) Meng {-}
 
