@@ -140,9 +140,8 @@ In addition, there are many, many online resources to help you learn R beyond th
 ## Virtual TA Office hours provide one-on-one help
 
 You are strongly encouraged to visit TAs during office hours that are convenient for you, whenever you need help with the course. This is the best way to get one-on-one help, or try out a new idea. 
-
 - Teaching Assistant (TA) office hours will be held via Zoom, beginning 2020-08-31. 
-  - A schedule will be available **soon**.
+  - A schedule is now available on Canvas (in the Announcements folder.)
   - Office Hours are held for your benefit. Please visit the TAs, especially if you have questions about how to do things in R, or about the content of the class slides or course notes. They're volunteering their time to  help you, and most of them have been in your shoes in previous years. They want to help you!
   - More [information on the TAs is posted below][Teaching Assistants].
 
