@@ -865,7 +865,7 @@ For each Lab, we publish a detailed answer sketch (within 24 hours of the deadli
 
 - Labs received on time can receive up to 100% of the available points for the lab.
 - Labs received after the deadline but before the answer sketch is published can receive up to 90% of available points.
-- Lab submissions received after the answer sketch is published but still within one week can receive up to 80% of available points.
+- Lab submissions received after the answer sketch is published but still within one week of the deadline can receive up to 75% of available points.
 - Lab submissions received more than one week after the deadline will not be graded.
 
 Your lowest **two** lab scores over the course of the semester will be dropped before we calculate your grade on labs. 
