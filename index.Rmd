@@ -33,9 +33,9 @@ knitr::include_graphics("images/431_foot2.PNG")
 
 - The course instructor is [Professor Thomas E. Love][Professor Love]. 
   - Email him at **Thomas dot Love at case dot edu** if you have any questions before class.
-- There are ten [teaching assistants][Teaching Assistants] helping with the course this semester.
+- There are twelve [teaching assistants][Teaching Assistants] helping with the course this semester.
 - The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern Time, via Zoom, starting on 2020-08-25.
-  - If you are registered for the course, the Zoom link for the first few classes will be made available to you via [Canvas](https://canvas.case.edu) and sent to your CWRU (and preferred) email on Monday 2020-08-24.
+  - If you are registered for the course, the Zoom link for the first few classes will be made available to you via [Canvas](https://canvas.case.edu) and sent to your CWRU (and preferred) email on Monday 2020-08-24. Subsequent class information is available on Canvas.
   - Each class is video-recorded, and the recordings are archived on [Canvas](https://canvas.case.edu).
 
 ## Main Course Web Site {-}
@@ -333,6 +333,7 @@ The Fall 2020 Teaching Assistants for 431 are:
 
 - [Stephanie Merlino Barr][Stephanie Merlino Barr], third year PhD student in Clinical Translational Science
 - [Wyatt Bensken][Wyatt Bensken], third year PhD student in Epidemiology \& Biostatistics
+- [Claudia Cabrera][Claudia Cabrera], second year PhD student in Biomedical \& Health Informatics
 - [Lauren Cruz][Lauren Cruz], first year PhD student in Epidemiology \& Biostatistics
 - [Dustin DeMeo][Dustin DeMeo], third year medical student at CWRU
 - [Daoyu Duan][Daoyu Duan], first year PhD student in Epidemiology \& Biostatistics
@@ -360,6 +361,14 @@ knitr::include_graphics("images/Wyatt_Bensken.jpeg")
 ```
 
 Wyatt Bensken is a PhD Candidate in epidemiology and biostatistics in PQHS. Wyatt received his bachelors of science in public health from American University in Washington, DC, after which he worked as a research fellow at the National Institutes of Health in Bethesda, Maryland before joining the PhD program here in 2018. Wyatt took 431 and 432 in 2018/2019, as well as 500 in 2020. His research includes health services and population health research to identify disparities in health and health outcomes. In addition to projects in surgery, cancer, and social determinants of health, Wyatt's dissertation focuses on health disparities and multimorbidity for people with epilepsy. 
+
+#### Claudia Cabrera {-}
+
+```{r Claudia_fig, echo = FALSE, out.width = '20%'}
+knitr::include_graphics("images/Claudia_Cabrera.PNG")
+```
+
+Claudia Cabrera is an International Medical Graduate from Mexico. On 2019 she graduated from CWRU's MS Program in Clinical Research. Before coming to Case, Claudia worked in Bariatric Surgery for two years while also lecturing in Anatomy and Physiology at the same university from which she graduated in Mexico. She took 431 and 432 and TA'd for them during her MS program and thoroughly enjoyed learning Statistics, especially its applications to medicine. She is now in her second year as a Biomedical and Health Informatics PhD student at CWRU. Her area of research is otolaryngology - head and neck cancer using big data. In her free time, Claudia loves to explore Cleveland, especially by running and biking, and she also loves playing basketball and reading.
 
 #### Lauren Cruz {-}
 
