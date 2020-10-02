@@ -171,18 +171,18 @@ Visit https://canvas.case.edu/ to log in and see what's available there.
 
 # Course Description
 
-PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key role of thinking hard, and well, about design and analysis in research. 
+PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key roles of thinking hard, and well, about design and analysis in research. 
 
 The course is formally titled *Statistical Methods in Biological & Medical Sciences, Part 1.* A more accurate title is **Data Science for Biological, Medical or Health Research**.
 
-We'll learn about managing and visualizing data, building models and making predictions, and other data science activities. This highly applied course focuses on modern tools for learning from data. We'll learn a lot of R, and we'll use RStudio and R Markdown as tools to help make R work better, and help perform our research in replicable ways.
+We'll learn about managing and visualizing data, building models and making predictions, and other data science activities. This highly applied course focuses on modern tools for learning from data. We'll learn a lot of R, and we'll use RStudio and R Markdown as tools to help make R work better, and help perform our research in rigorous and replicable ways.
 
 ## Course Objectives
 
 During the 431-432 sequence, students will:
 
 1. Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.
-2. Think hard and well about design and analysis in scientific research.
+2. Think hard and well about rigorous design and analysis in scientific research.
 3. Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
 4. Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.
 5. Complete a series of assignments designed to help you demonstrate what you've learned. 
@@ -197,7 +197,7 @@ This is **NOT** a course in mathematical statistics or statistical inference. It
 3. Study Development - making choices in designing and executing the collection and aggregation of data.
 4. Data Handling - including important issues in importing, tidying and transforming data, as well as methods for dealing with missing data, including imputation.
 5. Statistical Comparisons: "All of statistics are comparisons" - including methods for discrete and continuous variables: intervals, assumptions, some thoughts on statistical power, and the bootstrap, design of visualizations and models for rates, proportions and contingency tables.
-6. The proper use of multi-predictor models for continuous and discrete data, including...
+6. The proper and rigorous use of multi-predictor models for continuous and discrete data, including...
     - Fitting, evaluating, and interpreting linear and generalized linear models.
     - Prediction and validation.
     - Critical role of graphics, including diagnostics and residual analysis.
@@ -820,8 +820,8 @@ Only Professor Love sees the results of the Minute Papers with identifying infor
 Student Class Participation grades are determined by Dr. Love out of a maximum of 100 points. This determination is based on:
 
 - 45 points for completing the [431 welcome survey](https://bit.ly/431-2020-welcome-survey) that most of you did prior to class, and if you haven't done it, please do so now.
-- plus up to 50 additional points for Minute Paper responses (5 points for each on-time submission)
-- plus a few bonus points for actions that help the class, as awarded during the semester
+- plus up to 40 additional points for Minute Paper responses (4 points for each on-time submission)
+- plus up to 20 bonus points for actions that help the class, as awarded during the semester
 
 These bonus points have a small impact, generally, but include things like:
 
